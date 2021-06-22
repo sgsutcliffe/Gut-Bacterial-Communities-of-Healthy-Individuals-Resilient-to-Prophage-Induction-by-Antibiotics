@@ -1,4 +1,4 @@
-#Raw sequences downloaded
+# Raw sequences downloaded
 
 I will be looking at sequence data from:
 Kang *et al* 2021, *Gut Microbes*
