@@ -5,6 +5,12 @@
  * filereport_read_run_PRJNA588313.txt (ENA file locations for downloading)
  * Kang_Sampling_Info.txt (Sample lable information)
 
+## Directories
+
+ * DNA : metagenomics sequences
+ * RNA : metatranscriptomics
+ * Phage : virome metagenomics
+
 ## Kang dataset:
 
 Raw sequencing data is published at NCBI SAR with the project ID PRJNA588313 and sample category ID SAMN13241759.
@@ -25,7 +31,7 @@ and azithromycin (macrolide class). As a control, stool samples from two untreat
 
 Samples appear to be distinguished by 'library_name'
 
-Res2_<Type>_<a-z><d>
+`Res2_<Type>_<a-z><d>`
 
 * Type
   * Phage : Virome samples
@@ -59,8 +65,15 @@ I converted that into a tsv as Kang_Sampling_Info.txt
 filereport_read_run_PRJNA588313.txt
 This file has ftp location as well as the md5 sum for the file, so that I can check tne files.
 
+So I remember which columns I will use
 ```shell
 $ head -n1 filereport_read_run_PRJNA588313.txt 
 ```
+```shell
 study_accession	sample_accession	experiment_accession	run_accession	tax_id	scientific_name	library_name	library_strategy	fastq_md5	fastq_ftp	submitted_ftp	sra_ftp
+```
+
+I will make directories for downloading each type and I will continue with their naming scheme **DNA** for whole-metagenomic sequencing of microbes (even though this is where I will focus on 
+bacteria.
+
 
