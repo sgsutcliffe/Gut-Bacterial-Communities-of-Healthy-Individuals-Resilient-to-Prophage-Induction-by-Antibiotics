@@ -7,6 +7,8 @@
  * RNA_URLS.txt (ftp locations of metatranscriptomics)
  * DNA_URLS.txt (ftp locations of metagenomics)
  * Phage_URLS.txt (ftp locations of viral metagenomics)
+ * phage|rna|dna_downloads_md5sum (This is the md5sums of the files that were downloaded)
+ * phage|rna|dna_orginal_md5sum (This is the md5sums listed on the ENA page)
 
 ## Directories
 
@@ -59,6 +61,8 @@ Samples appear to be distinguished by 'library_name'
   * 5 : Post-treatment (Day 30)
   * 6 : Post-treatment (Day 90)
 
+Note: Sample J5 does not exist for any of the samples. So there are 58 paired sequences per 'omic'
+
 They have very nicely uploaded a file for their analysis:
 [http://sbb.hku.hk/Resistome/](http://sbb.hku.hk/Resistome/)
 
@@ -99,3 +103,24 @@ From their respective directories I will run
 cat ../DNA_URLS.txt | while read in; do wget ftp://${in}; done
 ```
 
+Next I will check the md5sum for each file 
+
+```shell
+$ md5sum 2_Phage/* | cut -d' ' -f1 >> phage_downloads_md5sum
+$ md5sum 1_RNA/* | cut -d' ' -f1 >> rna_downloads_md5sum
+$ 
+```
+From the directory of the sequences I will run this one-liner which takes the md5sum from the filereport
+```shell
+$ ls *_1.fastq.gz | while read in; do grep "${in}" ../filereport_read_run_PRJNA588313.txt | cut -f9 | sed 's/\;/\n/' >> ../phage_original_md5sum; done
+$ ls *_1.fastq.gz | while read in; do grep "${in}" ../filereport_read_run_PRJNA588313.txt | cut -f9 | sed 's/\;/\n/' >> ../rna_original_md5sum; done
+$
+```
+I will check the files to see the md5sum's are the same
+
+```shell
+$ diff rna_downloads_md5sum rna_original_md5sum
+$ diff phage_original_md5sum phage_downloads_md5sum
+$
+```
+Looks good! I can proceed!
