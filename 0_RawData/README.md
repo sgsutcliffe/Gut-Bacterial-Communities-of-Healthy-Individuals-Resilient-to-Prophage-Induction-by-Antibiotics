@@ -4,12 +4,15 @@
 
  * filereport_read_run_PRJNA588313.txt (ENA file locations for downloading)
  * Kang_Sampling_Info.txt (Sample lable information)
+ * RNA_URLS.txt (ftp locations of metatranscriptomics)
+ * DNA_URLS.txt (ftp locations of metagenomics)
+ * Phage_URLS.txt (ftp locations of viral metagenomics)
 
 ## Directories
 
- * DNA : metagenomics sequences
- * RNA : metatranscriptomics
- * Phage : virome metagenomics
+ * 0_DNA : metagenomics sequences
+ * 1_RNA : metatranscriptomics
+ * 2_Phage : virome metagenomics
 
 ## Kang dataset:
 
@@ -63,9 +66,12 @@ The file sample.RData has the sample information.
 I converted that into a tsv as Kang_Sampling_Info.txt
 
 filereport_read_run_PRJNA588313.txt
+
+Note: By default ENA does not provide all these columns when you select the TSV for the Project-ID Download report. You need to do this in the Show Column Selection.
 This file has ftp location as well as the md5 sum for the file, so that I can check tne files.
 
-So I remember which columns I will use
+The columns I selected are:
+
 ```shell
 $ head -n1 filereport_read_run_PRJNA588313.txt 
 ```
@@ -76,4 +82,29 @@ study_accession	sample_accession	experiment_accession	run_accession	tax_id	scien
 I will make directories for downloading each type and I will continue with their naming scheme **DNA** for whole-metagenomic sequencing of microbes (even though this is where I will focus on 
 bacteria.
 
+ * 0_DNA
+ * 1_RNA
+ * 2_Phage
+
+Each URL (for forward/reverse) reads are in the filereport_read_run_PRJNA588313.txt. I also don't know why but they're also in the same column. I will make a file for each (DNA,RNA,Phage) URL.
+
+```shell
+grep 'RNA' filereport_read_run_PRJNA588313.txt | cut -f10 | sed 's/\;/\n/' >> RNA_URLS.txt
+grep 'DNA' filereport_read_run_PRJNA588313.txt | cut -f10 | sed 's/\;/\n/' >> DNA_URLS.txt
+grep 'Phage' filereport_read_run_PRJNA588313.txt | cut -f10 | sed 's/\;/\n/' >> Phage_URLS.txt
+```
+From their respective directories I will run 
+
+```shell
+cat ../DNA_URLS.txt | while read in; do wget $in; done
+
+```
+Note: For some reason the EBI keeps throwing the 503 ERROR
+This is due to an absence of `ftp://` in front 
+
+So the corrected version is 
+
+```shell
+cat ../DNA_URLS.txt | while read in; do wget ftp://${in}; done
+```
 
