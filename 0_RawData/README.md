@@ -2,7 +2,7 @@
 
 ## Files
 
- * filereport_read_run_PRJNA588313.txt (ENA file locations for downloading)
+ * filereport_read_run_PRJNA588313.txt (ENA URLS, metadata, md5sums)
  * Kang_Sampling_Info.txt (Sample lable information)
  * RNA_URLS.txt (ftp locations of metatranscriptomics)
  * DNA_URLS.txt (ftp locations of metagenomics)
@@ -65,7 +65,7 @@ They have very nicely uploaded a file for their analysis:
 The file sample.RData has the sample information.
 I converted that into a tsv as Kang_Sampling_Info.txt
 
-filereport_read_run_PRJNA588313.txt
+filereport_read_run_PRJNA588313.txt ; this the TSV report of all the run accessions of the PRJNA588313 study, and its metadata
 
 Note: By default ENA does not provide all these columns when you select the TSV for the Project-ID Download report. You need to do this in the Show Column Selection.
 This file has ftp location as well as the md5 sum for the file, so that I can check tne files.
@@ -94,15 +94,6 @@ grep 'DNA' filereport_read_run_PRJNA588313.txt | cut -f10 | sed 's/\;/\n/' >> DN
 grep 'Phage' filereport_read_run_PRJNA588313.txt | cut -f10 | sed 's/\;/\n/' >> Phage_URLS.txt
 ```
 From their respective directories I will run 
-
-```shell
-cat ../DNA_URLS.txt | while read in; do wget $in; done
-
-```
-Note: For some reason the EBI keeps throwing the 503 ERROR
-This is due to an absence of `ftp://` in front 
-
-So the corrected version is 
 
 ```shell
 cat ../DNA_URLS.txt | while read in; do wget ftp://${in}; done
