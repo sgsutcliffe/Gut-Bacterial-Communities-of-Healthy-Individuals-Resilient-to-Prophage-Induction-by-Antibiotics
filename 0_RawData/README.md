@@ -108,19 +108,19 @@ Next I will check the md5sum for each file
 ```shell
 $ md5sum 2_Phage/* | cut -d' ' -f1 >> phage_downloads_md5sum
 $ md5sum 1_RNA/* | cut -d' ' -f1 >> rna_downloads_md5sum
-$ 
+$ md5sum 0_DNA/* | cut -d' ' -f1 >> dna_downloads_md5sum
 ```
 From the directory of the sequences I will run this one-liner which takes the md5sum from the filereport
 ```shell
 $ ls *_1.fastq.gz | while read in; do grep "${in}" ../filereport_read_run_PRJNA588313.txt | cut -f9 | sed 's/\;/\n/' >> ../phage_original_md5sum; done
 $ ls *_1.fastq.gz | while read in; do grep "${in}" ../filereport_read_run_PRJNA588313.txt | cut -f9 | sed 's/\;/\n/' >> ../rna_original_md5sum; done
-$
+$ ls *_1.fastq.gz | while read in; do grep "${in}" ../filereport_read_run_PRJNA588313.txt | cut -f9 | sed 's/\;/\n/' >> ../dna_original_md5sum; done
 ```
 I will check the files to see the md5sum's are the same
 
 ```shell
 $ diff rna_downloads_md5sum rna_original_md5sum
 $ diff phage_original_md5sum phage_downloads_md5sum
-$
+$ diff dna_downloads_md5sum dna_original_md5sum
 ```
 Looks good! I can proceed!
