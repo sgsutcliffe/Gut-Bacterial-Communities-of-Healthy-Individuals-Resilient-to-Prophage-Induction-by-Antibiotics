@@ -16,6 +16,7 @@
  * 1_RNA : metatranscriptomics
  * 2_Phage : virome metagenomics
 
+Note: Directories contain all fastq files and are too large to upload
 ## Kang dataset:
 
 Raw sequencing data is published at NCBI SAR with the project ID PRJNA588313 and sample category ID SAMN13241759.
