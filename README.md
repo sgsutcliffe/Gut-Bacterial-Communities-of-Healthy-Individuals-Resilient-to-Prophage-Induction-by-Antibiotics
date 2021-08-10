@@ -4,10 +4,10 @@ Project for looking at prophage induction of MAGs by antibiotics. Using previous
 
 List of directories:
 
-* 0_RawData
-* 1_QCReads
-* 2_BacterialAnalysis
-* 3_ViralAnalysis
+* 0_RawData : Downloaded Sequences
+* 1_QCReads : Quality controlled reads (Trimmed/Removed Host)
+* 2_BacterialAnalysis : Assembly, binning, and taxonomy
+* 3_ViralAnalysis : Prophages and Viral Assembled Phages
 
 ## Kang dataset:
 Kang *et al* 2021, *Gut Microbes*
