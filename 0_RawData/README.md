@@ -136,5 +136,15 @@ I then moved all the files to their respective directories.
 I will change all the names to follow the library_name scheme. I did it with a little python script I wrote
  
 ```shell
-python3 renaming_fasta_files.py
+$ python3 renaming_fasta_files.py -h
+$ usage: renaming_fasta_files.py [-h] [-f F]
+
+Takes the filereport and renames the SRR names to their library scheme name
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -f F        File report location.
+
 ```
+So I will run it on each of the raw fasta file directories
+
