@@ -17,6 +17,11 @@
  * 2_Phage : virome metagenomics
 
 Note: Directories contain all fastq files and are too large to upload
+
+## Scripts
+
+ * renaming_fasta_files.py : python script to rename FASTQ.GZ files to the orginal sample names
+
 ## Kang dataset:
 
 Raw sequencing data is published at NCBI SAR with the project ID PRJNA588313 and sample category ID SAMN13241759.
@@ -125,3 +130,11 @@ $ diff phage_original_md5sum phage_downloads_md5sum
 $ diff dna_downloads_md5sum dna_original_md5sum
 ```
 Looks good! I can proceed!
+
+I then moved all the files to their respective directories.
+
+I will change all the names to follow the library_name scheme. I did it with a little python script I wrote
+ 
+```shell
+python3 renaming_fasta_files.py
+```
