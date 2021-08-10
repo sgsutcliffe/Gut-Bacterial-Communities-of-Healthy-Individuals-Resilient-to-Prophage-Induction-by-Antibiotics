@@ -16,7 +16,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser(description='Takes the filereport and renames the SRR names to their library scheme name')
-parser.add_argument("-f", help="File report.")
+parser.add_argument("-f", help="File report location.")
 
 
 args = parser.parse_args()
@@ -39,8 +39,8 @@ with open(input_path,'r') as tsvfile:
 
 for key, value in keys.items():
     
-    if not path.exists(key):
-        open(key, 'a').close()
+    # if not path.exists(key):
+    #     open(key, 'a').close()
         
     if path.exists(key):
         os.rename(key, value)
