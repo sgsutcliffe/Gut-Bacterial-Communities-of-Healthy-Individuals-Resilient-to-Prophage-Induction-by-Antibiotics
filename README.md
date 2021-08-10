@@ -15,7 +15,7 @@ Kang *et al* 2021, *Gut Microbes*
 
 ### Description
 
-10 healthy human volun- teers were recruited and randomized to receive one in four different antibiotic courses or to be a control. Before, during, and after 
+10 healthy human volunteers were recruited and randomized to receive one in four different antibiotic courses or to be a control. Before, during, and after 
 exposure to antibiotics, they provided a total of six stool samples. Four antibiotics were selected based on their clinical relevance and broad-spectrum activity against 
 Gram-positive and/or Gram-negative organisms.
 
