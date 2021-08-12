@@ -25,7 +25,7 @@
 ## Tools Used
  
  * FastQC v.0.11.9 (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) 
- * MultiQC v.
+ * MultiQC v.1.11 (https://multiqc.info/)
 
 ### Sample naming
 
@@ -69,14 +69,19 @@ Phage DNA : MiSeq PE300
 This step will help us see how well the QC steps did and if there are any initial issues
 
 I ran each DNA, RNA and Phage seperately as SBATCH jobs
-pre_fastq_DNA.sh
-pre_fastq_RNA.sh
-pre_fastq_Phage.sh
-
-This will generate multiple fastqc results so I will pool them together with MultiQC
-*ONGOING*
 ```shell
+sbatch pre_fastq_DNA.sh
+sbatch pre_fastq_RNA.sh
+sbatch pre_fastq_Phage.sh
+```
+The results were stored in 6_PreQC_FastQC in their respective folders (DNA, RNA, Phage)
 
-#From directory with output e.g. 6_PreQC_FASTQC/DNA
-multiqc .
+FASTQC makes a file per sample which is annoying to check them all simultaneously
+so I will run multiqc per DNA, RNA and Phage which pools samples together
+
+I will run it using:
+pre_fastqc_multiqc.sh
+
+```shell
+sbatch pre_fastqc_multiqc.sh
 ```

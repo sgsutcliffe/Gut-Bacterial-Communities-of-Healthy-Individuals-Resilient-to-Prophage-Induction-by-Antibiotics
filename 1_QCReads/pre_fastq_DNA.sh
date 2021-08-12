@@ -9,7 +9,7 @@
 #SBATCH --job-name=pre_fastq_DNA
 #SBATCH --output=%x-%j.out
 
-#SBATCH --time=1:00:00
+#SBATCH --time=4:00:00
 #SBATCH --mem=1500MB
 #SBATCH --cpus-per-task=8
 
