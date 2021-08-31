@@ -1,5 +1,9 @@
 # Raw sequences downloaded
 
+## Note
+
+Right now I do not have a plan to use the RNA-seq data. So I will not quality control it.
+
 ## Files
 
  
@@ -98,3 +102,8 @@ These files are stored
 ```
 I would recommend looking at multiqc_report.html files as they are easy to digest in the browser.
 I will go over all the issues that reported and compare them before and after using Trimmomatic.
+
+Trimmomatic will help me remove adapters left over from the sequence length, trim near ends of sequence where quality drops off, and remove low quality reads.
+
+Bacterial sequences quality pre-trimming
+![Phred Score Bacteria](/home/ssutclif/projects/def-corinnem/ssutclif/temp_storage/Third_Aim/1_QCReads/6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_sequence_counts_plot_1.png "Quality scores of bacterial sequences")
