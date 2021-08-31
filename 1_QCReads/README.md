@@ -107,5 +107,11 @@ Trimmomatic will help me remove adapters left over from the sequence length, tri
 
 Bacterial sequences quality pre-trimming  
 ![bacterial_quality_pre_trim](6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality Scores of Pre-Trimmed Bacterial Sequences")
-Phage sequences quality pre-trimming
-![phage_quality_pre_trim](6_PreQC_FASTQC/Phage/Phage_multiqc_report_plots/png/mqc_fastqc_per_base_sequence_quality_plot_1.png "FastQC: Mean Quality Scores of Pre-Trimmed Phage Sequences")
+Phage sequences quality pre-trimming, there seems to be more issues as the length of sequences are longer
+![phage_quality_pre_trim](6_PreQC_FASTQC/Phage/Phage_multiqc_report_plots/png/mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality Scores of Pre-Trimmed Phage Sequences")
+
+There doesn't seem to be an issue with adapters with the bacteria or phage but like low-quality position it appears to slightly increase near end of read, which makes sense
+Bacteria sequences adapter contamination
+![bacterial_adaptors_pre_trim](6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_adapter_content_plot_1.jpg "Adaptors of Pre-Trimmed Bacterial Sequences")
+Phage sequences adapter contamination
+![phage_adaptors_pre_trim](6_PreQC_FASTQC/Phage/Phage_multiqc_report_plots/png/mqc_fastqc_adapter_content_plot_1.jpg "Adaptors of Pre-Trimmed Phage Sequences")
