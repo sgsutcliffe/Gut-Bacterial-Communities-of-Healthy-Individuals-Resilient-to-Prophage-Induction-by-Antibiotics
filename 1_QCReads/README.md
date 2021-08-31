@@ -106,4 +106,4 @@ I will go over all the issues that reported and compare them before and after us
 Trimmomatic will help me remove adapters left over from the sequence length, trim near ends of sequence where quality drops off, and remove low quality reads.
 
 Bacterial sequences quality pre-trimming  
-![Pre_Trim_DNA_Quality](pre_trim_DNA_quality.png "Bacterial pre-trimming of sequences")
+![plot](pre_trim_DNA_quality.png)
