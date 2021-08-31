@@ -2,7 +2,7 @@
 
 ## Files
 
- * 
+ 
 
 ## Directories
 
@@ -12,15 +12,16 @@
  * 3_Decontaminated_DNA : removed human decontamination metagenomic sequence
  * 4_Decontaminated_RNA : removed human decontamination metatranscriptomics
  * 5_Decontaminated_Phage : removed human decontamination virome metagenomics
- * 6_PreQC_FASTQC
- * 7_PostQC_FASTQC
+ * 6_PreQC_FASTQC : Output of QC reports before trimming
+ * 7_PostQC_FASTQC : Output of QC reports after trimming
  
 
 ## Scripts + Batch Jobs
 
  * pre_fastq_DNA.sh
  * pre_fastq_RNA.sh
- * pre_fastq_Phage.sh 
+ * pre_fastq_Phage.sh
+ * pre_fastqc_multiqc.sh 
 
 ## Tools Used
  
@@ -61,8 +62,8 @@ Note: Sample J5 does not exist for any of the samples. So there are 58 paired se
 ## Decontaminating and Trimming Reads
 
 ### Information about the reads
-DNA library preparation and sequencing: Illumina HiSeq 2000 PE125 using
-TrueSeq Nano 550 bp kits (Illumina)
+DNA library preparation and sequencing:  
+Illumina HiSeq 2000 PE125 using TrueSeq Nano 550 bp kits (Illumina)
 Phage DNA : MiSeq PE300  
 
 ### Step 1 : FASTQC sequences before QC for comparison
