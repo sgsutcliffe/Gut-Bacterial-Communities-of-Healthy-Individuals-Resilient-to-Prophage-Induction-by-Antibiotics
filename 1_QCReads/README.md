@@ -86,3 +86,15 @@ pre_fastqc_multiqc.sh
 ```shell
 sbatch pre_fastqc_multiqc.sh
 ```
+
+This will take all .html files from FASTQC and make
+<type>_multiqc_report_data (directory)
+<type>_multiqc_report.html (file)
+<type>_multiqc_report_plots (directory)
+
+These files are stored 
+```shell
+1_QCReads/6_PreQC_FASTQC/<type>
+```
+I would recommend looking at multiqc_report.html files as they are easy to digest in the browser.
+I will go over all the issues that reported and compare them before and after using Trimmomatic.
