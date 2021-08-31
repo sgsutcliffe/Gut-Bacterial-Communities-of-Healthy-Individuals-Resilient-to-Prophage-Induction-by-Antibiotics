@@ -105,5 +105,5 @@ I will go over all the issues that reported and compare them before and after us
 
 Trimmomatic will help me remove adapters left over from the sequence length, trim near ends of sequence where quality drops off, and remove low quality reads.
 
-Bacterial sequences quality pre-trimming
-![Phred Score Bacteria](/home/ssutclif/projects/def-corinnem/ssutclif/temp_storage/Third_Aim/1_QCReads/6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_sequence_counts_plot_1.png "Quality scores of bacterial sequences")
+Bacterial sequences quality pre-trimming  
+![Phred Score Bacteria](6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_sequence_counts_plot_1.png "Phred Quality Score of Bacteria Sequences")
