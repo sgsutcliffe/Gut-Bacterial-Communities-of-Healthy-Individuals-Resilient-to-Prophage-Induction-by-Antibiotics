@@ -1,0 +1,119 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_tile_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+Res2_RNA_A1_1	Res2_RNA_A1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19913951.0	0.0	126.0	53.0	18.220675258784063	126.0	pass	pass	pass	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_A1_2	Res2_RNA_A1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19913951.0	0.0	126.0	53.0	20.362933070560906	126.0	pass	pass	warn	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_A2_1	Res2_RNA_A2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20029269.0	0.0	126.0	50.0	10.97743635060376	126.0	pass	pass	warn	pass	fail	warn	pass	pass	fail	fail	fail
+Res2_RNA_A2_2	Res2_RNA_A2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20029269.0	0.0	126.0	50.0	13.850626185738593	126.0	pass	pass	warn	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_A3_1	Res2_RNA_A3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18214491.0	0.0	35-126	50.0	17.912924405992527	112.12578896659808	pass	pass		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_A3_2	Res2_RNA_A3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18214491.0	0.0	35-126	50.0	22.76956089820006	112.06056079195406	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_A4_1	Res2_RNA_A4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18501523.0	0.0	35-126	52.0	13.661068137700747	104.75140451950901	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_A4_2	Res2_RNA_A4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18501523.0	0.0	35-126	52.0	18.451273552055753	104.673804853795	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_A5_1	Res2_RNA_A5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18988409.0	0.0	35-126	52.0	17.18751626719891	109.24729733807608	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_A5_2	Res2_RNA_A5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18988409.0	0.0	35-126	52.0	22.32418020333022	109.17968798755072	pass	fail		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_A6_1	Res2_RNA_A6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16859613.0	0.0	35-126	51.0	18.6032359281756	109.91993552876926	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_A6_2	Res2_RNA_A6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16859613.0	0.0	35-126	51.0	23.10903546378921	109.85499548536494	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B1_1	Res2_RNA_B1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20718594.0	0.0	126.0	48.0	52.02345432146102	126.0	pass	pass	pass	pass	fail	warn	pass	pass	warn	warn	fail
+Res2_RNA_B1_2	Res2_RNA_B1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20718594.0	0.0	126.0	48.0	57.657005166030665	126.0	pass	pass	warn	pass	fail	fail	pass	pass	warn	pass	fail
+Res2_RNA_B2_1	Res2_RNA_B2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	15584609.0	0.0	35-126	50.0	22.882512744641904	117.32693954657445	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B2_2	Res2_RNA_B2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	15584609.0	0.0	35-126	50.0	28.427522617002687	117.28693879968371	pass	fail		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_B3_1	Res2_RNA_B3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14376019.0	0.0	126.0	49.0	27.582625366419016	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_B3_2	Res2_RNA_B3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14376019.0	0.0	126.0	49.0	31.326910708146972	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_B4_1	Res2_RNA_B4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16521834.0	0.0	35-126	50.0	19.441275967090625	109.28506520523085	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B4_2	Res2_RNA_B4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16521834.0	0.0	35-126	50.0	30.13039889291215	109.22443513232248	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B5_1	Res2_RNA_B5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14489949.0	0.0	35-126	49.0	27.530885030607333	116.53482203422524	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B5_2	Res2_RNA_B5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14489949.0	0.0	35-126	49.0	34.98924261505001	116.49420436193391	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B6_1	Res2_RNA_B6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	15230394.0	0.0	35-126	52.0	28.326141005552184	122.0839139158186	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_B6_2	Res2_RNA_B6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	15230394.0	0.0	35-126	51.0	35.22497095290567	122.06932374828911	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_C1_1	Res2_RNA_C1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19504438.0	0.0	35-126	51.0	10.626347228742754	124.24147355591583	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_C1_2	Res2_RNA_C1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19504438.0	0.0	35-126	51.0	12.319050399337785	124.23660584324449	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_C2_1	Res2_RNA_C2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14917934.0	0.0	35-126	51.0	24.627910983321204	122.3354007331042	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_C2_2	Res2_RNA_C2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14917934.0	0.0	35-126	50.0	31.610299748322422	122.32186011816381	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_C3_1	Res2_RNA_C3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20357351.0	0.0	35-126	51.0	13.593052647172588	104.83783513876634	pass	pass		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_C3_2	Res2_RNA_C3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20357351.0	0.0	35-126	51.0	20.71348631910914	104.77672944775576	pass	fail		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_C4_1	Res2_RNA_C4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13064133.0	0.0	126.0	50.0	30.88745197553052	126.0	pass	pass	pass	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_C4_2	Res2_RNA_C4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13064133.0	0.0	126.0	50.0	35.373573810120185	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_C5_1	Res2_RNA_C5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20855989.0	0.0	35-126	51.0	12.407489637495349	108.36658573228054	pass	pass		pass	fail	fail	pass	warn	fail	fail	fail
+Res2_RNA_C5_2	Res2_RNA_C5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20855989.0	0.0	35-126	51.0	16.904147764070217	108.31931547336355	pass	fail		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_C6_1	Res2_RNA_C6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17177926.0	0.0	35-126	51.0	24.26148285521954	122.77305397636478	pass	pass		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_C6_2	Res2_RNA_C6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17177926.0	0.0	35-126	51.0	33.123448461781145	122.76358275149165	pass	fail		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_D1_1	Res2_RNA_D1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12335756.0	0.0	126.0	51.0	18.444736626843298	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_D1_2	Res2_RNA_D1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12335756.0	0.0	126.0	51.0	20.87287806512904	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_D2_1	Res2_RNA_D2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10065106.0	0.0	126.0	51.0	30.760470632759297	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_D2_2	Res2_RNA_D2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10065106.0	0.0	126.0	52.0	35.48804891321413	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_D3_1	Res2_RNA_D3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12844563.0	0.0	35-126	50.0	23.59461100540358	112.98785236990935	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_D3_2	Res2_RNA_D3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12844563.0	0.0	35-126	50.0	29.75797174603279	112.92800370086549	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_D4_1	Res2_RNA_D4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	11270415.0	0.0	126.0	50.0	25.305628542126513	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_D4_2	Res2_RNA_D4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	11270415.0	0.0	126.0	50.0	28.551319746634785	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	pass	fail
+Res2_RNA_D5_1	Res2_RNA_D5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14957205.0	0.0	35-126	51.0	21.339194893440187	123.29682383841099	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_D5_2	Res2_RNA_D5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14957205.0	0.0	35-126	51.0	29.632501046350463	123.28412922066656	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_D6_1	Res2_RNA_D6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10358596.0	0.0	126.0	49.0	19.137588516441227	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_D6_2	Res2_RNA_D6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10358596.0	0.0	126.0	49.0	21.562415620023938	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_E1_1	Res2_RNA_E1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	8481005.0	0.0	35-76	53.0	17.83943144113134	74.71622856017653	pass	pass		pass	fail	warn	pass	warn	fail	warn	pass
+Res2_RNA_E1_2	Res2_RNA_E1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	8481005.0	0.0	35-76	53.0	21.532597885213523	74.56598292301443	pass	pass		pass	fail	warn	pass	warn	fail	warn	pass
+Res2_RNA_E2_1	Res2_RNA_E2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17988211.0	0.0	35-126	52.0	13.787401599540072	104.70303611626525	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_E2_2	Res2_RNA_E2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17988211.0	0.0	35-126	52.0	18.58578101503502	104.62132993659014	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_E3_1	Res2_RNA_E3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20444127.0	0.0	35-126	52.0	14.755639454935462	102.99041206308296	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_E3_2	Res2_RNA_E3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20444127.0	0.0	35-126	52.0	19.38933097946635	102.89645050629943	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_E4_1	Res2_RNA_E4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18054055.0	0.0	35-126	51.0	19.983573850991274	103.71485707781437	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_E4_2	Res2_RNA_E4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18054055.0	0.0	35-126	51.0	24.716827293981783	103.62163181623187	pass	fail		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_E5_1	Res2_RNA_E5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19299009.0	0.0	35-126	51.0	14.407070695625093	105.0306729221174	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_E5_2	Res2_RNA_E5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19299009.0	0.0	35-126	51.0	20.414553178390186	104.9472630434029	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_E6_1	Res2_RNA_E6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12945572.0	0.0	35-126	50.0	23.176273177914855	122.68313026261026	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_E6_2	Res2_RNA_E6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12945572.0	0.0	35-126	50.0	29.98876428364124	122.66757637283234	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_F1_1	Res2_RNA_F1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	28282627.0	0.0	126.0	52.0	22.840769744971656	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_F1_2	Res2_RNA_F1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	28282627.0	0.0	126.0	52.0	25.76913290354572	126.0	pass	pass	warn	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_F2_1	Res2_RNA_F2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10652548.0	0.0	126.0	52.0	35.353729229868385	126.0	pass	pass	pass	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_F2_2	Res2_RNA_F2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10652548.0	0.0	126.0	52.0	39.21952873485715	126.0	pass	fail	pass	pass	warn	pass	pass	pass	fail	warn	fail
+Res2_RNA_F3_1	Res2_RNA_F3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14126834.0	0.0	126.0	47.0	25.206055645550567	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_F3_2	Res2_RNA_F3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14126834.0	0.0	126.0	47.0	28.865371873398004	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_F4_1	Res2_RNA_F4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	15292282.0	0.0	35-126	51.0	23.905203187691637	123.22354400736266	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_F4_2	Res2_RNA_F4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	15292282.0	0.0	35-126	51.0	33.94569944680034	123.21362462450013	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_F5_1	Res2_RNA_F5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10400617.0	0.0	126.0	51.0	29.750965210194185	126.0	pass	pass	pass	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_F5_2	Res2_RNA_F5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	10400617.0	0.0	126.0	51.0	33.08645040690143	126.0	pass	fail	pass	pass	warn	warn	pass	pass	fail	warn	fail
+Res2_RNA_F6_1	Res2_RNA_F6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12387584.0	0.0	126.0	51.0	19.840292433110726	126.0	pass	pass	warn	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_F6_2	Res2_RNA_F6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12387584.0	0.0	126.0	51.0	20.57181432991611	126.0	pass	pass	fail	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_G1_1	Res2_RNA_G1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	49961686.0	0.0	35-126	52.0	7.683041336709151	94.62495897356226	pass	pass		pass	fail	fail	pass	warn	fail	fail	fail
+Res2_RNA_G1_2	Res2_RNA_G1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	49961686.0	0.0	35-126	52.0	13.740484502942415	94.50776637121494	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_G2_1	Res2_RNA_G2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14893367.0	0.0	35-126	49.0	20.90584995080388	114.64413560748217	pass	pass		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_G2_2	Res2_RNA_G2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14893367.0	0.0	35-126	49.0	27.349322021010526	114.58639366101701	pass	fail		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_G3_1	Res2_RNA_G3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13004562.0	0.0	35-126	49.0	25.78621115228092	123.01789495101796	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_G3_2	Res2_RNA_G3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13004562.0	0.0	35-126	49.0	33.10037380506061	123.00572214581314	pass	fail		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_G4_1	Res2_RNA_G4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20014306.0	0.0	35-126	52.0	10.479246852381815	104.18887120043033	pass	pass		pass	fail	fail	pass	warn	fail	fail	fail
+Res2_RNA_G4_2	Res2_RNA_G4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20014306.0	0.0	35-126	52.0	15.072748971878266	104.11633478572777	pass	fail		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_G5_1	Res2_RNA_G5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12945256.0	0.0	126.0	50.0	8.984830756359372	126.0	pass	pass	pass	pass	fail	fail	pass	pass	fail	warn	fail
+Res2_RNA_G5_2	Res2_RNA_G5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12945256.0	0.0	126.0	50.0	11.276450334437747	126.0	pass	fail	pass	pass	fail	fail	pass	pass	fail	warn	fail
+Res2_RNA_G6_1	Res2_RNA_G6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14827464.0	0.0	35-126	50.0	24.6132884962164	111.72094971871117	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_G6_2	Res2_RNA_G6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14827464.0	0.0	35-126	50.0	32.927393163023964	111.66178356595572	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_H1_1	Res2_RNA_H1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18108793.0	0.0	35-126	51.0	23.302025005102095	107.9783849757408	pass	pass		pass	fail	pass	pass	warn	fail	warn	fail
+Res2_RNA_H1_2	Res2_RNA_H1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18108793.0	0.0	35-126	51.0	29.509222235619227	107.91527927896685	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_H2_1	Res2_RNA_H2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16870246.0	0.0	35-126	51.0	14.96471765517719	107.93865056858093	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_H2_2	Res2_RNA_H2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16870246.0	0.0	35-126	51.0	20.778378986338357	107.84775811804997	pass	fail		pass	fail	fail	pass	warn	fail	warn	fail
+Res2_RNA_H3_1	Res2_RNA_H3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19524569.0	0.0	35-126	52.0	14.972410575723268	101.34833890571413	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_H3_2	Res2_RNA_H3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	19524569.0	0.0	35-126	52.0	19.881919741759884	101.24792122171813	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_H4_1	Res2_RNA_H4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14882796.0	0.0	126.0	49.0	27.6251596000514	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_H4_2	Res2_RNA_H4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14882796.0	0.0	126.0	49.0	32.181084400979046	126.0	pass	fail	pass	pass	warn	warn	pass	pass	fail	warn	fail
+Res2_RNA_H5_1	Res2_RNA_H5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18614093.0	0.0	35-126	51.0	14.538635186455068	105.5579567588923	pass	pass		pass	fail	pass	pass	warn	fail	fail	fail
+Res2_RNA_H5_2	Res2_RNA_H5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	18614093.0	0.0	35-126	51.0	18.79871300524661	105.48786395340348	pass	fail		pass	fail	warn	pass	warn	fail	fail	fail
+Res2_RNA_H6_1	Res2_RNA_H6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17171421.0	0.0	126.0	50.0	14.831821841507637	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_H6_2	Res2_RNA_H6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17171421.0	0.0	126.0	50.0	16.89240969935791	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_I1_1	Res2_RNA_I1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13778777.0	0.0	35-126	50.0	30.610679936602565	123.63225763796018	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_I1_2	Res2_RNA_I1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13778777.0	0.0	35-126	50.0	37.946427631508286	123.62233977659992	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_I2_1	Res2_RNA_I2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	23361967.0	0.0	126.0	52.0	15.026293006534516	126.0	pass	pass	warn	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_I2_2	Res2_RNA_I2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	23361967.0	0.0	126.0	52.0	15.350158235999793	126.0	pass	fail	fail	pass	fail	pass	pass	pass	fail	warn	fail
+Res2_RNA_I3_1	Res2_RNA_I3_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13638922.0	0.0	35-126	50.0	26.16650283037036	123.51390102531563	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_I3_2	Res2_RNA_I3_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13638922.0	0.0	35-126	50.0	34.100361535280996	123.50304298242925	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_I4_1	Res2_RNA_I4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	21686284.0	0.0	126.0	50.0	29.6072122269302	126.0	pass	pass	warn	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_I4_2	Res2_RNA_I4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	21686284.0	0.0	126.0	50.0	33.59304455942582	126.0	pass	fail	fail	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_I5_1	Res2_RNA_I5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13740384.0	0.0	35-126	51.0	27.009236983529068	113.99036344253552	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_I5_2	Res2_RNA_I5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	13740384.0	0.0	35-126	51.0	32.69462955468056	113.95163948838693	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_I6_1	Res2_RNA_I6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20224405.0	0.0	126.0	44.0	12.334155092835514	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_I6_2	Res2_RNA_I6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	20224405.0	0.0	126.0	44.0	15.123806545326158	126.0	pass	fail	pass	pass	warn	warn	pass	pass	fail	warn	fail
+Res2_RNA_J1_1	Res2_RNA_J1_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	34882629.0	0.0	126.0	50.0	12.054676932605556	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_J1_2	Res2_RNA_J1_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	34882629.0	0.0	126.0	50.0	15.245217028610636	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_J2_1	Res2_RNA_J2_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12519676.0	0.0	126.0	49.0	30.232572973358323	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_J2_2	Res2_RNA_J2_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12519676.0	0.0	126.0	49.0	34.06332352108378	126.0	pass	fail	pass	pass	warn	warn	pass	pass	fail	warn	fail
+Res2_RNA_J4_1	Res2_RNA_J4_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	11113188.0	0.0	126.0	50.0	22.22021598680824	126.0	pass	pass	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_J4_2	Res2_RNA_J4_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	11113188.0	0.0	126.0	50.0	24.64802645600936	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
+Res2_RNA_J5_1	Res2_RNA_J5_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	23668056.0	0.0	35-126	50.0	15.694842384182198	113.01879816407397	pass	pass		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_J5_2	Res2_RNA_J5_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	23668056.0	0.0	35-126	51.0	24.946855646314546	112.96628147237779	pass	fail		pass	fail	warn	pass	warn	fail	warn	fail
+Res2_RNA_J6_1	Res2_RNA_J6_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	11273103.0	0.0	126.0	49.0	21.79102874021811	126.0	pass	pass	pass	pass	fail	fail	pass	pass	fail	warn	fail
+Res2_RNA_J6_2	Res2_RNA_J6_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	11273103.0	0.0	126.0	49.0	25.0074465657881	126.0	pass	fail	pass	pass	fail	warn	pass	pass	fail	warn	fail
