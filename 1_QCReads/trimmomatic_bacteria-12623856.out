@@ -1,0 +1,8 @@
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_B6_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_B6_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_B6_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_B6_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_B6_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_B6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33

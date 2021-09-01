@@ -6,7 +6,8 @@ Right now I do not have a plan to use the RNA-seq data. So I will not quality co
 
 ## Files
 
- 
+ * DNA_IDs.txt : List of all the DNA sample IDs
+ * Phage_IDs.txt : List of all the Phage sample IDs
 
 ## Directories
 
@@ -25,12 +26,15 @@ Right now I do not have a plan to use the RNA-seq data. So I will not quality co
  * pre_fastq_DNA.sh
  * pre_fastq_RNA.sh
  * pre_fastq_Phage.sh
- * pre_fastqc_multiqc.sh 
+ * pre_fastqc_multiqc.sh
+ * trimmomatic_viral.sh
+ * trimmomatic_bacteria.sh 
 
 ## Tools Used
  
  * FastQC v.0.11.9 (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) 
  * MultiQC v.1.11 (https://multiqc.info/)
+ * Trimmomatic v.0.39 (http://www.usadellab.org/cms/?page=trimmomatic)
 
 ### Sample naming
 
@@ -115,3 +119,74 @@ Bacteria sequences adapter contamination
 ![bacterial_adaptors_pre_trim](6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_adapter_content_plot_1.jpg "Adaptors of Pre-Trimmed Bacterial Sequences")
 Phage sequences adapter contamination
 ![phage_adaptors_pre_trim](6_PreQC_FASTQC/Phage/Phage_multiqc_report_plots/png/mqc_fastqc_adapter_content_plot_1.jpg "Adaptors of Pre-Trimmed Phage Sequences")
+
+I would also look at the MultiQC file, as it has a status checks for each category. Which is a nice summary. So now I will run Trimmomatic
+
+### Step 2 : Trimmomatic
+For the adaptors I will use the default Trimmomatic::TruSeq2-PE, 
+the universal adapter sequence of TruSeq kit as:
+Illumina HiSeq 2000 PE125 using TrueSeq Nano 550 bp kits (Illumina)
+Phage DNA : MiSeq PE300
+
+I will use 'palindrome mode' which is aimed at detecting 'adapter read-through' which is is prevelant in the long read length of MiSeq which we see in the Phage DNA samples.
+I will run similar analysis as previously used on this dataset (re:Kang et al 2021) 
+Removing low quality bases (<Q20); reads shorter than 75bp
+1) remove adapters ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:8:keepBothReads
+2) remove reads below a Phred score of 20 with a sliding window of 4 SLIDINGWINDOW:4:20
+3) I will set a minimum length for MINLEN:75
+4) I will also run it on four CPUs
+
+I will need to run trimmomatic on each sample individually, so I will make a file that has all the DNA and Phage ID names:
+
+```shell
+$ cut -f7 ../0_RawData/filereport_read_run_PRJNA588313.txt | grep 'DNA' > DNA_IDs.txt
+$ head DNA_IDs.txt
+Res2_DNA_B6
+Res2_DNA_B5
+Res2_DNA_A2
+Res2_DNA_A1
+Res2_DNA_B4
+Res2_DNA_B3
+Res2_DNA_B2
+Res2_DNA_B1
+Res2_DNA_J6
+Res2_DNA_J5
+$ cut -f7 ../0_RawData/filereport_read_run_PRJNA588313.txt | grep 'Phage' > Phage_IDs.txt
+$ head Phage_IDs.txt
+Res2_Phage_B4
+Res2_Phage_B3
+Res2_Phage_B2
+Res2_Phage_B1
+Res2_Phage_J6
+Res2_Phage_J5
+Res2_Phage_J4
+Res2_Phage_J2
+Res2_Phage_J1
+Res2_Phage_I6
+```
+
+I will use these files to run trimmomatic on each of the samples.
+I will run DNA and Phage in two different batch jobs
+viral_trimmomatic.sh
+bacteria_trimmomatic.sh
+The final script will look like this:
+```shell
+#Raw reads directory in relation to the script
+input_directory=../0_RawData/2_Phage/
+#Output directory in relation to the script
+output_directory=2_Trimmed_Phage/
+
+#Each line of Phage_IDs.txt is a sample
+cat Phage_IDs.txt | while read id
+
+do
+
+java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar PE -threads 8 ${input_directory}${id}_1.fastq.gz ${input_directory}${id}_2.fastq.gz   ${output_directory}trimmed_${id}_1_paired.fastq.gz \
+${output_directory}trimmed_${id}_1_unpaired.fastq.gz ${output_directory}trimmed_${id}_2_paired.fastq.gz \
+${output_directory}trimmed_${id}_2_unpaired.fastq.gz \
+ILLUMINACLIP:$EBROOTTRIMMOMATIC/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+
+done
+```
+I will do the bacteria version in batch script trimmomatic_bacteria.sh
+

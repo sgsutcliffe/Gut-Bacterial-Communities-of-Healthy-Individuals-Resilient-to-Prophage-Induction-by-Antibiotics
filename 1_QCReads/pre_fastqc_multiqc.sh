@@ -17,8 +17,8 @@ module load python
 module load scipy-stack
 pip install multiqc
 
-multiqc 6_PreQC_FASTQC/DNA/ -n DNA_multiqc_report.html -o 6_PreQC_FASTQC/DNA/
+multiqc 6_PreQC_FASTQC/DNA/ -n DNA_multiqc_report.html -o 6_PreQC_FASTQC/DNA/ -p
 
-multiqc 6_PreQC_FASTQC/RNA/ -n RNA_multiqc_report.html -o 6_PreQC_FASTQC/RNA/
+multiqc 6_PreQC_FASTQC/RNA/ -n RNA_multiqc_report.html -o 6_PreQC_FASTQC/RNA/ -p
 
-multiqc 6_PreQC_FASTQC/Phage/ -n Phage_multiqc_report.html -o 6_PreQC_FASTQC/Phage/
+multiqc 6_PreQC_FASTQC/Phage/ -n Phage_multiqc_report.html -o 6_PreQC_FASTQC/Phage/ -p

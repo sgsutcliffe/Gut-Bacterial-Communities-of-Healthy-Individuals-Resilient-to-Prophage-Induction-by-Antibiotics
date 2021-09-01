@@ -1,0 +1,56 @@
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_B4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_B4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1669439 Both Surviving: 1275024 (76.37%) Forward Only Surviving: 264651 (15.85%) Reverse Only Surviving: 9289 (0.56%) Dropped: 120475 (7.22%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_B3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_B3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 360436 Both Surviving: 260367 (72.24%) Forward Only Surviving: 51400 (14.26%) Reverse Only Surviving: 1226 (0.34%) Dropped: 47443 (13.16%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_B2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_B2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 5154680 Both Surviving: 4106104 (79.66%) Forward Only Surviving: 421615 (8.18%) Reverse Only Surviving: 25169 (0.49%) Dropped: 601792 (11.67%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_B1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_B1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2439718 Both Surviving: 1773327 (72.69%) Forward Only Surviving: 350656 (14.37%) Reverse Only Surviving: 14407 (0.59%) Dropped: 301328 (12.35%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_J6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_J6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1569708 Both Surviving: 1143044 (72.82%) Forward Only Surviving: 282486 (18.00%) Reverse Only Surviving: 6996 (0.45%) Dropped: 137182 (8.74%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_J5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_J5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 668846 Both Surviving: 503773 (75.32%) Forward Only Surviving: 74827 (11.19%) Reverse Only Surviving: 3506 (0.52%) Dropped: 86740 (12.97%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_J4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_J4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
