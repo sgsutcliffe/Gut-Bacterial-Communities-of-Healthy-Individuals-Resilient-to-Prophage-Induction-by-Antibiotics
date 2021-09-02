@@ -1,0 +1,7 @@
+Res2_DNA_D1
+Res2_DNA_C6
+Res2_DNA_C5
+Res2_DNA_C4
+Res2_DNA_C3
+Res2_DNA_C2
+Res2_DNA_C1

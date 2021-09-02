@@ -8,6 +8,8 @@ Right now I do not have a plan to use the RNA-seq data. So I will not quality co
 
  * DNA_IDs.txt : List of all the DNA sample IDs
  * Phage_IDs.txt : List of all the Phage sample IDs
+ * DNA_IDS_missed.txt " List of all DNA sample IDs that were missed during first trimmomatic run on "DNA_IDs.txt" due to timeout
+ * DNA_IDS_missed[1-4].txt : Four files compose the missed files in first round of trimmomatic split into four
 
 ## Directories
 
@@ -190,3 +192,14 @@ done
 ```
 I will do the bacteria version in batch script trimmomatic_bacteria.sh
 
+NOTE: When I ran the trimmomatic_bacteria.sh the run timed out at Res2_DNA_A6, so I will re-run this sample and all missed samples. So there will be two outputs for this batch command.
+I put the missing files into DNA_IDs_missed.txt but also it takes a long time to run, so I will split this file.
+So I will split the missed files into four sets and run them each in a different batch job.
+
+```shell
+$ awk 'FNR>=1 && FNR<=11' DNA_IDs_missed.txt > DNA_IDs_missed1.txt
+$ awk 'FNR>=12 && FNR<=23' DNA_IDs_missed.txt > DNA_IDs_missed2.txt
+$ awk 'FNR>=24 && FNR<=35' DNA_IDs_missed.txt > DNA_IDs_missed3.txt
+$ awk 'FNR>=36 && FNR<=42' DNA_IDs_missed.txt > DNA_IDs_missed4.txt
+```
+I will make four new trimmomatic bacteria jobs for each list of missed samples.
