@@ -31,12 +31,17 @@ Right now I do not have a plan to use the RNA-seq data. So I will not quality co
  * pre_fastqc_multiqc.sh
  * trimmomatic_viral.sh
  * trimmomatic_bacteria.sh 
+ * post_fastq_DNA_trimmomatic.sh
+ * post_fastq_Phage_trimmomatic.sh
+ * human_decon_bacteria[1-5].sh
+ * human_decon_viral.sh
 
 ## Tools Used
  
  * FastQC v.0.11.9 (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) 
  * MultiQC v.1.11 (https://multiqc.info/)
  * Trimmomatic v.0.39 (http://www.usadellab.org/cms/?page=trimmomatic)
+ * bowtie2 v.2.4.2 (http://bowtie-bio.sourceforge.net/index.shtml)
 
 ### Sample naming
 
@@ -203,3 +208,96 @@ $ awk 'FNR>=24 && FNR<=35' DNA_IDs_missed.txt > DNA_IDs_missed3.txt
 $ awk 'FNR>=36 && FNR<=42' DNA_IDs_missed.txt > DNA_IDs_missed4.txt
 ```
 I will make four new trimmomatic bacteria jobs for each list of missed samples.
+
+Now I have completed trimmomatic for both bacteria and phage sequence data. For each sample trimmomatic produces an unpaired set of sequences and paired. For example for Phage_A1 we have
+```shell
+trimmed_Res2_Phage_A1_1_paired.fastq.gz
+trimmed_Res2_Phage_A1_1_unpaired.fastq.gz
+trimmed_Res2_Phage_A1_2_paired.fastq.gz
+trimmed_Res2_Phage_A1_2_unpaired.fastq.gz
+```
+We will do all further analysis on the paired reads; as both mate-pairs survived the trimming. Once again the files are too large to upload but they are stored in
+0_Trimmed_DNA
+2_Trimmed_Phage
+
+I will do two other quality control steps (human decontamination and duplicate removal if needed) but I will re-run FastQC to compare results to see if they did a good job of trimming results 
+before the next steps.
+
+### Step 2b : Trimmomatic Check
+In 7_PostQC_FASTQC I will make a sub-directory 0_Post_Trimmomatic; so I can store the FASTQC results in
+I will run
+post_fastq_DNA_trimmomatic.sh
+post_fastq_Phage_trimmomatic.sh
+
+Note: This generated FASTQC files for the unpaired files as well. Which is tossed sequence reads so I will delete them.
+```shell
+$ rm 7_PostQC_FASTQC/0_Post_Trimmomatic/DNA/*unpaired_fastqc*
+$ rm 7_PostQC_FASTQC/0_Post_Trimmomatic/Phage/*unpaired_fastqc*
+```
+It appears that the Trimmomatic step worked well. No more detectable adapter sequences in either or N calls. MultiQC doesn't produce images when they are bellow the range of detection.
+ Bacterial sequences quality post-trimming
+![bacterial_quality_prost_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/DNA/DNA_multiqc_report_plots/bacteria_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality)
+ Phage sequences quality post-trimming
+![phage_quality_post_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/Phage/Phage_multiqc_report_plots/phage_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality)
+### Step 3 : Remove Human Contaminates
+
+We will use the homo sapien bowtie index GRCh38 which is already available on Compute Canada. I have already installed it for another project:
+```shell
+export MUGQIC_INSTALL_HOME=/cvmfs/soft.mugqic/CentOS6
+
+```
+
+I will use --un option of bowtie 1.3.0 which takes all the reads that do no align to human genome and puts them in a new fastq.gz file
+Using the scripts
+human_decon_bacteria1.sh
+human_decon_bacteria2.sh
+human_decon_bacteria3.sh
+human_decon_bacteria4.sh
+human_decon_bacteria5.sh
+
+NOTE: Again the bacterial sequence runs were too much for each bowtie2 decontamination to run successfully. I will divide the whole list of DNA_IDs.txt into five files
+
+```shell
+$ awk 'FNR>=1 && FNR<=12' DNA_IDs.txt > DNA_IDs1.txt
+$ awk 'FNR>=13 && FNR<=25' DNA_IDs.txt > DNA_IDs2.txt
+$ awk 'FNR>=26 && FNR<=38' DNA_IDs.txt > DNA_IDs3.txt
+$ awk 'FNR>=39 && FNR<=49' DNA_IDs.txt > DNA_IDs4.txt
+$ awk 'FNR>=50 && FNR<=59' DNA_IDs.txt > DNA_IDs5.txt
+```
+Despite splitting two of the runs failed
+Slurm Job_id=13324410
+Slurm Job_id=13324413
+
+```shell
+$ tail -n 2 human_decon_bacteria-13324410.out 
+Sample Res2_DNA_I1
+slurmstepd: error: *** JOB 13324410 ON cdr798 CANCELLED AT 2021-09-07T15:44:06 DUE TO TIME LIMIT ***
+
+$ tail -n 2  human_decon_bacteria-13324413.out   
+Sample Res2_DNA_F2
+slurmstepd: error: *** JOB 13324413 ON cdr849 CANCELLED AT 2021-09-07T15:44:06 DUE TO TIME LIMIT ***
+
+```
+So I will remove Res2_DNA_I1 and Res2_DNA_F2 then make another 'missed ID list'
+
+```shell
+$ rm 3_Decontaminated_DNA/Res2_DNA_F2*
+$ rm 3_Decontaminated_DNA/Res2_DNA_I1*
+```
+Res2_DNA_F2 is the last line of DNA_IDs3.txt and Res2_DNA_12 is the 6th last of DNA_IDs3.txt
+```shell
+$ tail -n 6 DNA_IDs2.txt
+Res2_DNA_I1
+Res2_DNA_H6
+Res2_DNA_H5
+Res2_DNA_H4
+Res2_DNA_H3
+Res2_DNA_H2
+
+$ tail -n 1 DNA_IDs3.txt
+Res2_DNA_F2
+
+```
+So I will modify the script to run on these
+human_decon_bacteria_missed.sh
+
