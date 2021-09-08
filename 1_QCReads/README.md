@@ -239,7 +239,11 @@ It appears that the Trimmomatic step worked well. No more detectable adapter seq
 ![bacterial_quality_prost_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/DNA/DNA_multiqc_report_plots/bacteria_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality)
  Phage sequences quality post-trimming
 ![phage_quality_post_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/Phage/Phage_multiqc_report_plots/phage_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality)
+
+MultiQC produces a nice summary table at the of the html file. Shows that the Trimmomatic step did its job. Onto contamination!
+
 ### Step 3 : Remove Human Contaminates
+Human contamination always finds its way into samples. I don't remove bacterial deconaminates from viral samples as that causes more harm then benefit. But I will align the reads to the human genome and remove those reads.
 
 We will use the homo sapien bowtie index GRCh38 which is already available on Compute Canada. I have already installed it for another project:
 ```shell
