@@ -216,18 +216,18 @@ trimmed_Res2_Phage_A1_1_unpaired.fastq.gz
 trimmed_Res2_Phage_A1_2_paired.fastq.gz
 trimmed_Res2_Phage_A1_2_unpaired.fastq.gz
 ```
-We will do all further analysis on the paired reads; as both mate-pairs survived the trimming. Once again the files are too large to upload but they are stored in
-0_Trimmed_DNA
-2_Trimmed_Phage
+We will do all further analysis on the paired reads; as both mate-pairs survived the trimming. Once again the files are too large to upload but they are stored in  
+0_Trimmed_DNA  
+2_Trimmed_Phage  
 
 I will do two other quality control steps (human decontamination and duplicate removal if needed) but I will re-run FastQC to compare results to see if they did a good job of trimming results 
 before the next steps.
 
 ### Step 2b : Trimmomatic Check
 In 7_PostQC_FASTQC I will make a sub-directory 0_Post_Trimmomatic; so I can store the FASTQC results in
-I will run
-post_fastq_DNA_trimmomatic.sh
-post_fastq_Phage_trimmomatic.sh
+I will run  
+post_fastq_DNA_trimmomatic.sh  
+post_fastq_Phage_trimmomatic.sh  
 
 Note: This generated FASTQC files for the unpaired files as well. Which is tossed sequence reads so I will delete them.
 ```shell
@@ -305,3 +305,17 @@ Res2_DNA_F2
 So I will modify the script to run on these
 human_decon_bacteria_missed.sh
 
+Bowtie2 outputs the summary of the results into the standard output which I can check to see what level of reads were removed:
+```shell
+nano human_decon_*.out
+```
+Only samples Sample Res2_DNA_H1 (1.64%), Sample Res2_DNA_F5 (2.77%) , Sample Res2_DNA_H2 (1.43%), Sample Res2_Phage_B4 (5.78%), Sample Res2_Phage_H5 (2.68%), Sample Res2_Phage_H3 (12.88%)  
+
+Those Phage samples were a bit higher than I expected. Usually it is around 0-1% I will just check to see how many reads are in the sample.
+
+Only Sample Res2_Phage_H5 was under 1 millions reads (0.1 million). Personally, I don't know if I should be worried about high-human contamination. If something comes up downstream it will be good to know.  
+
+### Summary
+
+I do not think it is necessary to remove duplications. It might be worth it to try removing duplicates that 100% matches (entire length 100% identity) as those could be PCR artifacts.
+I will move ahead with analysis using the paired trimmed-decontaminated reads.
