@@ -116,7 +116,7 @@ I will go over all the issues that reported and compare them before and after us
 
 Trimmomatic will help me remove adapters left over from the sequence length, trim near ends of sequence where quality drops off, and remove low quality reads.
 
-Bacterial sequences quality pre-trimming  
+Bacterial sequences quality pre-trimming   
 ![bacterial_quality_pre_trim](6_PreQC_FASTQC/DNA/DNA_multiqc_report_plots/png/mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality Scores of Pre-Trimmed Bacterial Sequences")
 Phage sequences quality pre-trimming, there seems to be more issues as the length of sequences are longer
 ![phage_quality_pre_trim](6_PreQC_FASTQC/Phage/Phage_multiqc_report_plots/png/mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality Scores of Pre-Trimmed Phage Sequences")
@@ -235,10 +235,10 @@ $ rm 7_PostQC_FASTQC/0_Post_Trimmomatic/DNA/*unpaired_fastqc*
 $ rm 7_PostQC_FASTQC/0_Post_Trimmomatic/Phage/*unpaired_fastqc*
 ```
 It appears that the Trimmomatic step worked well. No more detectable adapter sequences in either or N calls. MultiQC doesn't produce images when they are bellow the range of detection.
- Bacterial sequences quality post-trimming
-![bacterial_quality_prost_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/DNA/DNA_multiqc_report_plots/bacteria_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality)
- Phage sequences quality post-trimming
-![phage_quality_post_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/Phage/Phage_multiqc_report_plots/phage_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality)
+ Bacterial sequences quality post-trimming  
+![bacterial_quality_prost_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/DNA/DNA_multiqc_report_plots/bacteria_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality")
+ Phage sequences quality post-trimming  
+![phage_quality_post_trim](7_PostQC_FASTQC/0_Post_Trimmomatic/Phage/Phage_multiqc_report_plots/phage_mqc_fastqc_per_base_sequence_quality_plot_1.jpg "FastQC: Mean Quality")
 
 MultiQC produces a nice summary table at the of the html file. Shows that the Trimmomatic step did its job. Onto contamination!
 
