@@ -10,13 +10,16 @@ Decontaminated/Trimmed sequences are in 1_QC_Reads/3_Decontaminated_DNA
 
 ## Directories
 
-*  1_Assembled_Contigs
+*  1_Assembled_Contigs : Output of all the megahit assembly per individual [Once again the fasta files are too large to upload to Github]
 
 ## Scripts + Batch Jobs
+
+*  bacterial_assembly[A-J].sh : Using megahit to assemble reads into contigs per individual 
 
 ## Tools Used
 
 *  megahit v.1.2.9(https://github.com/voutcn/megahit)
+
 ### Sample naming
 
 * [A-J]
@@ -59,12 +62,31 @@ output_directory=1_Assembled_Contigs
 
 #Individual Code
 ind=A
+
 #Sequence list
-pe1=$(for i in {1..6}; do echo " ${input_directory}Res2_DNA_${ind}${i}_paired_decontaminated.fastq.1.gz"; done)
-pe2=$(for i in {1..6}; do echo " ${input_directory}Res2_DNA_${ind}${i}_paired_decontaminated.fastq.2.gz"; done)
+pe1=$(for i in {1..6}; do echo -n "${input_directory}Res2_DNA_${ind}${i}_paired_decontaminated.fastq.1.gz,"; done)
+pe2=$(for i in {1..6}; do echo -n "${input_directory}Res2_DNA_${ind}${i}_paired_decontaminated.fastq.2.gz,"; done)
+
+#Notes: megahit hates spaces and needs commas between each sample
+#This is why echo -n (removes space between sample names)
+#${pe1::-1} (gets rid of last comma)
 
 # megahit [options] {-1 <pe1> -2 <pe2> | --12 <pe12> | -r <se>} [-o <out_dir>]
 
-megahit -t 12 -1 ${pe1} -2 ${pe2} -o ${output_directory} -out-prefix Ind${ind} -min-contig-len 1500
+run=$(megahit -t 4 -1 ${pe1::-1} -2 ${pe2::-1} --out-prefix Ind${ind} --min-contig-len 1500 -o ${ind}_megahit_output)
+
+#Couldn't get it to put output in my 1_Assembled_Contigs so I will do it myself
+mv ${ind}_megahit_output ${output_directory}
 ```
 Then I will just make a script for each individual so I can run them faster. Also, modify Individual J so that it runs {1,2,3,4,6} instead.
+After running it on individual these were the stats:
+Assembly is an intensive step but running with MEGAHIT (which is fast an low memory requirement) can parallelized well. Here are the stats for individual A
+
+```shell
+Cores per node: 12
+CPU Utilized: 1-09:25:29
+CPU Efficiency: 84.70% of 1-15:27:48 core-walltime
+Job Wall-clock time: 03:17:19
+Memory Utilized: 41.23 GB
+Memory Efficiency: 32.99% of 125.00 GB
+```

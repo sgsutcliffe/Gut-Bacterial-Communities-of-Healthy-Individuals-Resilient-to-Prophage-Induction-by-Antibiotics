@@ -1,0 +1,19 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+2021-09-10 12:36:32 - MEGAHIT v1.2.9
+2021-09-10 12:36:33 - Using megahit_core with POPCNT and BMI2 support
+2021-09-10 12:36:33 - Convert reads to binary library
+2021-09-10 12:38:26 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B1_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B1_paired_decontaminated.fastq.2.gz): pe, 73952962 reads, 126 max length'
+2021-09-10 12:40:18 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 1 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B2_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B2_paired_decontaminated.fastq.2.gz): pe, 72292692 reads, 126 max length'
+2021-09-10 12:42:17 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 2 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B3_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B3_paired_decontaminated.fastq.2.gz): pe, 77690394 reads, 126 max length'
+2021-09-10 12:44:00 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 3 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B4_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B4_paired_decontaminated.fastq.2.gz): pe, 66293420 reads, 126 max length'
+2021-09-10 12:45:46 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 4 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B5_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B5_paired_decontaminated.fastq.2.gz): pe, 68786408 reads, 126 max length'
+2021-09-10 12:47:36 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 5 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B6_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B6_paired_decontaminated.fastq.2.gz): pe, 71821486 reads, 126 max length'
+2021-09-10 12:47:36 - b'INFO  utils/utils.h                 :  152 - Real: 662.9303\tuser: 441.2254\tsys: 86.5879\tmaxrss: 272160'
+2021-09-10 12:47:36 - k-max reset to: 141 
+2021-09-10 12:47:36 - Start assembly. Number of CPU threads 12 
+2021-09-10 12:47:36 - k list: 21,29,39,59,79,99,119,141 
+2021-09-10 12:47:36 - Memory used: 243352549785
+2021-09-10 12:47:36 - Extract solid (k+1)-mers for k = 21 
+slurmstepd: error: *** JOB 13610676 ON cdr844 CANCELLED AT 2021-09-10T13:13:18 ***

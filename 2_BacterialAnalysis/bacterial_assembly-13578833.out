@@ -1,0 +1,38 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+2021-09-10 06:54:44 - MEGAHIT v1.2.9
+2021-09-10 06:54:44 - Using megahit_core with POPCNT and BMI2 support
+2021-09-10 06:54:44 - Convert reads to binary library
+2021-09-10 06:56:12 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D1_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D1_paired_decontaminated.fastq.2.gz): pe, 63875596 reads, 126 max length'
+2021-09-10 06:57:54 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 1 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D2_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D2_paired_decontaminated.fastq.2.gz): pe, 73171756 reads, 126 max length'
+2021-09-10 06:59:33 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 2 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D3_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D3_paired_decontaminated.fastq.2.gz): pe, 71056148 reads, 126 max length'
+2021-09-10 07:01:22 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 3 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D4_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D4_paired_decontaminated.fastq.2.gz): pe, 77247056 reads, 126 max length'
+2021-09-10 07:02:49 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 4 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D5_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D5_paired_decontaminated.fastq.2.gz): pe, 62601098 reads, 126 max length'
+2021-09-10 07:04:22 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 5 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D6_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_D6_paired_decontaminated.fastq.2.gz): pe, 67009686 reads, 126 max length'
+2021-09-10 07:04:22 - b'INFO  utils/utils.h                 :  152 - Real: 577.9472\tuser: 361.8765\tsys: 56.8764\tmaxrss: 271988'
+2021-09-10 07:04:22 - k-max reset to: 141 
+2021-09-10 07:04:22 - Start assembly. Number of CPU threads 12 
+2021-09-10 07:04:22 - k list: 21,29,39,59,79,99,119,141 
+2021-09-10 07:04:22 - Memory used: 181213570252
+2021-09-10 07:04:22 - Extract solid (k+1)-mers for k = 21 
+2021-09-10 07:33:31 - Build graph for k = 21 
+2021-09-10 07:41:18 - Assemble contigs from SdBG for k = 21
+2021-09-10 08:09:01 - Local assembly for k = 21
+2021-09-10 08:27:43 - Extract iterative edges from k = 21 to 29 
+2021-09-10 08:40:34 - Build graph for k = 29 
+2021-09-10 08:48:47 - Assemble contigs from SdBG for k = 29
+2021-09-10 09:03:43 - Local assembly for k = 29
+2021-09-10 09:27:46 - Extract iterative edges from k = 29 to 39 
+2021-09-10 09:33:37 - Build graph for k = 39 
+2021-09-10 09:39:28 - Assemble contigs from SdBG for k = 39
+2021-09-10 09:52:01 - Local assembly for k = 39
+2021-09-10 10:25:57 - Extract iterative edges from k = 39 to 59 
+2021-09-10 10:31:24 - Build graph for k = 59 
+2021-09-10 10:36:32 - Assemble contigs from SdBG for k = 59
+2021-09-10 10:47:01 - Local assembly for k = 59
+2021-09-10 11:20:42 - Extract iterative edges from k = 59 to 79 
+2021-09-10 11:24:01 - Build graph for k = 79 
+2021-09-10 11:27:48 - Assemble contigs from SdBG for k = 79
+2021-09-10 11:36:42 - Local assembly for k = 79
+slurmstepd: error: *** JOB 13578833 ON cdr2030 CANCELLED AT 2021-09-10T11:54:59 DUE TO TIME LIMIT ***

@@ -1,0 +1,51 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+2021-09-10 13:14:16 - MEGAHIT v1.2.9
+2021-09-10 13:14:17 - Using megahit_core with POPCNT and BMI2 support
+2021-09-10 13:14:17 - Convert reads to binary library
+2021-09-10 13:15:59 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B1_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B1_paired_decontaminated.fastq.2.gz): pe, 73952962 reads, 126 max length'
+2021-09-10 13:17:41 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 1 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B2_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B2_paired_decontaminated.fastq.2.gz): pe, 72292692 reads, 126 max length'
+2021-09-10 13:19:28 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 2 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B3_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B3_paired_decontaminated.fastq.2.gz): pe, 77690394 reads, 126 max length'
+2021-09-10 13:21:01 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 3 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B4_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B4_paired_decontaminated.fastq.2.gz): pe, 66293420 reads, 126 max length'
+2021-09-10 13:22:38 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 4 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B5_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B5_paired_decontaminated.fastq.2.gz): pe, 68786408 reads, 126 max length'
+2021-09-10 13:24:18 - b'INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 5 (/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B6_paired_decontaminated.fastq.1.gz,/project/6003890/ssutclif/temp_storage/Third_Aim/1_QCReads/3_Decontaminated_DNA/Res2_DNA_B6_paired_decontaminated.fastq.2.gz): pe, 71821486 reads, 126 max length'
+2021-09-10 13:24:18 - b'INFO  utils/utils.h                 :  152 - Real: 600.9647\tuser: 388.4421\tsys: 61.4853\tmaxrss: 272280'
+2021-09-10 13:24:18 - k-max reset to: 141 
+2021-09-10 13:24:18 - Start assembly. Number of CPU threads 12 
+2021-09-10 13:24:18 - k list: 21,29,39,59,79,99,119,141 
+2021-09-10 13:24:18 - Memory used: 181213570252
+2021-09-10 13:24:18 - Extract solid (k+1)-mers for k = 21 
+2021-09-10 13:58:54 - Build graph for k = 21 
+2021-09-10 14:09:12 - Assemble contigs from SdBG for k = 21
+2021-09-10 14:38:11 - Local assembly for k = 21
+2021-09-10 14:54:47 - Extract iterative edges from k = 21 to 29 
+2021-09-10 15:06:28 - Build graph for k = 29 
+2021-09-10 15:13:33 - Assemble contigs from SdBG for k = 29
+2021-09-10 15:25:36 - Local assembly for k = 29
+2021-09-10 15:45:16 - Extract iterative edges from k = 29 to 39 
+2021-09-10 15:53:57 - Build graph for k = 39 
+2021-09-10 15:58:58 - Assemble contigs from SdBG for k = 39
+2021-09-10 16:10:04 - Local assembly for k = 39
+2021-09-10 16:37:28 - Extract iterative edges from k = 39 to 59 
+2021-09-10 16:43:36 - Build graph for k = 59 
+2021-09-10 16:47:17 - Assemble contigs from SdBG for k = 59
+2021-09-10 16:57:10 - Local assembly for k = 59
+2021-09-10 17:22:04 - Extract iterative edges from k = 59 to 79 
+2021-09-10 17:26:45 - Build graph for k = 79 
+2021-09-10 17:29:34 - Assemble contigs from SdBG for k = 79
+2021-09-10 17:36:00 - Local assembly for k = 79
+2021-09-10 17:57:30 - Extract iterative edges from k = 79 to 99 
+2021-09-10 18:00:31 - Build graph for k = 99 
+2021-09-10 18:02:33 - Assemble contigs from SdBG for k = 99
+2021-09-10 18:08:19 - Local assembly for k = 99
+2021-09-10 18:27:25 - Extract iterative edges from k = 99 to 119 
+2021-09-10 18:29:29 - Build graph for k = 119 
+2021-09-10 18:31:08 - Assemble contigs from SdBG for k = 119
+2021-09-10 18:36:31 - Local assembly for k = 119
+2021-09-10 18:53:27 - Extract iterative edges from k = 119 to 141 
+2021-09-10 18:54:03 - Build graph for k = 141 
+2021-09-10 18:55:17 - Assemble contigs from SdBG for k = 141
+2021-09-10 18:59:55 - Merging to output final contigs 
+2021-09-10 18:59:57 - 74922 contigs, total 574488758 bp, min 1500 bp, max 616964 bp, avg 7667 bp, N50 18405 bp
+2021-09-10 18:59:57 - ALL DONE. Time elapsed: 20741.015283 seconds 
