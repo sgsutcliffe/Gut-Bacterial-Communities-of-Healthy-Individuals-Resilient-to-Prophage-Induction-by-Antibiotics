@@ -1,0 +1,779 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/metaquast.py 1_Assembled_Contigs/A_megahit_output/IndA.contigs.fa 1_Assembled_Contigs/B_megahit_output/IndB.contigs.fa 1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa 1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa 1_Assembled_Contigs/E_megahit_output/IndE.contigs.fa 1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa 1_Assembled_Contigs/G_megahit_output/IndG.contigs.fa 1_Assembled_Contigs/H_megahit_output/IndH.contigs.fa 1_Assembled_Contigs/I_megahit_output/IndI.contigs.fa 1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa -t 8
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.36.2.el7.x86_64-x86_64-with-glibc2.2.5 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 32
+
+Started: 2021-09-16 05:12:12
+
+Logging to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/metaquast.log
+
+Contigs:
+  Pre-processing...
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/metaquast.py:136: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+  1  1_Assembled_Contigs/A_megahit_output/IndA.contigs.fa ==> IndA.contigs
+  2  1_Assembled_Contigs/B_megahit_output/IndB.contigs.fa ==> IndB.contigs
+  3  1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa ==> IndC.contigs
+  4  1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa ==> IndD.contigs
+  5  1_Assembled_Contigs/E_megahit_output/IndE.contigs.fa ==> IndE.contigs
+  6  1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa ==> IndF.contigs
+  7  1_Assembled_Contigs/G_megahit_output/IndG.contigs.fa ==> IndG.contigs
+  8  1_Assembled_Contigs/H_megahit_output/IndH.contigs.fa ==> IndH.contigs
+  9  1_Assembled_Contigs/I_megahit_output/IndI.contigs.fa ==> IndI.contigs
+  10 1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa ==> IndJ.contigs
+
+No references are provided, starting to search for reference genomes in SILVA 16S rRNA database and to download them from NCBI...
+
+2021-09-16 05:12:46
+Running BlastN..
+  processing IndA.contigs
+  processing IndB.contigs
+  processing IndD.contigs
+  processing IndE.contigs
+  processing IndC.contigs
+  processing IndF.contigs
+  processing IndG.contigs
+  processing IndH.contigs
+  BLAST results for IndA.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndA-contigs...
+  processing IndI.contigs
+  BLAST results for IndG.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndG-contigs...
+  processing IndJ.contigs
+  BLAST results for IndH.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndH-contigs...
+  BLAST results for IndB.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndB-contigs...
+  BLAST results for IndC.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndC-contigs...
+  BLAST results for IndE.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndE-contigs...
+  BLAST results for IndJ.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndJ-contigs...
+  BLAST results for IndF.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndF-contigs...
+  BLAST results for IndD.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndD-contigs...
+  BLAST results for IndI.contigs are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/blast.res_IndI-contigs...
+
+
+2021-09-16 06:25:33
+Trying to download found references from NCBI. Totally 232 organisms to try.
+  unidentified_rumen_bacterium_RFN49                           | not found in the NCBI database
+  unidentified_rumen_bacterium_RFN49 was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_B17(2011)                 | not found in the NCBI database
+  bacterium_enrichment_culture_clone_B17(2011) was not found in NCBI database, trying to download the next best match
+  Azospirillum_sp._taihu16                                     | not found in the NCBI database
+  Azospirillum_sp._taihu16 was not found in NCBI database, trying to download the next best match
+  Rhodomicrobium_udaipurense_JA643                             | successfully downloaded (total 1, 231 more to go)
+  unidentified_rumen_bacterium_RFN44                           | not found in the NCBI database
+  unidentified_rumen_bacterium_RFN44 was not found in NCBI database, trying to download the next best match
+  unidentified_rumen_bacterium_RFN4                            | not found in the NCBI database
+  unidentified_rumen_bacterium_RFN4 was not found in NCBI database, trying to download the next best match
+  Cytophaga_sp._Dex80-64                                       | not found in the NCBI database
+  thermophilic_bacterium_JA2                                   | not found in the NCBI database
+  thermophilic_bacterium_JA2 was not found in NCBI database, trying to download the next best match
+  Heliophilum_fasciatum                                        | successfully downloaded (total 2, 229 more to go)
+  rumen_bacterium_NK4A65                                       | not found in the NCBI database
+  rumen_bacterium_NK4A65 was not found in NCBI database, trying to download the next best match
+  rumen_bacterium_NK4A76                                       | not found in the NCBI database
+  rumen_bacterium_NK4A237                                      | not found in the NCBI database
+  rumen_bacterium_NK4A237 was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._Clone-33                                     | not found in the NCBI database
+  rumen_bacterium_NK4A171                                      | not found in the NCBI database
+  rumen_bacterium_NK4A171 was not found in NCBI database, trying to download the next best match
+  Catabacter_hongkongensis                                     | successfully downloaded (total 3, 226 more to go)
+  mouse_gut_metagenome                                         | not found in the NCBI database
+  iron-reducing_bacterium_enrichment_culture_clone_HN-HFO40    | not found in the NCBI database
+  iron-reducing_bacterium_enrichment_culture_clone_HN-HFO40 was not found in NCBI database, trying to download the next best match
+  Tistrella_mobilis_KA081020-065                               | successfully downloaded (total 4, 224 more to go)
+  iron-reducing_bacterium_enrichment_culture_clone_HN-HFO121   | not found in the NCBI database
+  iron-reducing_bacterium_enrichment_culture_clone_HN-HFO121 was not found in NCBI database, trying to download the next best match
+  Anaerotruncus_sp._NML_070203                                 | not found in the NCBI database
+  human_intestinal_bacterium_julong_601                        | not found in the NCBI database
+  human_intestinal_bacterium_julong_601 was not found in NCBI database, trying to download the next best match
+  Eubacterium_ramulus                                          | successfully downloaded (total 5, 222 more to go)
+human gut metagenome has too fragmented reference genome! It will not be downloaded.
+  human_gut_metagenome                                         | not found in the NCBI database
+  human_gut_metagenome was not found in NCBI database, trying to download the next best match
+  Acidaminococcus_intestini_RyC-MR95                           | successfully downloaded (total 6, 221 more to go)
+  butyrate-producing_bacterium_YE53                            | not found in the NCBI database
+  butyrate-producing_bacterium_YE53 was not found in NCBI database, trying to download the next best match
+  Eubacterium_rectale_ATCC_33656                               | successfully downloaded (total 7, 220 more to go)
+  butyrate-producing_bacterium_SSC                             | not found in the NCBI database
+  butyrate-producing_bacterium_SSC was not found in NCBI database, trying to download the next best match
+  Anaerostipes_hadrus                                          | successfully downloaded (total 8, 219 more to go)
+  butyrate-producing_bacterium_A1-86                           | not found in the NCBI database
+bioreactor metagenome has too fragmented reference genome! It will not be downloaded.
+  bioreactor_metagenome                                        | not found in the NCBI database
+  bacterium_ic1391                                             | not found in the NCBI database
+  bacterium_ic1391 was not found in NCBI database, trying to download the next best match
+  Erysipelatoclostridium_ramosum                               | successfully downloaded (total 9, 216 more to go)
+  bacterium_enrichment_culture_clone_R3-3                      | not found in the NCBI database
+  bacterium_enrichment_culture_clone_R3-3 was not found in NCBI database, trying to download the next best match
+  Coriobacteriaceae_bacterium_SNR48-44                         | not found in the NCBI database
+  Coriobacteriaceae_bacterium_SNR48-44 was not found in NCBI database, trying to download the next best match
+  Enterococcus_casseliflavus                                   | successfully downloaded (total 10, 215 more to go)
+  bacterium_enrichment_culture_clone_PKS4                      | not found in the NCBI database
+  bacterium_enrichment_culture_clone_PKS4 was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_E29                       | not found in the NCBI database
+  bacterium_enrichment_culture_clone_E29 was not found in NCBI database, trying to download the next best match
+  Catabacter_hongkongensis                                     | was downloaded previously (total 11, 214 more to go)
+  bacterium_enrichment_culture_clone_Ecwsrb027                 | not found in the NCBI database
+  bacterium_enrichment_culture_clone_Ecwsrb027 was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._ASF356                                       | not found in the NCBI database
+  Clostridium_sp._ASF356 was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_Ecwsrb035                 | not found in the NCBI database
+  bacterium_enrichment_culture_clone_Ecwsrb035 was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_LA92                      | not found in the NCBI database
+  bacterium_YE65                                               | not found in the NCBI database
+  bacterium_YE65 was not found in NCBI database, trying to download the next best match
+  wallaby_gut_metagenome                                       | not found in the NCBI database
+  wallaby_gut_metagenome was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_VE202-09                             | successfully downloaded (total 12, 212 more to go)
+  bacterium_YE62                                               | not found in the NCBI database
+  bacterium_YE62 was not found in NCBI database, trying to download the next best match
+  Lachnospira_multipara                                        | successfully downloaded (total 13, 211 more to go)
+  bacterium_YE61                                               | not found in the NCBI database
+  bacterium_YE60                                               | not found in the NCBI database
+  bacterium_YE60 was not found in NCBI database, trying to download the next best match
+  Roseburia_sp._DJF_VR77                                       | not found in the NCBI database
+  bacterium_YE55                                               | not found in the NCBI database
+  bacterium_YE55 was not found in NCBI database, trying to download the next best match
+  Pseudobacteroides_cellulosolvens                             | successfully downloaded (total 14, 208 more to go)
+  bacterium_NLAE-zl-H60                                        | not found in the NCBI database
+  bacterium_NLAE-zl-H60 was not found in NCBI database, trying to download the next best match
+  bacterium_NLAE-zl-H41                                        | not found in the NCBI database
+  bacterium_NLAE-zl-H41 was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_DJF_B152                             | not found in the NCBI database
+  bacterium_NLAE-zl-H371                                       | not found in the NCBI database
+  bacterium_NLAE-zl-H371 was not found in NCBI database, trying to download the next best match
+  bacterium_NLAE-zl-C1                                         | not found in the NCBI database
+  Victivallis_vadensis_ATCC_BAA-548                            | not found in the NCBI database
+  Victivallis_vadensis_ATCC_BAA-548 was not found in NCBI database, trying to download the next best match
+  Cytophaga_sp._Dex80-43                                       | not found in the NCBI database
+  Victivallis_vadensis                                         | successfully downloaded (total 15, 204 more to go)
+  Veillonella_parvula_DSM_2008                                 | successfully downloaded (total 16, 203 more to go)
+  Veillonella_dispar_ATCC_17748                                | successfully downloaded (total 17, 202 more to go)
+  Turicibacter_sp._LA61                                        | not found in the NCBI database
+  Turicibacter_sp._LA61 was not found in NCBI database, trying to download the next best match
+  Bacillus_sp._YM-1                                            | not found in the NCBI database
+  Bacillus_sp._YM-1 was not found in NCBI database, trying to download the next best match
+  Ureibacillus_thermosphaericus                                | successfully downloaded (total 18, 201 more to go)
+  Turicibacter_sanguinis                                       | successfully downloaded (total 19, 200 more to go)
+  Trichuris_trichiura_(human_whipworm)                         | not found in the NCBI database
+  Terrisporobacter_mayombei                                    | successfully downloaded (total 20, 198 more to go)
+  Tepidibacter_sp._enrichment_culture_clone_KME55-7            | not found in the NCBI database
+  Tepidibacter_sp._enrichment_culture_clone_KME55-7 was not found in NCBI database, trying to download the next best match
+  Catabacter_hongkongensis                                     | was downloaded previously (total 21, 197 more to go)
+  Sutterella_wadsworthensis_2_1_59BFAA                         | successfully downloaded (total 22, 196 more to go)
+  Sutterella_wadsworthensis                                    | successfully downloaded (total 23, 195 more to go)
+  Sutterella_stercoricanis                                     | not found in the NCBI database
+  Sutterella_stercoricanis was not found in NCBI database, trying to download the next best match
+  Sutterella_parvirubra                                        | successfully downloaded (total 24, 194 more to go)
+  Succinivibrio_dextrinosolvens                                | successfully downloaded (total 25, 193 more to go)
+  Subdoligranulum_sp._DJF_VR33k2                               | not found in the NCBI database
+  Subdoligranulum_sp._4_3_54A2FAA                              | successfully downloaded (total 26, 191 more to go)
+  Streptococcus_thermophilus_ND03                              | successfully downloaded (total 27, 190 more to go)
+  Streptococcus_thermophilus_LMD-9                             | successfully downloaded (total 28, 189 more to go)
+  Streptococcus_suis                                           | successfully downloaded (total 29, 188 more to go)
+  Streptococcus_sp._F0442                                      | successfully downloaded (total 30, 187 more to go)
+  Streptococcus_salivarius                                     | successfully downloaded (total 31, 186 more to go)
+  Streptococcus_pneumoniae_SPNA45                              | successfully downloaded (total 32, 185 more to go)
+  Streptococcus_agalactiae_SS1219                              | successfully downloaded (total 33, 184 more to go)
+  Sporobacter_termitidis                                       | successfully downloaded (total 34, 183 more to go)
+  Spiroplasma_velocicrescens                                   | not found in the NCBI database
+  Spiroplasma_velocicrescens was not found in NCBI database, trying to download the next best match
+  Spiroplasma_apis_B31                                         | successfully downloaded (total 35, 182 more to go)
+  Spiroplasma_sp._LB-12                                        | not found in the NCBI database
+  Spiroplasma_sp._LB-12 was not found in NCBI database, trying to download the next best match
+  Spiroplasma_sp._N525                                         | not found in the NCBI database
+  Spiroplasma_sp._N525 was not found in NCBI database, trying to download the next best match
+  Spiroplasma_sp._277F                                         | not found in the NCBI database
+  Spiroplasma_sp._277F was not found in NCBI database, trying to download the next best match
+  Spiroplasma_phoeniceum                                       | successfully downloaded (total 36, 181 more to go)
+  Spiroplasma_eriocheiris                                      | successfully downloaded (total 37, 180 more to go)
+  Spiroplasma_diminutum                                        | successfully downloaded (total 38, 179 more to go)
+  Spiroplasma_culicicola                                       | successfully downloaded (total 39, 178 more to go)
+  Spiroplasma_chinense                                         | successfully downloaded (total 40, 177 more to go)
+  Spiroplasma_cantharicola                                     | successfully downloaded (total 41, 176 more to go)
+  Slackia_sp._NATTS                                            | not found in the NCBI database
+  Slackia_sp._NATTS was not found in NCBI database, trying to download the next best match
+  Slackia_isoflavoniconvertens                                 | successfully downloaded (total 42, 175 more to go)
+  Shigella_flexneri_2002017                                    | successfully downloaded (total 43, 174 more to go)
+  Serratia_symbiotica                                          | successfully downloaded (total 44, 173 more to go)
+  Senegalimassilia_anaerobia_JC110                             | successfully downloaded (total 45, 172 more to go)
+  Saccharofermentans_sp._CA24                                  | not found in the NCBI database
+  Saccharofermentans_sp._CA24 was not found in NCBI database, trying to download the next best match
+  Tropheryma_whipplei_str._Dig7                                | successfully downloaded (total 46, 171 more to go)
+  Saccharofermentans_acetigenes                                | not found in the NCBI database
+  Ruminococcus_torques_L2-14                                   | successfully downloaded (total 47, 169 more to go)
+  Ruminococcus_torques_ATCC_27756                              | successfully downloaded (total 48, 168 more to go)
+  Ruminococcus_sp._DJF_VR70k1                                  | not found in the NCBI database
+  Ruminococcus_sp._DJF_VR52                                    | not found in the NCBI database
+  Ruminococcus_sp._DJF_VR52 was not found in NCBI database, trying to download the next best match
+  Blautia_luti                                                 | successfully downloaded (total 49, 166 more to go)
+  Ruminococcus_sp._CCUG_37327_A                                | not found in the NCBI database
+  Ruminococcus_sp._CCUG_37327_A was not found in NCBI database, trying to download the next best match
+  Catabacter_hongkongensis                                     | was downloaded previously (total 50, 165 more to go)
+  Ruminococcus_sp._5_1_39BFAA                                  | successfully downloaded (total 51, 164 more to go)
+  Ruminococcus_lactaris_CC59_002D                              | successfully downloaded (total 52, 163 more to go)
+  Ruminococcus_lactaris_ATCC_29176                             | successfully downloaded (total 53, 162 more to go)
+  Ruminococcus_gnavus_CC55_001C                                | successfully downloaded (total 54, 161 more to go)
+  Ruminococcus_gnavus_AGR2154                                  | successfully downloaded (total 55, 160 more to go)
+  Ruminococcaceae_bacterium_AE2021                             | successfully downloaded (total 56, 159 more to go)
+  Ruminiclostridium_thermocellum_DSM_2360                      | successfully downloaded (total 57, 158 more to go)
+  Ruminiclostridium_thermocellum_DSM_1313                      | successfully downloaded (total 58, 157 more to go)
+  Ruminiclostridium_thermocellum_ATCC_27405                    | successfully downloaded (total 59, 156 more to go)
+  Roseburia_sp._DJF_RR73                                       | not found in the NCBI database
+  Roseburia_sp._DJF_RR73 was not found in NCBI database, trying to download the next best match
+  Roseburia_sp._DJF_VR77                                       | not found in the NCBI database
+  Roseburia_sp._DJF_VR77 was not found in NCBI database, trying to download the next best match
+  Lachnospiraceae_bacterium_DJF_RR13                           | not found in the NCBI database
+  Roseburia_inulinivorans                                      | successfully downloaded (total 60, 154 more to go)
+  Roseburia_intestinalis_XB6B4                                 | successfully downloaded (total 61, 153 more to go)
+  Roseburia_hominis_A2-183                                     | successfully downloaded (total 62, 152 more to go)
+  Roseburia_faecis                                             | successfully downloaded (total 63, 151 more to go)
+  Romboutsia_ilealis                                           | successfully downloaded (total 64, 150 more to go)
+  Robinsoniella_sp._KNHs210                                    | successfully downloaded (total 65, 149 more to go)
+  Robinsoniella_peoriensis                                     | successfully downloaded (total 66, 148 more to go)
+  Rhodospirillaceae_bacterium_PS4B-B496                        | not found in the NCBI database
+  Rhodospirillaceae_bacterium_PS4B-B496 was not found in NCBI database, trying to download the next best match
+  Dongia_mobilis                                               | successfully downloaded (total 67, 147 more to go)
+  Ralstonia_solanacearum_GMI1000                               | successfully downloaded (total 68, 146 more to go)
+  Pseudobutyrivibrio_ruminis                                   | successfully downloaded (total 69, 145 more to go)
+  Prevotella_sp._canine_oral_taxon_226                         | not found in the NCBI database
+  Prevotella_sp._canine_oral_taxon_226 was not found in NCBI database, trying to download the next best match
+  Alloprevotella_sp._feline_oral_taxon_167                     | not found in the NCBI database
+  Alloprevotella_sp._feline_oral_taxon_167 was not found in NCBI database, trying to download the next best match
+  Prevotella_sp._oral_clone_HF050                              | not found in the NCBI database
+  Prevotella_oralis_CC98A                                      | successfully downloaded (total 70, 143 more to go)
+  Prevotella_oralis_ATCC_33269                                 | successfully downloaded (total 71, 142 more to go)
+  Prevotella_maculosa_OT_289                                   | successfully downloaded (total 72, 141 more to go)
+  Prevotella_buccalis_DNF00985                                 | successfully downloaded (total 73, 140 more to go)
+  Porphyromonadaceae_bacterium_OUH_334697                      | successfully downloaded (total 74, 139 more to go)
+  Phascolarctobacterium_faecium                                | successfully downloaded (total 75, 138 more to go)
+  Peptococcus_sp._feline_oral_taxon_012                        | not found in the NCBI database
+  Peptococcus_sp._feline_oral_taxon_012 was not found in NCBI database, trying to download the next best match
+  Desulfonispora_thiosulfatigenes                              | successfully downloaded (total 76, 137 more to go)
+  Peptococcus_sp._canine_oral_taxon_344                        | not found in the NCBI database
+  Peptococcus_sp._canine_oral_taxon_344 was not found in NCBI database, trying to download the next best match
+  Peptococcus_sp._oral_clone_MCE10_265                         | not found in the NCBI database
+  Peptococcus_sp._canine_oral_taxon_334                        | not found in the NCBI database
+  Peptococcus_niger                                            | successfully downloaded (total 77, 134 more to go)
+  Peptoclostridium_difficile_F501                              | successfully downloaded (total 78, 133 more to go)
+  Parasutterella_secunda                                       | successfully downloaded (total 79, 132 more to go)
+  Parasutterella_excrementihominis                             | successfully downloaded (total 80, 131 more to go)
+  Paraprevotella_clara                                         | successfully downloaded (total 81, 130 more to go)
+  Parabacteroides_merdae_CL09T00C40                            | successfully downloaded (total 82, 129 more to go)
+  Parabacteroides_merdae                                       | successfully downloaded (total 83, 128 more to go)
+  Parabacteroides_johnsonii_DSM_18315                          | successfully downloaded (total 84, 127 more to go)
+  Parabacteroides_goldsteinii                                  | successfully downloaded (total 85, 126 more to go)
+  Parabacteroides_distasonis_str._3776_D15_iv                  | successfully downloaded (total 86, 125 more to go)
+  Parabacteroides_distasonis_CL09T03C24                        | successfully downloaded (total 87, 124 more to go)
+  Parabacteroides_distasonis                                   | successfully downloaded (total 88, 123 more to go)
+  Papillibacter_cinnamivorans                                  | successfully downloaded (total 89, 122 more to go)
+  Panax_ginseng                                                | not found in the NCBI database
+  Paludibacter_propionicigenes_WB4                             | successfully downloaded (total 90, 120 more to go)
+  Paenisporosarcina_sp._Sl31                                   | not found in the NCBI database
+  Paenisporosarcina_sp._Sl31 was not found in NCBI database, trying to download the next best match
+  Paenisporosarcina_sp._R-36758                                | not found in the NCBI database
+  Paenisporosarcina_sp._R-36758 was not found in NCBI database, trying to download the next best match
+  Paenisporosarcina_quisquiliarum                              | successfully downloaded (total 91, 119 more to go)
+  Paenibacillus_sp._YT0147                                     | not found in the NCBI database
+  Paenibacillus_sp._YT0147 was not found in NCBI database, trying to download the next best match
+  Fictibacillus_barbaricus                                     | successfully downloaded (total 92, 118 more to go)
+  Paenibacillus_sp._VKM_B-2647                                 | successfully downloaded (total 93, 117 more to go)
+  Paenibacillus_sp._JDR-2                                      | not found in the NCBI database
+  Paenibacillus_sp._JDR-2 was not found in NCBI database, trying to download the next best match
+  Paenibacillus_sp._PALXIL06                                   | not found in the NCBI database
+  Paenibacillus_rigui                                          | successfully downloaded (total 94, 115 more to go)
+  Paenibacillus_polymyxa                                       | successfully downloaded (total 95, 114 more to go)
+  Paenibacillus_borealis                                       | successfully downloaded (total 96, 113 more to go)
+  Paenibacillus_alvei_TS-15                                    | successfully downloaded (total 97, 112 more to go)
+  Oxalobacter_formigenes_HOxBLS                                | successfully downloaded (total 98, 111 more to go)
+  Oscillospiraceae_bacterium_VE202-24                          | successfully downloaded (total 99, 110 more to go)
+  Oscillibacter_valericigenes_Sjm18-20                         | successfully downloaded (total 100, 109 more to go)
+  Oscillibacter_sp._KLE_1745                                   | successfully downloaded (total 101, 108 more to go)
+  Oscillibacter_sp._1-3                                        | successfully downloaded (total 102, 107 more to go)
+  Oscillibacter_ruminantium_GH1                                | successfully downloaded (total 103, 106 more to go)
+  Odoribacter_splanchnicus_DSM_20712                           | successfully downloaded (total 104, 105 more to go)
+  Odoribacter_splanchnicus                                     | successfully downloaded (total 105, 104 more to go)
+  Niveispirillum_fermenti                                      | not found in the NCBI database
+  Niveispirillum_fermenti was not found in NCBI database, trying to download the next best match
+  Alistipes_putredinis_DSM_17216                               | successfully downloaded (total 106, 103 more to go)
+  Neisseria_sp._CSL_7565                                       | successfully downloaded (total 107, 102 more to go)
+  Mycoplasma_feliminutum                                       | not found in the NCBI database
+  Mycoplasma_feliminutum was not found in NCBI database, trying to download the next best match
+  Mycoplasma_zalophi                                           | successfully downloaded (total 108, 101 more to go)
+  Mycoplasma_arthritidis_158L3-1                               | successfully downloaded (total 109, 100 more to go)
+  Mollicutes_bacterium_HR2                                     | successfully downloaded (total 110, 99 more to go)
+  Mitsuokella_multacida_DSM_20544                              | successfully downloaded (total 111, 98 more to go)
+  Methanobrevibacter_smithii_DSM_2375                          | successfully downloaded (total 112, 97 more to go)
+  Methanobrevibacter_smithii_ATCC_35061                        | successfully downloaded (total 113, 96 more to go)
+  Martelella_endophytica                                       | successfully downloaded (total 114, 95 more to go)
+  Magnetospira_sp._QH-2                                        | successfully downloaded (total 115, 94 more to go)
+  Magnetococcus_marinus                                        | successfully downloaded (total 116, 93 more to go)
+  Lutispora_thermophila                                        | successfully downloaded (total 117, 92 more to go)
+  Lentisphaera_araneosa_HTCC2155                               | successfully downloaded (total 118, 91 more to go)
+  Lawsonia_intracellularis                                     | successfully downloaded (total 119, 90 more to go)
+  Lactococcus_lactis_subsp._cremoris_UC509.9                   | successfully downloaded (total 120, 89 more to go)
+  Lactococcus_garvieae_TRF1                                    | successfully downloaded (total 121, 88 more to go)
+  Lactococcus_garvieae                                         | successfully downloaded (total 122, 87 more to go)
+  Lactobacillus_saniviri                                       | successfully downloaded (total 123, 86 more to go)
+  Lactobacillus_salivarius                                     | successfully downloaded (total 124, 85 more to go)
+  Lactobacillus_ruminis_ATCC_25644                             | successfully downloaded (total 125, 84 more to go)
+  Lactobacillus_rogosae                                        | successfully downloaded (total 126, 83 more to go)
+  Lactobacillales_bacterium_DJF_B280                           | not found in the NCBI database
+  Lachnospiraceae_bacterium_8_1_57FAA                          | successfully downloaded (total 127, 81 more to go)
+  Lachnospiraceae_bacterium_7_1_58FAA                          | successfully downloaded (total 128, 80 more to go)
+  Lachnospiraceae_bacterium_6_1_63FAA                          | successfully downloaded (total 129, 79 more to go)
+  Lachnospiraceae_bacterium_3_1_57FAA_CT1                      | successfully downloaded (total 130, 78 more to go)
+  Lachnospira_pectinoschiza                                    | successfully downloaded (total 131, 77 more to go)
+  Lachnoanaerobaculum_sp._OBRC5-5                              | successfully downloaded (total 132, 76 more to go)
+  Intestinimonas_butyriciproducens                             | successfully downloaded (total 133, 75 more to go)
+  Intestinibacter_bartlettii_DSM_16795                         | successfully downloaded (total 134, 74 more to go)
+  Hydrogenoanaerobacterium_saccharovorans                      | successfully downloaded (total 135, 73 more to go)
+  Holdemania_massiliensis_AP2                                  | successfully downloaded (total 136, 72 more to go)
+  Holdemania_filiformis_DSM_12042                              | successfully downloaded (total 137, 71 more to go)
+  Holdemania_filiformis                                        | successfully downloaded (total 138, 70 more to go)
+  Holdemanella_biformis_DSM_3989                               | successfully downloaded (total 139, 69 more to go)
+  Heliobacterium_modesticaldum_Ice1                            | not found in the NCBI database
+  Heliobacterium_modesticaldum_Ice1 was not found in NCBI database, trying to download the next best match
+  Heliophilum_fasciatum                                        | was downloaded previously (total 140, 68 more to go)
+  Haloplasma_contractile_SSD-17B                               | successfully downloaded (total 141, 67 more to go)
+  Haemophilus_parainfluenzae_T3T1                              | successfully downloaded (total 142, 66 more to go)
+  Haemophilus_parainfluenzae_HK262                             | successfully downloaded (total 143, 65 more to go)
+  Geobacter_daltonii_FRC-32                                    | successfully downloaded (total 144, 64 more to go)
+  Fusicatenibacter_saccharivorans                              | successfully downloaded (total 145, 63 more to go)
+  Flavonifractor_plautii_ATCC_29863                            | successfully downloaded (total 146, 62 more to go)
+  Firmicutes_bacterium_CAG:345                                 | successfully downloaded (total 147, 61 more to go)
+  Filifactor_sp._feline_oral_taxon_046                         | not found in the NCBI database
+  Filifactor_sp._feline_oral_taxon_046 was not found in NCBI database, trying to download the next best match
+  Filifactor_sp._canine_oral_taxon_163                         | not found in the NCBI database
+  Filifactor_sp._canine_oral_taxon_163 was not found in NCBI database, trying to download the next best match
+  Filifactor_sp._feline_oral_taxon_049                         | not found in the NCBI database
+  Filifactor_sp._feline_oral_taxon_049 was not found in NCBI database, trying to download the next best match
+  Epulopiscium_sp._'N.t._morphotype_B'                         | successfully downloaded (total 148, 60 more to go)
+  Faecalibacterium_sp._canine_oral_taxon_147                   | not found in the NCBI database
+  Faecalibacterium_sp._canine_oral_taxon_147 was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_canine_oral_taxon_085                | not found in the NCBI database
+  Faecalibacterium_prausnitzii                                 | successfully downloaded (total 149, 58 more to go)
+  Eubacterium_sp._3_1_31                                       | successfully downloaded (total 150, 57 more to go)
+  Ethanoligenens_harbinense                                    | successfully downloaded (total 151, 56 more to go)
+  Escherichia_coli                                             | not found in the NCBI database
+  Escherichia_coli was not found in NCBI database, trying to download the next best match
+  Escherichia_coli_APEC_O78                                    | successfully downloaded (total 152, 55 more to go)
+  Erysipelatoclostridium_ramosum_DSM_1402                      | successfully downloaded (total 153, 54 more to go)
+  Entomoplasma_ellychniae                                      | successfully downloaded (total 154, 53 more to go)
+  Dorea_formicigenerans_ATCC_27755                             | successfully downloaded (total 155, 52 more to go)
+  Dialister_succinatiphilus_YIT_11850                          | successfully downloaded (total 156, 51 more to go)
+  Dialister_pneumosintes                                       | successfully downloaded (total 157, 50 more to go)
+  Dialister_invisus_DSM_15470                                  | successfully downloaded (total 158, 49 more to go)
+  Desulfovibrio_desulfuricans                                  | successfully downloaded (total 159, 48 more to go)
+  Desulfosporosinus_orientis                                   | successfully downloaded (total 160, 47 more to go)
+  Cryptobacterium_curtum_DSM_15641                             | successfully downloaded (total 161, 46 more to go)
+  Coraliomargarita_akajimensis_DSM_45221                       | successfully downloaded (total 162, 45 more to go)
+  Coprobacter_sp._177                                          | successfully downloaded (total 163, 44 more to go)
+  Collinsella_aerofaciens_ATCC_25986                           | successfully downloaded (total 164, 43 more to go)
+  Clostridium_sp._enrichment_culture_clone_7-25                | not found in the NCBI database
+  Clostridium_sp._enrichment_clone_Ecwsrb096                   | not found in the NCBI database
+  Clostridium_sp._cf3-PUG                                      | not found in the NCBI database
+  Clostridium_sp._cf3-PUG was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._enrichment_clone_Ecwsrb089                   | not found in the NCBI database
+  Clostridium_sp._enrichment_clone_Ecwsrb089 was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._enrichment_clone_Ecwsrb086                   | not found in the NCBI database
+  Clostridium_sp._YIT_12070                                    | not found in the NCBI database
+  Clostridium_sp._TB5                                          | not found in the NCBI database
+  Clostridium_sp._SS2                                          | not found in the NCBI database
+  Clostridium_sp._SS2 was not found in NCBI database, trying to download the next best match
+  Anaerostipes_hadrus                                          | was downloaded previously (total 165, 37 more to go)
+  Clostridium_sp._M62                                          | not found in the NCBI database
+  Clostridium_sp._M62 was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._BPY5                                         | not found in the NCBI database
+  Clostridium_sp._BPY5 was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_VE202-16                             | successfully downloaded (total 166, 36 more to go)
+  Clostridium_sp._KNHs209                                      | successfully downloaded (total 167, 35 more to go)
+  Clostridium_sp._KLE_1755                                     | successfully downloaded (total 168, 34 more to go)
+  Clostridium_sp._K12-15-18                                    | not found in the NCBI database
+  Clostridium_sp._K12-15-18 was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._K13-19                                       | not found in the NCBI database
+  Clostridium_sp._K13-19 was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_canine_oral_taxon_216                | not found in the NCBI database
+  Clostridiales_bacterium_canine_oral_taxon_216 was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_canine_oral_taxon_082                | not found in the NCBI database
+  Clostridium_sp._Clone-1                                      | not found in the NCBI database
+  Clostridium_sp._Clone-1 was not found in NCBI database, trying to download the next best match
+  Clostridium_sp._Clone-30                                     | not found in the NCBI database
+  Clostridium_sp._CAG:306                                      | successfully downloaded (total 169, 31 more to go)
+  Clostridium_sp._CAG:288                                      | successfully downloaded (total 170, 30 more to go)
+  Clostridium_sp._BMD1                                         | not found in the NCBI database
+  Clostridium_sp._BMD1 was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_VE202-07                             | successfully downloaded (total 171, 29 more to go)
+  Clostridiales_genomosp._BVAB3_str._UPII9-5                   | successfully downloaded (total 172, 28 more to go)
+  Clostridiales_bacterium_VE202-14                             | successfully downloaded (total 173, 27 more to go)
+  Clostridiales_bacterium_60-7e                                | not found in the NCBI database
+  Clostridiales_bacterium_60-7e was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_10-3b                                | not found in the NCBI database
+  Clostridiales_bacterium_10-3b was not found in NCBI database, trying to download the next best match
+  Faecalicoccus_pleomorphus_DSM_20574                          | successfully downloaded (total 174, 26 more to go)
+  Clostridiaceae_bacterium_SN021                               | successfully downloaded (total 175, 25 more to go)
+  Catenibacterium_mitsuokai                                    | successfully downloaded (total 176, 24 more to go)
+  Candidatus_Alistipes_marseilloanorexicus_AP11                | successfully downloaded (total 177, 23 more to go)
+  Butyrivibrio_fibrisolvens                                    | successfully downloaded (total 178, 22 more to go)
+  Butyricicoccus_pullicaecorum_1.2                             | successfully downloaded (total 179, 21 more to go)
+  Burkholderia_rhizoxinica_HKI_454                             | successfully downloaded (total 180, 20 more to go)
+  Brassica_napus_(rape)                                        | not found in the NCBI database
+  Brassica_napus_(rape) was not found in NCBI database, trying to download the next best match
+  Zea_mays                                                     | successfully downloaded (total 181, 19 more to go)
+  Blautia_producta                                             | successfully downloaded (total 182, 18 more to go)
+  Blautia_hydrogenotrophica_DSM_10507                          | successfully downloaded (total 183, 17 more to go)
+  Blattella_germanica_(German_cockroach)                       | not found in the NCBI database
+  Blattella_germanica_(German_cockroach) was not found in NCBI database, trying to download the next best match
+  marine_magnetic_spirillum_QH-2                               | successfully downloaded (total 184, 16 more to go)
+  Bifidobacterium_catenulatum_DSM_16992_=_JCM_1194_=_LMG_11043 | successfully downloaded (total 185, 15 more to go)
+  Bifidobacterium_bifidum_LMG_13195                            | successfully downloaded (total 186, 14 more to go)
+  Bifidobacterium_adolescentis_ATCC_15703                      | successfully downloaded (total 187, 13 more to go)
+  Barnesiella_viscericola_DSM_18177                            | successfully downloaded (total 188, 12 more to go)
+  Bacteroides_xylanisolvens_CL03T12C04                         | successfully downloaded (total 189, 11 more to go)
+  Bacteroides_vulgatus                                         | successfully downloaded (total 190, 10 more to go)
+  Bacteroides_uniformis                                        | successfully downloaded (total 191, 9 more to go)
+  Bacteroides_stercoris_ATCC_43183                             | successfully downloaded (total 192, 8 more to go)
+  Bacteroides_sp._CCUG_39913                                   | not found in the NCBI database
+  Bacteroides_sp._CCUG_39913 was not found in NCBI database, trying to download the next best match
+  Alistipes_shahii                                             | successfully downloaded (total 193, 7 more to go)
+  Bacteroides_sp._3_1_19                                       | successfully downloaded (total 194, 6 more to go)
+  Bacteroides_fragilis_YCH46                                   | successfully downloaded (total 195, 5 more to go)
+  Bacteroides_eggerthii                                        | successfully downloaded (total 196, 4 more to go)
+  Bacteroides_caccae                                           | successfully downloaded (total 197, 3 more to go)
+  Bacteroides_acidifaciens                                     | successfully downloaded (total 198, 2 more to go)
+  Anaerotruncus_sp._G3(2012)                                   | not found in the NCBI database
+  Anaerotruncus_sp._G3(2012) was not found in NCBI database, trying to download the next best match
+  Clostridiales_bacterium_VE202-13                             | successfully downloaded (total 199, 1 more to go)
+  Anaerotruncus_colihominis_DSM_17241                          | successfully downloaded (total 200, 0 more to go)
+
+Downloaded reference(s):
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Acidaminococcus_intestini_RyC_MR95.fasta ==> Acidaminococcus_intestini_RyC_MR95
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Alistipes_putredinis_DSM_17216.fasta ==> Alistipes_putredinis_DSM_17216
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Alistipes_shahii.fasta ==> Alistipes_shahii
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Anaerostipes_hadrus.fasta ==> Anaerostipes_hadrus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Anaerotruncus_colihominis_DSM_17241.fasta ==> Anaerotruncus_colihominis_DSM_17241
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_acidifaciens.fasta ==> Bacteroides_acidifaciens
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_caccae.fasta ==> Bacteroides_caccae
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_eggerthii.fasta ==> Bacteroides_eggerthii
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_fragilis_YCH46.fasta ==> Bacteroides_fragilis_YCH46
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_sp._3_1_19.fasta ==> Bacteroides_sp._3_1_19
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_stercoris_ATCC_43183.fasta ==> Bacteroides_stercoris_ATCC_43183
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_uniformis.fasta ==> Bacteroides_uniformis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_vulgatus.fasta ==> Bacteroides_vulgatus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bacteroides_xylanisolvens_CL03T12C04.fasta ==> Bacteroides_xylanisolvens_CL03T12C04
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Barnesiella_viscericola_DSM_18177.fasta ==> Barnesiella_viscericola_DSM_18177
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bifidobacterium_adolescentis_ATCC_15703.fasta ==> Bifidobacterium_adolescentis_ATCC_15703
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bifidobacterium_bifidum_LMG_13195.fasta ==> Bifidobacterium_bifidum_LMG_13195
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Bifidobacterium_catenulatum_DSM_16992___JCM_1194___LMG_11043.fasta ==> Bifidobacterium_catenulatum_DSM_16992___JCM_1194___LMG_11043
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Blautia_hydrogenotrophica_DSM_10507.fasta ==> Blautia_hydrogenotrophica_DSM_10507
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Blautia_luti.fasta ==> Blautia_luti
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Blautia_producta.fasta ==> Blautia_producta
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Burkholderia_rhizoxinica_HKI_454.fasta ==> Burkholderia_rhizoxinica_HKI_454
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Butyricicoccus_pullicaecorum_1.2.fasta ==> Butyricicoccus_pullicaecorum_1.2
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Butyrivibrio_fibrisolvens.fasta ==> Butyrivibrio_fibrisolvens
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Candidatus_Alistipes_marseilloanorexicus_AP11.fasta ==> Candidatus_Alistipes_marseilloanorexicus_AP11
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Catabacter_hongkongensis.fasta ==> Catabacter_hongkongensis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Catenibacterium_mitsuokai.fasta ==> Catenibacterium_mitsuokai
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiaceae_bacterium_SN021.fasta ==> Clostridiaceae_bacterium_SN021
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiales_bacterium_VE202_07.fasta ==> Clostridiales_bacterium_VE202_07
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiales_bacterium_VE202_09.fasta ==> Clostridiales_bacterium_VE202_09
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiales_bacterium_VE202_13.fasta ==> Clostridiales_bacterium_VE202_13
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiales_bacterium_VE202_14.fasta ==> Clostridiales_bacterium_VE202_14
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiales_bacterium_VE202_16.fasta ==> Clostridiales_bacterium_VE202_16
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridiales_genomosp._BVAB3_str._UPII9_5.fasta ==> Clostridiales_genomosp._BVAB3_str._UPII9_5
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridium_sp._CAG_288.fasta ==> Clostridium_sp._CAG_288
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridium_sp._CAG_306.fasta ==> Clostridium_sp._CAG_306
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridium_sp._KLE_1755.fasta ==> Clostridium_sp._KLE_1755
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Clostridium_sp._KNHs209.fasta ==> Clostridium_sp._KNHs209
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Collinsella_aerofaciens_ATCC_25986.fasta ==> Collinsella_aerofaciens_ATCC_25986
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Coprobacter_sp._177.fasta ==> Coprobacter_sp._177
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Coraliomargarita_akajimensis_DSM_45221.fasta ==> Coraliomargarita_akajimensis_DSM_45221
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Cryptobacterium_curtum_DSM_15641.fasta ==> Cryptobacterium_curtum_DSM_15641
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Desulfonispora_thiosulfatigenes.fasta ==> Desulfonispora_thiosulfatigenes
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Desulfosporosinus_orientis.fasta ==> Desulfosporosinus_orientis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Desulfovibrio_desulfuricans.fasta ==> Desulfovibrio_desulfuricans
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Dialister_invisus_DSM_15470.fasta ==> Dialister_invisus_DSM_15470
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Dialister_pneumosintes.fasta ==> Dialister_pneumosintes
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Dialister_succinatiphilus_YIT_11850.fasta ==> Dialister_succinatiphilus_YIT_11850
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Dongia_mobilis.fasta ==> Dongia_mobilis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Dorea_formicigenerans_ATCC_27755.fasta ==> Dorea_formicigenerans_ATCC_27755
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Enterococcus_casseliflavus.fasta ==> Enterococcus_casseliflavus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Entomoplasma_ellychniae.fasta ==> Entomoplasma_ellychniae
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Epulopiscium_sp.__N.t._morphotype_B_.fasta ==> Epulopiscium_sp.__N.t._morphotype_B_
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Erysipelatoclostridium_ramosum.fasta ==> Erysipelatoclostridium_ramosum
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Erysipelatoclostridium_ramosum_DSM_1402.fasta ==> Erysipelatoclostridium_ramosum_DSM_1402
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Escherichia_coli_APEC_O78.fasta ==> Escherichia_coli_APEC_O78
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ethanoligenens_harbinense.fasta ==> Ethanoligenens_harbinense
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Eubacterium_ramulus.fasta ==> Eubacterium_ramulus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Eubacterium_rectale_ATCC_33656.fasta ==> Eubacterium_rectale_ATCC_33656
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Eubacterium_sp._3_1_31.fasta ==> Eubacterium_sp._3_1_31
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Faecalibacterium_prausnitzii.fasta ==> Faecalibacterium_prausnitzii
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Faecalicoccus_pleomorphus_DSM_20574.fasta ==> Faecalicoccus_pleomorphus_DSM_20574
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Fictibacillus_barbaricus.fasta ==> Fictibacillus_barbaricus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Firmicutes_bacterium_CAG_345.fasta ==> Firmicutes_bacterium_CAG_345
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Flavonifractor_plautii_ATCC_29863.fasta ==> Flavonifractor_plautii_ATCC_29863
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Fusicatenibacter_saccharivorans.fasta ==> Fusicatenibacter_saccharivorans
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Geobacter_daltonii_FRC_32.fasta ==> Geobacter_daltonii_FRC_32
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Haemophilus_parainfluenzae_HK262.fasta ==> Haemophilus_parainfluenzae_HK262
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Haemophilus_parainfluenzae_T3T1.fasta ==> Haemophilus_parainfluenzae_T3T1
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Haloplasma_contractile_SSD_17B.fasta ==> Haloplasma_contractile_SSD_17B
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Heliophilum_fasciatum.fasta ==> Heliophilum_fasciatum
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Holdemanella_biformis_DSM_3989.fasta ==> Holdemanella_biformis_DSM_3989
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Holdemania_filiformis.fasta ==> Holdemania_filiformis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Holdemania_filiformis_DSM_12042.fasta ==> Holdemania_filiformis_DSM_12042
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Holdemania_massiliensis_AP2.fasta ==> Holdemania_massiliensis_AP2
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Hydrogenoanaerobacterium_saccharovorans.fasta ==> Hydrogenoanaerobacterium_saccharovorans
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Intestinibacter_bartlettii_DSM_16795.fasta ==> Intestinibacter_bartlettii_DSM_16795
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Intestinimonas_butyriciproducens.fasta ==> Intestinimonas_butyriciproducens
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnoanaerobaculum_sp._OBRC5_5.fasta ==> Lachnoanaerobaculum_sp._OBRC5_5
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnospira_multipara.fasta ==> Lachnospira_multipara
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnospira_pectinoschiza.fasta ==> Lachnospira_pectinoschiza
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnospiraceae_bacterium_3_1_57FAA_CT1.fasta ==> Lachnospiraceae_bacterium_3_1_57FAA_CT1
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnospiraceae_bacterium_6_1_63FAA.fasta ==> Lachnospiraceae_bacterium_6_1_63FAA
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnospiraceae_bacterium_7_1_58FAA.fasta ==> Lachnospiraceae_bacterium_7_1_58FAA
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lachnospiraceae_bacterium_8_1_57FAA.fasta ==> Lachnospiraceae_bacterium_8_1_57FAA
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactobacillus_rogosae.fasta ==> Lactobacillus_rogosae
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactobacillus_ruminis_ATCC_25644.fasta ==> Lactobacillus_ruminis_ATCC_25644
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactobacillus_salivarius.fasta ==> Lactobacillus_salivarius
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactobacillus_saniviri.fasta ==> Lactobacillus_saniviri
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactococcus_garvieae.fasta ==> Lactococcus_garvieae
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactococcus_garvieae_TRF1.fasta ==> Lactococcus_garvieae_TRF1
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lactococcus_lactis_subsp._cremoris_UC509.9.fasta ==> Lactococcus_lactis_subsp._cremoris_UC509.9
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lawsonia_intracellularis.fasta ==> Lawsonia_intracellularis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lentisphaera_araneosa_HTCC2155.fasta ==> Lentisphaera_araneosa_HTCC2155
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Lutispora_thermophila.fasta ==> Lutispora_thermophila
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Magnetococcus_marinus.fasta ==> Magnetococcus_marinus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Magnetospira_sp._QH_2.fasta ==> Magnetospira_sp._QH_2
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Martelella_endophytica.fasta ==> Martelella_endophytica
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Methanobrevibacter_smithii_ATCC_35061.fasta ==> Methanobrevibacter_smithii_ATCC_35061
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Methanobrevibacter_smithii_DSM_2375.fasta ==> Methanobrevibacter_smithii_DSM_2375
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Mitsuokella_multacida_DSM_20544.fasta ==> Mitsuokella_multacida_DSM_20544
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Mollicutes_bacterium_HR2.fasta ==> Mollicutes_bacterium_HR2
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Mycoplasma_arthritidis_158L3_1.fasta ==> Mycoplasma_arthritidis_158L3_1
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Mycoplasma_zalophi.fasta ==> Mycoplasma_zalophi
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Neisseria_sp._CSL_7565.fasta ==> Neisseria_sp._CSL_7565
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Odoribacter_splanchnicus.fasta ==> Odoribacter_splanchnicus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Odoribacter_splanchnicus_DSM_20712.fasta ==> Odoribacter_splanchnicus_DSM_20712
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Oscillibacter_ruminantium_GH1.fasta ==> Oscillibacter_ruminantium_GH1
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Oscillibacter_sp._1_3.fasta ==> Oscillibacter_sp._1_3
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Oscillibacter_sp._KLE_1745.fasta ==> Oscillibacter_sp._KLE_1745
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Oscillibacter_valericigenes_Sjm18_20.fasta ==> Oscillibacter_valericigenes_Sjm18_20
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Oscillospiraceae_bacterium_VE202_24.fasta ==> Oscillospiraceae_bacterium_VE202_24
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Oxalobacter_formigenes_HOxBLS.fasta ==> Oxalobacter_formigenes_HOxBLS
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paenibacillus_alvei_TS_15.fasta ==> Paenibacillus_alvei_TS_15
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paenibacillus_borealis.fasta ==> Paenibacillus_borealis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paenibacillus_polymyxa.fasta ==> Paenibacillus_polymyxa
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paenibacillus_rigui.fasta ==> Paenibacillus_rigui
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paenibacillus_sp._VKM_B_2647.fasta ==> Paenibacillus_sp._VKM_B_2647
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paenisporosarcina_quisquiliarum.fasta ==> Paenisporosarcina_quisquiliarum
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paludibacter_propionicigenes_WB4.fasta ==> Paludibacter_propionicigenes_WB4
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Papillibacter_cinnamivorans.fasta ==> Papillibacter_cinnamivorans
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_distasonis.fasta ==> Parabacteroides_distasonis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_distasonis_CL09T03C24.fasta ==> Parabacteroides_distasonis_CL09T03C24
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_distasonis_str._3776_D15_iv.fasta ==> Parabacteroides_distasonis_str._3776_D15_iv
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_goldsteinii.fasta ==> Parabacteroides_goldsteinii
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_johnsonii_DSM_18315.fasta ==> Parabacteroides_johnsonii_DSM_18315
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_merdae.fasta ==> Parabacteroides_merdae
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parabacteroides_merdae_CL09T00C40.fasta ==> Parabacteroides_merdae_CL09T00C40
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Paraprevotella_clara.fasta ==> Paraprevotella_clara
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parasutterella_excrementihominis.fasta ==> Parasutterella_excrementihominis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Parasutterella_secunda.fasta ==> Parasutterella_secunda
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Peptoclostridium_difficile_F501.fasta ==> Peptoclostridium_difficile_F501
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Peptococcus_niger.fasta ==> Peptococcus_niger
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Phascolarctobacterium_faecium.fasta ==> Phascolarctobacterium_faecium
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Porphyromonadaceae_bacterium_OUH_334697.fasta ==> Porphyromonadaceae_bacterium_OUH_334697
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Prevotella_buccalis_DNF00985.fasta ==> Prevotella_buccalis_DNF00985
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Prevotella_maculosa_OT_289.fasta ==> Prevotella_maculosa_OT_289
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Prevotella_oralis_ATCC_33269.fasta ==> Prevotella_oralis_ATCC_33269
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Prevotella_oralis_CC98A.fasta ==> Prevotella_oralis_CC98A
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Pseudobacteroides_cellulosolvens.fasta ==> Pseudobacteroides_cellulosolvens
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Pseudobutyrivibrio_ruminis.fasta ==> Pseudobutyrivibrio_ruminis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ralstonia_solanacearum_GMI1000.fasta ==> Ralstonia_solanacearum_GMI1000
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Rhodomicrobium_udaipurense_JA643.fasta ==> Rhodomicrobium_udaipurense_JA643
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Robinsoniella_peoriensis.fasta ==> Robinsoniella_peoriensis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Robinsoniella_sp._KNHs210.fasta ==> Robinsoniella_sp._KNHs210
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Romboutsia_ilealis.fasta ==> Romboutsia_ilealis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Roseburia_faecis.fasta ==> Roseburia_faecis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Roseburia_hominis_A2_183.fasta ==> Roseburia_hominis_A2_183
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Roseburia_intestinalis_XB6B4.fasta ==> Roseburia_intestinalis_XB6B4
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Roseburia_inulinivorans.fasta ==> Roseburia_inulinivorans
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminiclostridium_thermocellum_ATCC_27405.fasta ==> Ruminiclostridium_thermocellum_ATCC_27405
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminiclostridium_thermocellum_DSM_1313.fasta ==> Ruminiclostridium_thermocellum_DSM_1313
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminiclostridium_thermocellum_DSM_2360.fasta ==> Ruminiclostridium_thermocellum_DSM_2360
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcaceae_bacterium_AE2021.fasta ==> Ruminococcaceae_bacterium_AE2021
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_gnavus_AGR2154.fasta ==> Ruminococcus_gnavus_AGR2154
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_gnavus_CC55_001C.fasta ==> Ruminococcus_gnavus_CC55_001C
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_lactaris_ATCC_29176.fasta ==> Ruminococcus_lactaris_ATCC_29176
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_lactaris_CC59_002D.fasta ==> Ruminococcus_lactaris_CC59_002D
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_sp._5_1_39BFAA.fasta ==> Ruminococcus_sp._5_1_39BFAA
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_torques_ATCC_27756.fasta ==> Ruminococcus_torques_ATCC_27756
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ruminococcus_torques_L2_14.fasta ==> Ruminococcus_torques_L2_14
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Senegalimassilia_anaerobia_JC110.fasta ==> Senegalimassilia_anaerobia_JC110
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Serratia_symbiotica.fasta ==> Serratia_symbiotica
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Shigella_flexneri_2002017.fasta ==> Shigella_flexneri_2002017
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Slackia_isoflavoniconvertens.fasta ==> Slackia_isoflavoniconvertens
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_apis_B31.fasta ==> Spiroplasma_apis_B31
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_cantharicola.fasta ==> Spiroplasma_cantharicola
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_chinense.fasta ==> Spiroplasma_chinense
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_culicicola.fasta ==> Spiroplasma_culicicola
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_diminutum.fasta ==> Spiroplasma_diminutum
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_eriocheiris.fasta ==> Spiroplasma_eriocheiris
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Spiroplasma_phoeniceum.fasta ==> Spiroplasma_phoeniceum
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Sporobacter_termitidis.fasta ==> Sporobacter_termitidis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_agalactiae_SS1219.fasta ==> Streptococcus_agalactiae_SS1219
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_pneumoniae_SPNA45.fasta ==> Streptococcus_pneumoniae_SPNA45
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_salivarius.fasta ==> Streptococcus_salivarius
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_sp._F0442.fasta ==> Streptococcus_sp._F0442
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_suis.fasta ==> Streptococcus_suis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_thermophilus_LMD_9.fasta ==> Streptococcus_thermophilus_LMD_9
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Streptococcus_thermophilus_ND03.fasta ==> Streptococcus_thermophilus_ND03
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Subdoligranulum_sp._4_3_54A2FAA.fasta ==> Subdoligranulum_sp._4_3_54A2FAA
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Succinivibrio_dextrinosolvens.fasta ==> Succinivibrio_dextrinosolvens
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Sutterella_parvirubra.fasta ==> Sutterella_parvirubra
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Sutterella_wadsworthensis.fasta ==> Sutterella_wadsworthensis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Sutterella_wadsworthensis_2_1_59BFAA.fasta ==> Sutterella_wadsworthensis_2_1_59BFAA
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Terrisporobacter_mayombei.fasta ==> Terrisporobacter_mayombei
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Tistrella_mobilis_KA081020_065.fasta ==> Tistrella_mobilis_KA081020_065
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Tropheryma_whipplei_str._Dig7.fasta ==> Tropheryma_whipplei_str._Dig7
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Turicibacter_sanguinis.fasta ==> Turicibacter_sanguinis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Ureibacillus_thermosphaericus.fasta ==> Ureibacillus_thermosphaericus
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Veillonella_dispar_ATCC_17748.fasta ==> Veillonella_dispar_ATCC_17748
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Veillonella_parvula_DSM_2008.fasta ==> Veillonella_parvula_DSM_2008
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Victivallis_vadensis.fasta ==> Victivallis_vadensis
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/Zea_mays.fasta ==> Zea_mays
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_downloaded_references/marine_magnetic_spirillum_QH_2.fasta ==> marine_magnetic_spirillum_QH_2
+  All references were combined in combined_reference.fasta
+
+Starting quast.py for the combined reference...
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/quast.py -t 8 --combined-ref --colors #E31A1C,#1F78B4,#33A02C,#6A3D9A,#FF7F00,#800000,#A6CEE3,#B2DF8A,#333300,#CCCC00 --ls solid,solid,solid,solid,solid,solid,solid,solid,solid,solid --ambiguity-usage all 1_Assembled_Contigs/A_megahit_output/IndA.contigs.fa 1_Assembled_Contigs/B_megahit_output/IndB.contigs.fa 1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa 1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa 1_Assembled_Contigs/E_megahit_output/IndE.contigs.fa 1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa 1_Assembled_Contigs/G_megahit_output/IndG.contigs.fa 1_Assembled_Contigs/H_megahit_output/IndH.contigs.fa 1_Assembled_Contigs/I_megahit_output/IndI.contigs.fa 1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa -R /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_corrected_input/combined_reference.fasta -o /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference --labels "IndA.contigs, IndB.contigs, IndC.contigs, IndD.contigs, IndE.contigs, IndF.contigs, IndG.contigs, IndH.contigs, IndI.contigs, IndJ.contigs"
+
+Started: 2021-09-16 08:16:27
+
+Logging to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/quast.log
+
+CWD: /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis
+Main parameters: 
+  MODE: meta, threads: 8, minimum contig length: 500, minimum alignment length: 65, ambiguity: all, \
+  threshold for extensive misassembly size: 1000
+
+Reference:
+  /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/quast_corrected_input/combined_reference.fasta ==> combined_reference
+
+Contigs:
+  Pre-processing...
+  1  1_Assembled_Contigs/A_megahit_output/IndA.contigs.fa ==> IndA.contigs
+  2  1_Assembled_Contigs/B_megahit_output/IndB.contigs.fa ==> IndB.contigs
+  3  1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa ==> IndC.contigs
+  4  1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa ==> IndD.contigs
+  5  1_Assembled_Contigs/E_megahit_output/IndE.contigs.fa ==> IndE.contigs
+  6  1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa ==> IndF.contigs
+  7  1_Assembled_Contigs/G_megahit_output/IndG.contigs.fa ==> IndG.contigs
+  8  1_Assembled_Contigs/H_megahit_output/IndH.contigs.fa ==> IndH.contigs
+  9  1_Assembled_Contigs/I_megahit_output/IndI.contigs.fa ==> IndI.contigs
+  10 1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa ==> IndJ.contigs
+
+2021-09-16 08:17:03
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta, length = 2715346908, num fragments = 5883, GC % = 46.69
+WARNING:   Reference genome is fragmented. You may consider rerunning QUAST using --fragmented option. QUAST will try to detect misassemblies caused by the fragmentation and mark them fake (will be excluded from # misassemblies).
+  Contig files: 
+    1  IndA.contigs
+    2  IndB.contigs
+    3  IndC.contigs
+    4  IndD.contigs
+    5  IndE.contigs
+    6  IndF.contigs
+    7  IndG.contigs
+    8  IndH.contigs
+    9  IndI.contigs
+    10 IndJ.contigs
+  Calculating N50 and L50...
+    1  IndA.contigs, N50 = 25601, L50 = 2225, Total length = 287026378, GC % = 47.83, # N's per 100 kbp =  0.00
+    2  IndB.contigs, N50 = 18405, L50 = 5977, Total length = 574488758, GC % = 44.81, # N's per 100 kbp =  0.00
+    3  IndC.contigs, N50 = 14794, L50 = 6171, Total length = 530396230, GC % = 44.44, # N's per 100 kbp =  0.00
+    4  IndD.contigs, N50 = 15677, L50 = 9338, Total length = 767679649, GC % = 46.93, # N's per 100 kbp =  0.00
+    5  IndE.contigs, N50 = 14081, L50 = 10232, Total length = 747991539, GC % = 46.96, # N's per 100 kbp =  0.00
+    6  IndF.contigs, N50 = 16575, L50 = 7346, Total length = 647144113, GC % = 47.50, # N's per 100 kbp =  0.00
+    7  IndG.contigs, N50 = 15137, L50 = 3481, Total length = 282670384, GC % = 46.28, # N's per 100 kbp =  0.00
+    8  IndH.contigs, N50 = 27150, L50 = 2694, Total length = 376692949, GC % = 45.27, # N's per 100 kbp =  0.00
+    9  IndI.contigs, N50 = 25054, L50 = 4581, Total length = 597744525, GC % = 47.78, # N's per 100 kbp =  0.00
+    10 IndJ.contigs, N50 = 27860, L50 = 2844, Total length = 410890728, GC % = 47.31, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/GC_content_plot.pdf
+  Drawing IndA.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndA.contigs_GC_content_plot.pdf
+  Drawing IndB.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndB.contigs_GC_content_plot.pdf
+  Drawing IndC.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndC.contigs_GC_content_plot.pdf
+  Drawing IndD.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndD.contigs_GC_content_plot.pdf
+  Drawing IndE.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndE.contigs_GC_content_plot.pdf
+  Drawing IndF.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndF.contigs_GC_content_plot.pdf
+  Drawing IndG.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndG.contigs_GC_content_plot.pdf
+  Drawing IndH.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndH.contigs_GC_content_plot.pdf
+  Drawing IndI.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndI.contigs_GC_content_plot.pdf
+  Drawing IndJ.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/basic_stats/IndJ.contigs_GC_content_plot.pdf
+Done.
+
+2021-09-16 08:28:43
+Running Contig analyzer...
+  1  IndA.contigs
+  1  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndA-contigs.stdout and contigs_report_IndA-contigs.stderr...
+  1  Aligning contigs to the reference
+  2  IndB.contigs
+  2  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndB-contigs.stdout and contigs_report_IndB-contigs.stderr...
+  2  Aligning contigs to the reference
+  3  IndC.contigs
+  3  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndC-contigs.stdout and contigs_report_IndC-contigs.stderr...
+  3  Aligning contigs to the reference
+  4  IndD.contigs
+  4  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndD-contigs.stdout and contigs_report_IndD-contigs.stderr...
+  4  Aligning contigs to the reference
+  5  IndE.contigs
+  5  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndE-contigs.stdout and contigs_report_IndE-contigs.stderr...
+  5  Aligning contigs to the reference
+  6  IndF.contigs
+  6  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndF-contigs.stdout and contigs_report_IndF-contigs.stderr...
+  6  Aligning contigs to the reference
+  7  IndG.contigs
+  7  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndG-contigs.stdout and contigs_report_IndG-contigs.stderr...
+  7  Aligning contigs to the reference
+  8  IndH.contigs
+  8  Logging to files /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/quast_results/results_2021_09_16_05_12_11/combined_reference/contigs_reports/contigs_report_IndH-contigs.stdout and contigs_report_IndH-contigs.stderr...
+  8  Aligning contigs to the reference
+
+ERROR!   8  Failed aligning contigs IndH.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   7  Failed aligning contigs IndG.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   6  Failed aligning contigs IndF.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   1  Failed aligning contigs IndA.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   2  Failed aligning contigs IndB.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   3  Failed aligning contigs IndC.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   5  Failed aligning contigs IndE.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+
+ERROR!   4  Failed aligning contigs IndD.contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
