@@ -96,7 +96,7 @@ Memory Efficiency: 32.99% of 125.00 GB
 ```
 A lot of individuals lead to issues with #TIMEOUT error but memory was less of an issue so to run more efficiently I used 64GB of memory
 
-``shell
+```shell
 Job ID: 13578835
 Cluster: cedar
 User/Group: ssutclif/ssutclif
