@@ -1,5 +1,8 @@
 # Raw sequences downloaded
 
+# Note:
+Due to file storage issues (files being too large) I've implented protocols to move them.
+
 ## Files
 
  * filereport_read_run_PRJNA588313.txt (ENA URLS, metadata, md5sums)
@@ -147,4 +150,22 @@ optional arguments:
 
 ```
 So I will run it on each of the raw fasta file directories
+
+As of Sept. 25, 2021 I had successfully completed the trimming/deconamination/assembly. These reads take up a lot of space
+```shell
+$ du -sh 0_DNA/
+984G	0_DNA/
+$ du -sh 1_RNA/
+247G	1_RNA/
+$ du -sh 2_Phage/
+46G	2_Phage/
+```
+I will remove them from my project-space, as they are backed up on NCBI and ENA servers. I could also have put them on tape-storage (Nearline) had they been my own personal sequences.
+Just in case this is confusing down the road for me, I will keep the directories, and put a README.md in each folder so I know why they are empty.
+
+```shell
+touch 0_DNA/README.md
+touch 1_RNA/README.md
+touch 2_Phage/README.md
+```
 
