@@ -150,9 +150,7 @@ assembly_multiqc.sh
 
 They will be output into 1_Assembled_Contigs/quast_results/
 I knew I did not want contigs shorter than 1kb so I didn't keep them but the stats look quite good for what I got. 
-
-![assembly_stats](1_Assembled_Contigs/quast_results/quast_num_contigs-1.jpeg)  
-Here we see that each individual has about the same amount of good length contigs. I will move on with binning.
+![assembly_stats](1_Assembled_Contigs/quast_results/quast_num_contigs-1.jpg "Here we see that each individual has about the same amount of good length contigs. I will move on with binning.")  
 
 ### 2 Binning Bacterial Assembled Contigs
 
