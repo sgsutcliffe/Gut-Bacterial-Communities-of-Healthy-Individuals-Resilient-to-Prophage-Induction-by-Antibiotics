@@ -1,0 +1,10 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+Already completed depth step for individual D
+MetaBAT 2 (GIT-NOTFOUND) using minContig 1500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, and maxEdges 200. 
+348 bins (539971383 bases in total) formed.

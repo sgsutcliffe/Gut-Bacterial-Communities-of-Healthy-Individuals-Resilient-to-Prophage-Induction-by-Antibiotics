@@ -1,0 +1,203 @@
+Settings:
+  Output files: "2_Bacterial_Binning/bowtie2/IndB/IndB_megahit_contig_index.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  1_Assembled_Contigs/B_megahit_output/IndB.contigs.fa
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:05
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:04
+bmax according to bmaxDivN setting: 143622189
+Using parameters --bmax 107716642 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 107716642 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:15
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:04
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:07
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 5.74489e+08 (target: 107716641)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 574488758 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:05:18
+Returning block of 574488759 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 159903710
+fchr[G]: 288140619
+fchr[T]: 417357179
+fchr[$]: 574488758
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 199985081 bytes to primary EBWT file: 2_Bacterial_Binning/bowtie2/IndB/IndB_megahit_contig_index.1.bt2
+Wrote 143622196 bytes to secondary EBWT file: 2_Bacterial_Binning/bowtie2/IndB/IndB_megahit_contig_index.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 574488758
+    bwtLen: 574488759
+    sz: 143622190
+    bwtSz: 143622190
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 35905548
+    offsSz: 143622192
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 2992129
+    numLines: 2992129
+    ebwtTotLen: 191496256
+    ebwtTotSz: 191496256
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:07:47
+Reading reference sizes
+  Time reading reference sizes: 00:00:04
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:04
+  Time to reverse reference sequence: 00:00:01
+bmax according to bmaxDivN setting: 143622189
+Using parameters --bmax 107716642 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 107716642 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:12
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:04
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:07
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 5.74489e+08 (target: 107716641)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 574488758 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:05:15
+Returning block of 574488759 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 159903710
+fchr[G]: 288140619
+fchr[T]: 417357179
+fchr[$]: 574488758
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 199985081 bytes to primary EBWT file: 2_Bacterial_Binning/bowtie2/IndB/IndB_megahit_contig_index.rev.1.bt2
+Wrote 143622196 bytes to secondary EBWT file: 2_Bacterial_Binning/bowtie2/IndB/IndB_megahit_contig_index.rev.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 574488758
+    bwtLen: 574488759
+    sz: 143622190
+    bwtSz: 143622190
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 35905548
+    offsSz: 143622192
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 2992129
+    numLines: 2992129
+    ebwtTotLen: 191496256
+    ebwtTotSz: 191496256
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:07:40
+Index made for Ind B
+215418681 reads; of these:
+  215418681 (100.00%) were paired; of these:
+    87326169 (40.54%) aligned concordantly 0 times
+    115048972 (53.41%) aligned concordantly exactly 1 time
+    13043540 (6.05%) aligned concordantly >1 times
+    ----
+    87326169 pairs aligned concordantly 0 times; of these:
+      58182472 (66.63%) aligned discordantly 1 time
+    ----
+    29143697 pairs aligned 0 times concordantly or discordantly; of these:
+      58287394 mates make up the pairs; of these:
+        23998860 (41.17%) aligned 0 times
+        13481021 (23.13%) aligned exactly 1 time
+        20807513 (35.70%) aligned >1 times
+94.43% overall alignment rate
+Finished aligning Sample IndB
+[bam_sort_core] merging from 177 files and 1 in-memory blocks...

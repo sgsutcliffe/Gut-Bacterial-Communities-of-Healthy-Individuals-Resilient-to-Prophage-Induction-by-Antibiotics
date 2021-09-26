@@ -1,0 +1,207 @@
+Settings:
+  Output files: "2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_index.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:04
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:03
+bmax according to bmaxDivN setting: 102722682
+Using parameters --bmax 77042012 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 77042012 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:09
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:03
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:05
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 4.10891e+08 (target: 77042011)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 410890728 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:04:15
+Returning block of 410890729 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 108819759
+fchr[G]: 205791241
+fchr[T]: 303204246
+fchr[$]: 410890728
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 144018108 bytes to primary EBWT file: 2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_index.1.bt2
+Wrote 102722688 bytes to secondary EBWT file: 2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_index.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 410890728
+    bwtLen: 410890729
+    sz: 102722682
+    bwtSz: 102722683
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 25680671
+    offsSz: 102722684
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 2140056
+    numLines: 2140056
+    ebwtTotLen: 136963584
+    ebwtTotSz: 136963584
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:06:11
+Reading reference sizes
+  Time reading reference sizes: 00:00:03
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:02
+  Time to reverse reference sequence: 00:00:01
+bmax according to bmaxDivN setting: 102722682
+Using parameters --bmax 77042012 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 77042012 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:08
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:03
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:05
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 4.10891e+08 (target: 77042011)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 410890728 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:04:09
+Returning block of 410890729 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 108819759
+fchr[G]: 205791241
+fchr[T]: 303204246
+fchr[$]: 410890728
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 144018108 bytes to primary EBWT file: 2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_index.rev.1.bt2
+Wrote 102722688 bytes to secondary EBWT file: 2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_index.rev.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 410890728
+    bwtLen: 410890729
+    sz: 102722682
+    bwtSz: 102722683
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 25680671
+    offsSz: 102722684
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 2140056
+    numLines: 2140056
+    ebwtTotLen: 136963584
+    ebwtTotSz: 136963584
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:05:59
+Index made for Ind J
+stat: Bad file descriptor
+Warning: Could not open read file "../1_QCReads/3_Decontaminated_DNA/Res2_DNA_J3_paired_decontaminated.fastq.1.gz" for reading; skipping...
+stat: Bad file descriptor
+Warning: Could not open read file "../1_QCReads/3_Decontaminated_DNA/Res2_DNA_J3_paired_decontaminated.fastq.2.gz" for reading; skipping...
+168157481 reads; of these:
+  168157481 (100.00%) were paired; of these:
+    48130041 (28.62%) aligned concordantly 0 times
+    111111990 (66.08%) aligned concordantly exactly 1 time
+    8915450 (5.30%) aligned concordantly >1 times
+    ----
+    48130041 pairs aligned concordantly 0 times; of these:
+      32388700 (67.29%) aligned discordantly 1 time
+    ----
+    15741341 pairs aligned 0 times concordantly or discordantly; of these:
+      31482682 mates make up the pairs; of these:
+        16637455 (52.85%) aligned 0 times
+        6237265 (19.81%) aligned exactly 1 time
+        8607962 (27.34%) aligned >1 times
+95.05% overall alignment rate
+Finished aligning Sample IndJ
+[bam_sort_core] merging from 138 files and 1 in-memory blocks...

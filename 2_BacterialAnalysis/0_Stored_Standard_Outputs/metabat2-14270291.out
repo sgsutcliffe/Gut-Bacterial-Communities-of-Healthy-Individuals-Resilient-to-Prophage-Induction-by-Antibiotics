@@ -1,0 +1,19 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+Output depth matrix to 2_Bacterial_Binning/Metabat2/IndD_metabat_bins/Ind_D_depth.txt
+jgi_summarize_bam_contig_depths GIT-NOTFOUND 2020-12-14T02:01:45
+Output matrix to 2_Bacterial_Binning/Metabat2/IndD_metabat_bins/Ind_D_depth.txt
+0: Opening bam: 2_Bacterial_Binning/bowtie2/IndD/IndD_megahit_contig_sorted_coverage.bam
+Processing bam files
+Thread 0 finished: IndD_megahit_contig_sorted_coverage.bam with 414961340 reads and 361661386 readsWellMapped
+Creating depth matrix file: 2_Bacterial_Binning/Metabat2/IndD_metabat_bins/Ind_D_depth.txt
+Closing most bam files
+Closing last bam file
+Finished
+MetaBAT 2 (GIT-NOTFOUND) using minContig 1500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, and maxEdges 200. 
+/var/spool/slurmd/job14270291/slurm_script: line 31:  7895 Killed                  metabat -m 1500 -t 4 -i $megahit_contigs -a ${output}/Ind_${ind}_depth.txt -o ${output}
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=14270291.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

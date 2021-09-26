@@ -1,0 +1,18 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+Output depth matrix to 2_Bacterial_Binning/Metabat2/IndJ_metabat_bins/Ind_J_depth.txt
+jgi_summarize_bam_contig_depths GIT-NOTFOUND 2020-12-14T02:01:45
+Output matrix to 2_Bacterial_Binning/Metabat2/IndJ_metabat_bins/Ind_J_depth.txt
+0: Opening bam: 2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_sorted_coverage.bam
+Processing bam files
+Thread 0 finished: IndJ_megahit_contig_sorted_coverage.bam with 336314962 reads and 309999084 readsWellMapped
+Creating depth matrix file: 2_Bacterial_Binning/Metabat2/IndJ_metabat_bins/Ind_J_depth.txt
+Closing most bam files
+Closing last bam file
+Finished
+MetaBAT 2 (GIT-NOTFOUND) using minContig 1500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, and maxEdges 200. 
+192 bins (312541759 bases in total) formed.

@@ -1,0 +1,92 @@
+Individual D
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/metaquast.py 1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa -o 1_Assembled_Contigs/quast_results/results_IndD -t 4 --max-ref-num 0
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.36.2.el7.x86_64-x86_64-with-glibc2.2.5 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 32
+
+Started: 2021-09-17 10:15:15
+
+Logging to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/metaquast.log
+
+Contigs:
+  Pre-processing...
+  1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa ==> IndD.contigs
+
+NOTICE: Maximum number of references (--max-ref-number) is set to 0, search in SILVA 16S rRNA database is disabled
+
+NOTICE: No references are provided, starting regular QUAST with MetaGeneMark gene finder
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/quast.py -t 4 1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa -o /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD --labels IndD.contigs
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.36.2.el7.x86_64-x86_64-with-glibc2.2.5 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 32
+
+Started: 2021-09-17 10:15:39
+
+Logging to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis
+Main parameters: 
+  MODE: meta, threads: 4, minimum contig length: 500, minimum alignment length: 65, ambiguity: one, \
+  threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa ==> IndD.contigs
+
+2021-09-17 10:16:09
+Running Basic statistics processor...
+  Contig files: 
+    IndD.contigs
+  Calculating N50 and L50...
+    IndD.contigs, N50 = 15677, L50 = 9338, Total length = 767679649, GC % = 46.93, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/basic_stats/GC_content_plot.pdf
+  Drawing IndD.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/basic_stats/IndD.contigs_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-09-17 10:17:00
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-09-17 10:17:12
+RESULTS:
+  Text versions of total report are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/report.html
+  PDF version (tables and plots) is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/report.pdf
+  Icarus (contig browser) is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/icarus.html
+  Log is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/quast.log
+
+Finished: 2021-09-17 10:17:12
+Elapsed time: 0:01:32.890099
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/metaquast.py:136: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
