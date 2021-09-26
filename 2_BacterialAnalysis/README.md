@@ -3,6 +3,10 @@
 ## Note
 For now this process is assembling bacterial contigs that will be the scaffolds for binning as I am mostly interested in bacterial bins for prophage detection.
 Decontaminated/Trimmed sequences are in 1_QC_Reads/3_Decontaminated_DNA
+
+I have decided to do a little experiment. Initially, I had been planning on aligning all the reads of an individual to their assembled contigs for  
+for bacterial binning but after talking to a colleague maybe per sample coverage file might give different bins. I will make a second bacterial binning  
+folder for it 3_Experimental_bacterial_binning.
   
 ## Files
 
@@ -13,16 +17,23 @@ Decontaminated/Trimmed sequences are in 1_QC_Reads/3_Decontaminated_DNA
 *  0_Stored_Standard_Outputs : Each script generates a standard output. To declutter I am moving them here after the step is complete.
 *  1_Assembled_Contigs : Output of all the megahit assembly per individual [Once again the fasta files are too large to upload to Github]
 *  2_Bacterial_Binning : Parent directory for subdirectories of each binning tool
+*  3_Experimental_bacterial_binning : This folder I will try using a different coverage approach (aligning reads per sample per individual) 
+*  4_Stored_BASH_scripts : After a step is done I moved the BASH script for the job here to be more organized.
 
 ## Scripts + Batch Jobs
+Finished jobs are found here in 4_Stored_BASH_scripts but should be run from this directory.
 
 *  bacterial_assembly[A-J].sh : Using megahit to assemble reads into contigs per individual 
+*  metaQUAST_[A-J].sh : QC summary of Assembly Step
+*  prebinning_bowtie2_[A-J].sh : Binning relies on contig coverage I will use this to make the sorted bam files for metabat2
+*  assembly_multiqc.sh : amalgamates each individuals quast results for assembly
 
 ## Tools Used
 
 *  megahit v.1.2.9(https://github.com/voutcn/megahit)
 *  metabat2 v.2.14(https://bitbucket.org/berkeleylab/metabat/src/master/)
 *  bowtie2 v.2.4.2(http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+*  quast v.5.0.2(http://bioinf.spbau.ru/quast)
 
 ### Sample naming
 
@@ -127,24 +138,21 @@ This gives me the location of the script. I will put this line in my script
 quast=$(which metaquast.py)
 ```
 So when I run the commands they will look slightly different than that which is on the github.
+Put the output in 1_Assembled_Contigs/quast_results/results_Ind[A-J]
 
+Note: I kept having trouble getting database option to work due to internet not working on cluster. So an option is to run it with
+--max-ref-number 0
+So It will still complete
 Full script
-```shell
-module load StdEnv/2020 gcc/9.3.0 quast/5.0.2
-#Note CC has python 3.7 preloaded when I ran this script
 
-#Also the location of the script is outside of the directory so I will run this
-#Also metaquast is also installed within module of quast
-quast=$(which metaquast.py)
+Like with FastQC results, MultiQC handles QUAST results. So I will run it on all the Individuals so I can see if assembly worked well on my samples
+assembly_multiqc.sh
 
-#QC reads directory in relation to the script
-input_directory=1_Assembled_Contigs/
+They will be output into 1_Assembled_Contigs/quast_results/
+I knew I did not want contigs shorter than 1kb so I didn't keep them but the stats look quite good for what I got. 
 
-#MEGAHIT Contig lists
-contigs=$(for i in {A..J}; do echo -n "${input_directory}${i}_megahit_output/Ind${i}.contigs.fa "; done)
-
-python3 $quast $contigs -t 4
-```
+![assembly_stats](1_Assembled_Contigs/quast_results/quast_num_contigs-1.jpeg)  
+Here we see that each individual has about the same amount of good length contigs. I will move on with binning.
 
 ### 2 Binning Bacterial Assembled Contigs
 
@@ -154,12 +162,12 @@ Note: Binners operate using coverage maps so Bowtie2 will be generated as a prel
 All this work will be put in parent directory 2_Bacterial_Binning/
 
 Subdirectories for each step
-2_Bacterial_Binning/bowtie2
-2_Bacterial_Binning/Metabat2
-2_Bacterial_Binning/Maxbin2
-2_Bacterial_Binning/CONCOCT
-2_Bacterial_Binning/DAS-Tool
-2_Bacterial_Binning/CheckM
+2_Bacterial_Binning/bowtie2  
+2_Bacterial_Binning/Metabat2  
+2_Bacterial_Binning/Maxbin2  
+2_Bacterial_Binning/CONCOCT  
+2_Bacterial_Binning/DAS-Tool  
+2_Bacterial_Binning/CheckM  
 
 
 Like assembly each individual will get binning done per individual.
@@ -171,4 +179,104 @@ Bowtie results will be in 2_Bacterial_Binning/bowtie2
 ```shell
 $ mkdir 2_Bacterial_Binning/bowtie2/Ind{A..J}
 ```
+prebinning_bowtie2_[A-J].sh
+Thes scripts will 1) make an index of assembled contigs per individual 2) align reads from the individual to the assembled contigs 3) sort the sam output 4) convert sorted sam file to bam file
 
+It looks like it worked, with most reads aligning to the contigs. For bowtie2 the standard output makes a nice summary stat, so you don't need to use another tool to get it.
+```shell
+$ tail -n3  prebinning_bowtie2*out
+==> prebinning_bowtie2-14211848.out <==
+96.68% overall alignment rate
+Finished aligning Sample IndA
+[bam_sort_core] merging from 181 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212017.out <==
+94.43% overall alignment rate
+Finished aligning Sample IndB
+[bam_sort_core] merging from 177 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212019.out <==
+94.86% overall alignment rate
+Finished aligning Sample IndC
+[bam_sort_core] merging from 159 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212059.out <==
+92.62% overall alignment rate
+Finished aligning Sample IndD
+[bam_sort_core] merging from 170 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212064.out <==
+92.33% overall alignment rate
+Finished aligning Sample IndE
+[bam_sort_core] merging from 170 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212068.out <==
+94.25% overall alignment rate
+Finished aligning Sample IndF
+[bam_sort_core] merging from 184 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212071.out <==
+96.13% overall alignment rate
+Finished aligning Sample IndG
+[bam_sort_core] merging from 180 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212073.out <==
+96.19% overall alignment rate
+Finished aligning Sample IndH
+[bam_sort_core] merging from 204 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212074.out <==
+95.55% overall alignment rate
+Finished aligning Sample IndI
+[bam_sort_core] merging from 182 files and 1 in-memory blocks...
+
+==> prebinning_bowtie2-14212075.out <==
+95.05% overall alignment rate
+Finished aligning Sample IndJ
+[bam_sort_core] merging from 138 files and 1 in-memory blocks..
+```
+Also I have a sorted bam file now for every sample
+
+```shell
+$ ls 2_Bacterial_Binning/bowtie2/Ind[A-J]/*bam
+2_Bacterial_Binning/bowtie2/IndA/IndA_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndB/IndB_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndC/IndC_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndD/IndD_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndE/IndE_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndF/IndF_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndG/IndG_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndH/IndH_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndI/IndI_megahit_contig_sorted_coverage.bam
+2_Bacterial_Binning/bowtie2/IndJ/IndJ_megahit_contig_sorted_coverage.bam
+```
+So now I can start binning.
+
+### 2B Binning Bacterial Assembled Contigs: MetaBat2
+
+Note: For this step the depth.txt file for this step is used in other binning steps.
+It is jgi_summarize_bam_contig_depths <sorted_bam_file>
+
+```shell
+#Individual
+ind=A
+
+module load StdEnv/2020 gcc/9.3.0 metabat/2.14
+
+#megahit contigs
+megahit_contigs=1_Assembled_Contigs/${ind}_megahit_output/Ind${ind}.contigs.fa
+#sorted bam file for coverage
+sorted_bam=2_Bacterial_Binning/bowtie2/Ind${ind}/Ind${ind}_megahit_contig_sorted_coverage.bam
+#Output file
+output=2_Bacterial_Binning/Metabat2/Ind${ind}_metabat_bins
+
+#Step 1 make the depth file
+jgi_summarize_bam_contig_depths --outputDepth ${output}/Ind_${ind}_depth.txt $sorted_bam
+
+metabat -m 1500 -t 4 -i $megahit_contigs -a ${output}/Ind_${ind}_depth.txt -o ${output}
+```
+Note: There is a mistake here the $output should have been
+```shell
+output=2_Bacterial_Binning/Metabat2/Ind${ind}_metabat_bins/Ind${ind}_metabat_bins
+```
+So it puts all the files one directory up. However this still works as each bin will still have a unique name.
