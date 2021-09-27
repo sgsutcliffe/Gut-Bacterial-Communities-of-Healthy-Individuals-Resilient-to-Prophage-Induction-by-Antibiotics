@@ -156,6 +156,7 @@ I knew I did not want contigs shorter than 1kb so I didn't keep them but the sta
 
 I will use the approach of using multiple binners Metabat2, Maxbin2 and CONCOCT with DAS-Tool and then QC control with CheckM (combined with DAS-Tool)
 Note: Binners operate using coverage maps so Bowtie2 will be generated as a preliminary step for binning
+Note: I will run QC after each binner is run and on the DAS-Tool refinement
 
 All this work will be put in parent directory 2_Bacterial_Binning/
 
@@ -278,3 +279,59 @@ Note: There is a mistake here the $output should have been
 output=2_Bacterial_Binning/Metabat2/Ind${ind}_metabat_bins/Ind${ind}_metabat_bins
 ```
 So it puts all the files one directory up. However this still works as each bin will still have a unique name.
+
+### 2B Binning Bacterial Assembled Contigs: MaxBin2
+
+Maxbin2 is loaded on Compute Canada cluster.
+We will use the MetaBat2 depth file.
+Example of script for Individual A:
+NOTE: dont end the output with a /
+e.g. out/put/path/
+As this will make all files and directories hidden with . starting each file
+Also a lot of files simply did not work the first time around.
+Check out these files:
+nano maxbin2-*outcd
+To see how they broke. I'm trying it a second time.
+Still files broke.
+Michael suggested using it as a singularity.
+I will keep trying until they all work
+
+```shell
+#Individual
+ind=A
+echo "Running on Individual $ind"
+
+module load StdEnv/2020 gcc/9.3.0 maxbin/2.2.7
+
+#megahit contigs
+megahit_contigs=1_Assembled_Contigs/${ind}_megahit_output/Ind${ind}.contigs.fa
+
+#Output file
+output=2_Bacterial_Binning/Maxbin2/Ind${ind}
+
+#Metabat2 depth file
+depth=2_Bacterial_Binning/Metabat2/Ind${ind}_metabat_bins/Ind_${ind}_depth.txt
+
+run_MaxBin.pl -contig $megahit_contigs -out ${output} -abund ${depth} -thread 4
+```
+As with Metabat2 I will make a batch script for each individual.
+
+### 2B Binning Bacterial Assembled Contigs: CONCOCT
+Note: I have CONCOCT installed in an env located elsewhere in my project space. I had previously used it for a different project. 
+
+CONCOCT; like Metabat2 and Maxbin2 needs and abundance file for the contigs.
+It runs more similar to Metabat2 by using the oringal bam file. Except it wants it sorted and indexed. 
+
+I will run it using the basic usage (https://concoct.readthedocs.io/en/latest/usage.html)
+You do these steps with a corresponding python script 
+1. cut contigs into smaller parts  : cut_up_fasta.py
+2. generate coverage table on sorted index file : concoct_coverage_table.py
+3. run concoct : concoct
+4. merge subcontig clustering : merge_cutup_clustering.py
+5. extract bins : extract_fasta_bins.py
+
+It's a little elaborate. Not sure why it is split up this way.
+I will run each step in one bash script per individual.
+
+I wont write this one out in full as it is too long:
+CONCOCT_A.sh
