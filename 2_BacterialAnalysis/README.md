@@ -410,7 +410,7 @@ In the effort of time I will revisit these if I get a chance. Making an extra ef
 DAS-Tool makes oututs of quality per binner. So it might be good enough.
 For example it includes single-copy gene(SCG), size, contig #, N50, bin score, completeness, and redundancy
 It also produces this nice image where you get a sense of how it worked.
-![Ind_A_Summary](2_BacterialAnalysis/2_Bacterial_Binning/DAS-Tool/0_35/IndA/IndA_DASTool_DASTool_scores.jpg)
+![Ind_A_Summary](2_Bacterial_Binning/DAS-Tool/0_35/IndA/IndA_DASTool_DASTool_scores.jpg)
 
 So I will start with running CheckM on the bins found in:  
 2_Bacterial_Binning/DAS-Tool/0_35
