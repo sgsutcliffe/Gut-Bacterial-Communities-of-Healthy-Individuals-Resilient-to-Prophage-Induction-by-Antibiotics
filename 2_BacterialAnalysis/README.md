@@ -398,5 +398,20 @@ The output bin ids do not need to match the contig names it seems, it just needs
 ### Quality Check Binning: CheckM & DAS-Tool
 Along with merging bins together DAS-Tool checks the quality of the bins. I used a loose cut-off of 0.35 bin score (default is 0.5 and others use 0.4).
 
-I plan on comparing each binner with a more robust analysis of quality. Along with trying binning using different abundance strategy.
+What I plan on doing in the short-term is to take the 0.35 bin score bins and run CheckM on them. To see if any high-quality bins fall in the 0.35-5 bin score space.
+
+I will also align my quality-controlled bacterial reads to each bin to see what level of alignment we get.
+
+Things to revisit :
+1.  Use coverage of contigs per sample : right now I pooled all reads from an individual but some days might benefit from binning based on coverage of different days
+2.  I would like to show how DAS-Tool worked by looking at quality scores before-after DAS-Tool
+
+In the effort of time I will revisit these if I get a chance. Making an extra effort for assembling the best bins is useful for this project as detecting prophages is enhanced by higher-quality bins.
+DAS-Tool makes oututs of quality per binner. So it might be good enough.
+For example it includes single-copy gene(SCG), size, contig #, N50, bin score, completeness, and redundancy
+It also produces this nice image where you get a sense of how it worked.
+![Ind_A_Summary](2_BacterialAnalysis/2_Bacterial_Binning/DAS-Tool/0_35/IndA/IndA_DASTool_DASTool_scores.jpg)
+
+So I will start with running CheckM on the bins found in:  
+2_Bacterial_Binning/DAS-Tool/0_35
 
