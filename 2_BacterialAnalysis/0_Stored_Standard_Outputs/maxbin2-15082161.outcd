@@ -1,0 +1,18 @@
+Running on Individual C
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+MaxBin 2.2.7
+Input contig: 1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa
+out header: 2_Bacterial_Binning/Maxbin2/IndC/
+Located abundance file [2_Bacterial_Binning/Metabat2/IndC_metabat_bins/Ind_C_depth.txt]
+Thread: 4
+Searching against 107 marker genes to find starting seed contigs for [1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa]...
+Running FragGeneScan....
+Running HMMER hmmsearch....
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndC/.contig.tmp  -abund 2_Bacterial_Binning/Maxbin2/IndC/.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndC/.seed -out 2_Bacterial_Binning/Maxbin2/IndC/ -min_contig_length 1000 -thread 4
+slurmstepd: error: *** JOB 15082161 ON cdr432 CANCELLED AT 2021-09-26T13:43:25 DUE TO TIME LIMIT ***

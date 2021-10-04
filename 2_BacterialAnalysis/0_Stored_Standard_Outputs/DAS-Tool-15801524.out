@@ -1,0 +1,22 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+Running DAS-Tool on Individual D
+Running DAS Tool using 8 threads.
+predicting genes using Prodigal V2.6.3: February, 2016
+identifying single copy genes using diamond version 2.0.4
+calculating contig lengths.
+evaluating bin-sets
+starting bin selection from 875 bins 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+bin selection complete: 195 bins above score threshold selected. 
+extracting bins to 2_Bacterial_Binning/DAS-Tool/0_35/IndD/IndD_DASTool_DASTool_bins
+Running DAS Tool using 8 threads.
+predicting genes using Prodigal V2.6.3: February, 2016
+identifying single copy genes using diamond version 2.0.4
+calculating contig lengths.
+evaluating bin-sets
+starting bin selection from 875 bins 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+bin selection complete: 158 bins above score threshold selected. 
+extracting bins to 2_Bacterial_Binning/DAS-Tool/default/IndD/IndD_DASTool_DASTool_bins

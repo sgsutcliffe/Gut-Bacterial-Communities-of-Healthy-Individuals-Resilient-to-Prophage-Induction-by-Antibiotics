@@ -1,0 +1,1889 @@
+Running on Individual D
+Completed indexing bam file
+Completed the cutting of contigs
+Completed coverage table step
+Setting 8 OMP threads
+Generate input data
+0,-3511589.009547,78786.439550
+1,-3466817.504554,44771.504993
+2,-3440026.587964,26790.916591
+3,-3421306.980981,18719.606983
+4,-3408758.365884,12548.615097
+5,-3400254.136558,8504.229325
+6,-3391978.236657,8275.899901
+7,-3385033.383955,6944.852702
+8,-3376724.742487,8308.641468
+9,-3370175.861330,6548.881157
+10,-3362229.485991,7946.375339
+11,-3354024.744332,8204.741658
+12,-3348279.296550,5745.447782
+13,-3343240.646317,5038.650233
+14,-3338883.992944,4356.653374
+15,-3334446.562665,4437.430279
+16,-3330744.595103,3701.967562
+17,-3328264.869754,2479.725349
+18,-3324150.394375,4114.475379
+19,-3322137.404360,2012.990016
+20,-3319793.386956,2344.017404
+21,-3316205.811388,3587.575568
+22,-3314185.981209,2019.830179
+23,-3312354.120698,1831.860511
+24,-3310446.279951,1907.840748
+25,-3309555.892678,890.387272
+26,-3308612.080953,943.811725
+27,-3307854.923110,757.157844
+28,-3306605.354680,1249.568429
+29,-3304701.738209,1903.616472
+30,-3304078.720911,623.017298
+31,-3302553.843089,1524.877823
+32,-3301826.124382,727.718707
+33,-3301466.948001,359.176381
+34,-3300999.712580,467.235421
+35,-3299717.962749,1281.749831
+36,-3298778.456195,939.506553
+37,-3297869.627905,908.828291
+38,-3297577.452857,292.175048
+39,-3296537.204212,1040.248645
+40,-3296256.139375,281.064837
+41,-3295932.415943,323.723432
+42,-3294814.130136,1118.285808
+43,-3294097.954400,716.175736
+44,-3293831.829345,266.125055
+45,-3293628.977181,202.852164
+46,-3292649.559254,979.417927
+47,-3291716.642755,932.916499
+48,-3291569.371336,147.271419
+49,-3291420.174318,149.197018
+50,-3291279.939362,140.234956
+51,-3291125.348500,154.590862
+52,-3290923.289378,202.059122
+53,-3290333.062161,590.227217
+54,-3290214.794883,118.267278
+55,-3290122.460544,92.334339
+56,-3289632.927110,489.533434
+57,-3289561.296067,71.631043
+58,-3289470.581981,90.714087
+59,-3289302.952933,167.629047
+60,-3288822.405823,480.547110
+61,-3288649.007712,173.398111
+62,-3288500.506229,148.501484
+63,-3288291.269552,209.236676
+64,-3287397.069913,894.199640
+65,-3286896.601326,500.468586
+66,-3286836.806591,59.794735
+67,-3286786.172345,50.634246
+68,-3286730.898996,55.273350
+69,-3286689.061069,41.837927
+70,-3286619.230264,69.830805
+71,-3286545.597312,73.632953
+72,-3286030.175338,515.421973
+73,-3285876.057189,154.118149
+74,-3285370.492182,505.565007
+75,-3285257.868210,112.623972
+76,-3284803.986015,453.882195
+77,-3284702.206486,101.779529
+78,-3284632.841627,69.364859
+79,-3284579.863952,52.977675
+80,-3284546.623918,33.240034
+81,-3284499.888672,46.735246
+82,-3284463.268816,36.619856
+83,-3284447.468803,15.800013
+84,-3284447.720129,0.251325
+85,-3284413.396031,34.324098
+86,-3284361.856997,51.539034
+87,-3283942.214704,419.642293
+88,-3283935.091788,7.122915
+89,-3283886.381364,48.710424
+90,-3283463.803755,422.577609
+91,-3283437.130501,26.673254
+92,-3283409.826656,27.303845
+93,-3283378.799282,31.027374
+94,-3283337.449717,41.349565
+95,-3283268.037923,69.411794
+96,-3283210.609556,57.428367
+97,-3283154.705459,55.904098
+98,-3283127.218093,27.487366
+99,-3283079.989833,47.228260
+100,-3283009.044057,70.945775
+101,-3282944.556848,64.487209
+102,-3282922.238473,22.318374
+103,-3282885.051470,37.187003
+104,-3282488.762847,396.288623
+105,-3282484.783105,3.979742
+106,-3282429.097718,55.685388
+107,-3282428.977368,0.120349
+108,-3282433.849783,4.872415
+109,-3282414.230904,19.618879
+110,-3282355.641820,58.589084
+111,-3282281.328137,74.313683
+112,-3281836.872583,444.455554
+113,-3281811.072352,25.800231
+114,-3281744.265311,66.807041
+115,-3281688.002377,56.262934
+116,-3281669.150493,18.851884
+117,-3281638.058515,31.091978
+118,-3281590.067828,47.990687
+119,-3281548.094707,41.973121
+120,-3281153.396446,394.698261
+121,-3281126.041902,27.354544
+122,-3281107.093438,18.948464
+123,-3281106.920082,0.173356
+124,-3281093.355317,13.564765
+125,-3281071.456777,21.898541
+126,-3281075.168137,3.711360
+127,-3281067.719097,7.449040
+128,-3281044.702444,23.016653
+129,-3280975.437391,69.265053
+130,-3280576.730170,398.707221
+131,-3280552.360885,24.369285
+132,-3280551.140607,1.220278
+133,-3280525.773422,25.367185
+134,-3280495.467135,30.306287
+135,-3280117.452175,378.014960
+136,-3280129.464084,12.011909
+137,-3280129.844601,0.380517
+138,-3280119.750509,10.094092
+139,-3280113.119621,6.630888
+140,-3280109.204030,3.915591
+141,-3280105.785970,3.418060
+142,-3280109.819668,4.033698
+143,-3280112.911652,3.091985
+144,-3280098.079007,14.832645
+145,-3280095.191158,2.887850
+146,-3280084.281711,10.909446
+147,-3280084.106171,0.175540
+148,-3280070.452702,13.653469
+149,-3280063.524625,6.928078
+150,-3280074.323216,10.798591
+151,-3280079.328010,5.004794
+152,-3280086.856208,7.528199
+153,-3280091.887556,5.031348
+154,-3280089.470841,2.416715
+155,-3280081.214790,8.256051
+156,-3280074.085776,7.129014
+157,-3280060.619346,13.466430
+158,-3280053.703839,6.915507
+159,-3280057.697140,3.993301
+160,-3280059.067457,1.370317
+161,-3280061.471255,2.403797
+162,-3280061.308981,0.162274
+163,-3280055.200317,6.108664
+164,-3280049.064937,6.135380
+165,-3280060.979992,11.915055
+166,-3280075.484051,14.504059
+167,-3280057.134664,18.349387
+168,-3280046.480867,10.653797
+169,-3280039.195008,7.285859
+170,-3280034.527855,4.667152
+171,-3280029.126539,5.401316
+172,-3280031.898487,2.771948
+173,-3280029.897493,2.000994
+174,-3280033.325551,3.428058
+175,-3280033.932334,0.606783
+176,-3280030.876031,3.056303
+177,-3280029.985969,0.890062
+178,-3280022.965974,7.019994
+179,-3280019.265616,3.700359
+180,-3280025.533530,6.267914
+181,-3280021.891583,3.641947
+182,-3280019.655534,2.236049
+183,-3280035.985587,16.330053
+184,-3280059.042378,23.056791
+185,-3280072.579022,13.536643
+186,-3280076.341461,3.762439
+187,-3280067.708914,8.632547
+188,-3280041.764383,25.944531
+189,-3280017.497589,24.266794
+190,-3280009.713509,7.784080
+191,-3279998.555835,11.157675
+192,-3279997.964009,0.591826
+193,-3280003.995352,6.031343
+194,-3280001.593436,2.401916
+195,-3279997.255821,4.337615
+196,-3279991.960195,5.295626
+197,-3279988.760257,3.199938
+198,-3279987.495382,1.264875
+199,-3279987.302796,0.192587
+200,-3279987.941282,0.638486
+201,-3279988.692791,0.751509
+202,-3279986.741953,1.950838
+203,-3279979.990226,6.751727
+204,-3279977.896108,2.094118
+205,-3279977.636302,0.259807
+206,-3279976.868333,0.767969
+207,-3279972.214600,4.653733
+208,-3279968.664321,3.550280
+209,-3279963.184584,5.479737
+210,-3279938.307147,24.877436
+211,-3279928.883250,9.423898
+212,-3279933.211601,4.328352
+213,-3279937.684397,4.472796
+214,-3279936.140007,1.544390
+215,-3279932.430152,3.709855
+216,-3279933.361167,0.931016
+217,-3279930.748040,2.613128
+218,-3279924.291865,6.456174
+219,-3279924.933019,0.641154
+220,-3279925.015123,0.082104
+221,-3279920.281964,4.733159
+222,-3279919.707893,0.574072
+223,-3279903.288836,16.419057
+224,-3279893.893741,9.395095
+225,-3279889.843623,4.050117
+226,-3279884.439504,5.404119
+227,-3279876.012127,8.427378
+228,-3279862.776182,13.235944
+229,-3279863.651165,0.874983
+230,-3279862.546459,1.104706
+231,-3279860.328133,2.218326
+232,-3279855.480884,4.847249
+233,-3279851.493172,3.987712
+234,-3279836.843883,14.649289
+235,-3279809.918087,26.925797
+236,-3279797.240239,12.677848
+237,-3279760.259519,36.980721
+238,-3279387.177390,373.082129
+239,-3279370.140594,17.036796
+240,-3278996.192990,373.947603
+241,-3278993.881595,2.311396
+242,-3278994.389829,0.508235
+243,-3278991.330614,3.059215
+244,-3278985.494467,5.836147
+245,-3278989.604805,4.110338
+246,-3278991.121785,1.516980
+247,-3278993.562223,2.440438
+248,-3278993.488604,0.073619
+249,-3278983.060156,10.428447
+250,-3279001.769517,18.709361
+251,-3279004.191089,2.421571
+252,-3279008.252191,4.061102
+253,-3279010.553159,2.300968
+254,-3279007.611954,2.941205
+255,-3279005.202102,2.409852
+256,-3279004.795474,0.406628
+257,-3278996.841929,7.953545
+258,-3278990.406154,6.435775
+259,-3278987.017997,3.388157
+260,-3278985.239832,1.778166
+261,-3278983.866362,1.373469
+262,-3278981.897709,1.968654
+263,-3278979.344360,2.553349
+264,-3278979.952497,0.608137
+265,-3278979.731615,0.220882
+266,-3278978.802020,0.929595
+267,-3278977.866499,0.935521
+268,-3278977.038066,0.828433
+269,-3278976.425796,0.612270
+270,-3278976.025799,0.399997
+271,-3278975.751348,0.274452
+272,-3278975.552131,0.199217
+273,-3278975.483197,0.068933
+274,-3278975.790966,0.307769
+275,-3278976.929985,1.139020
+276,-3278977.580153,0.650167
+277,-3278975.824697,1.755456
+278,-3278974.491297,1.333400
+279,-3278973.713394,0.777903
+280,-3278973.268403,0.444991
+281,-3278973.104020,0.164383
+282,-3278973.273791,0.169771
+283,-3278973.975947,0.702156
+284,-3278975.255559,1.279611
+285,-3278975.851137,0.595579
+286,-3278973.992854,1.858283
+287,-3278972.372332,1.620522
+288,-3278971.655197,0.717135
+289,-3278971.213088,0.442109
+290,-3278970.933366,0.279722
+291,-3278970.610128,0.323238
+292,-3278969.951948,0.658181
+293,-3278969.261349,0.690598
+294,-3278968.646049,0.615301
+295,-3278967.915236,0.730813
+296,-3278966.757585,1.157651
+297,-3278964.303703,2.453882
+298,-3278958.573038,5.730664
+299,-3278958.083664,0.489374
+300,-3278960.720363,2.636698
+301,-3278960.435082,0.285281
+302,-3278959.837574,0.597508
+303,-3278959.131492,0.706082
+304,-3278958.362121,0.769370
+305,-3278957.534056,0.828065
+306,-3278956.627010,0.907046
+307,-3278955.595401,1.031609
+308,-3278954.367625,1.227776
+309,-3278952.843322,1.524302
+310,-3278950.924413,1.918909
+311,-3278948.639048,2.285365
+312,-3278946.308771,2.330276
+313,-3278944.317816,1.990955
+314,-3278942.637775,1.680041
+315,-3278941.081106,1.556669
+316,-3278939.653839,1.427267
+317,-3278938.554004,1.099835
+318,-3278938.251008,0.302996
+319,-3278938.895506,0.644498
+320,-3278939.811292,0.915786
+321,-3278940.596804,0.785512
+322,-3278941.315891,0.719087
+323,-3278941.984934,0.669043
+324,-3278942.222848,0.237914
+325,-3278941.611944,0.610904
+326,-3278940.637465,0.974479
+327,-3278939.819669,0.817796
+328,-3278939.135472,0.684197
+329,-3278938.477740,0.657732
+330,-3278937.773678,0.704061
+331,-3278936.922806,0.850873
+332,-3278935.769852,1.152954
+333,-3278934.274550,1.495302
+334,-3278932.672992,1.601559
+335,-3278931.250426,1.422565
+336,-3278930.084066,1.166360
+337,-3278929.081294,1.002772
+338,-3278928.340603,0.740690
+339,-3278927.949719,0.390885
+340,-3278927.428126,0.521592
+341,-3278926.075689,1.352438
+342,-3278922.313835,3.761854
+343,-3278921.960642,0.353193
+344,-3278922.523239,0.562597
+345,-3278922.943510,0.420271
+346,-3278924.858983,1.915473
+347,-3278925.794571,0.935588
+348,-3278926.262737,0.468166
+349,-3278926.326656,0.063919
+350,-3278925.906984,0.419672
+351,-3278925.114313,0.792671
+352,-3278924.159226,0.955088
+353,-3278923.371659,0.787566
+354,-3278924.048536,0.676876
+355,-3278926.082476,2.033941
+356,-3278929.177791,3.095315
+357,-3278932.912852,3.735061
+358,-3278928.888703,4.024149
+359,-3278925.761464,3.127239
+360,-3278927.853458,2.091994
+361,-3278930.599688,2.746230
+362,-3278916.810305,13.789383
+363,-3278915.372290,1.438015
+364,-3278914.490189,0.882100
+365,-3278913.756377,0.733812
+366,-3278912.878679,0.877698
+367,-3278911.733961,1.144718
+368,-3278910.785897,0.948064
+369,-3278910.020778,0.765119
+370,-3278909.323841,0.696937
+371,-3278908.635068,0.688773
+372,-3278907.851740,0.783328
+373,-3278906.712678,1.139062
+374,-3278904.722815,1.989863
+375,-3278902.838688,1.884127
+376,-3278903.827883,0.989195
+377,-3278903.766109,0.061773
+378,-3278902.599043,1.167066
+379,-3278900.885580,1.713463
+380,-3278899.121588,1.763992
+381,-3278898.452421,0.669166
+382,-3278898.933541,0.481120
+383,-3278899.321226,0.387685
+384,-3278899.323559,0.002333
+385,-3278899.287177,0.036381
+386,-3278899.564566,0.277389
+387,-3278900.518597,0.954030
+388,-3278901.477666,0.959070
+389,-3278899.415114,2.062552
+390,-3278897.163938,2.251176
+391,-3278896.344241,0.819698
+392,-3278895.758015,0.586225
+393,-3278895.246953,0.511062
+394,-3278895.424468,0.177515
+395,-3278897.140482,1.716014
+396,-3278890.338484,6.801998
+397,-3278881.424501,8.913983
+398,-3278876.444435,4.980066
+399,-3278869.756859,6.687577
+400,-3278864.923092,4.833766
+401,-3278862.439608,2.483484
+402,-3278855.294221,7.145387
+403,-3278845.721085,9.573136
+404,-3278840.691441,5.029644
+405,-3278836.157536,4.533905
+406,-3278823.766801,12.390735
+407,-3278811.863954,11.902846
+408,-3278805.766313,6.097642
+409,-3278801.401285,4.365027
+410,-3278797.995998,3.405288
+411,-3278792.633897,5.362101
+412,-3278785.423853,7.210045
+413,-3278778.777684,6.646168
+414,-3278774.046528,4.731156
+415,-3278772.958742,1.087787
+416,-3278768.120723,4.838019
+417,-3278759.536440,8.584283
+418,-3278754.103587,5.432854
+419,-3278752.333485,1.770102
+420,-3278750.993494,1.339991
+421,-3278749.364751,1.628744
+422,-3278742.955033,6.409717
+423,-3278745.158266,2.203233
+424,-3278749.713279,4.555013
+425,-3278752.480798,2.767519
+426,-3278754.653113,2.172315
+427,-3278756.857463,2.204349
+428,-3278756.573433,0.284030
+429,-3278750.912230,5.661204
+430,-3278739.375230,11.537000
+431,-3278733.202027,6.173203
+432,-3278737.054786,3.852759
+433,-3278733.683152,3.371634
+434,-3278737.695883,4.012731
+435,-3278738.384139,0.688256
+436,-3278735.115305,3.268834
+437,-3278727.875101,7.240205
+438,-3278724.104831,3.770269
+439,-3278719.358988,4.745844
+440,-3278711.987399,7.371589
+441,-3278706.562794,5.424605
+442,-3278695.769269,10.793525
+443,-3278685.737635,10.031633
+444,-3278675.253440,10.484195
+445,-3278658.225524,17.027916
+446,-3278658.380992,0.155468
+447,-3278661.061113,2.680122
+448,-3278657.496317,3.564797
+449,-3278653.343432,4.152885
+450,-3278650.216086,3.127346
+451,-3278641.699440,8.516646
+452,-3278644.852631,3.153191
+453,-3278640.725892,4.126739
+454,-3278631.458470,9.267422
+455,-3278629.406687,2.051784
+456,-3278627.746450,1.660237
+457,-3278623.591148,4.155302
+458,-3278618.918284,4.672864
+459,-3278624.304030,5.385746
+460,-3278621.146401,3.157629
+461,-3278615.776827,5.369574
+462,-3278611.561004,4.215823
+463,-3278609.618471,1.942532
+464,-3278608.577234,1.041238
+465,-3278608.453559,0.123675
+466,-3278609.333340,0.879782
+467,-3278610.393151,1.059810
+468,-3278611.107046,0.713895
+469,-3278612.280038,1.172991
+470,-3278613.606881,1.326843
+471,-3278614.704159,1.097278
+472,-3278615.852674,1.148515
+473,-3278617.055312,1.202638
+474,-3278617.814147,0.758836
+475,-3278617.254247,0.559901
+476,-3278615.250332,2.003915
+477,-3278614.309467,0.940865
+478,-3278615.719408,1.409941
+479,-3278616.433363,0.713955
+480,-3278616.711679,0.278316
+481,-3278616.741166,0.029486
+482,-3278616.060812,0.680354
+483,-3278615.399956,0.660856
+484,-3278613.856884,1.543072
+485,-3278612.238298,1.618585
+486,-3278610.840429,1.397870
+487,-3278609.372298,1.468131
+488,-3278607.363582,2.008716
+489,-3278605.404912,1.958670
+490,-3278603.800076,1.604836
+491,-3278603.150985,0.649091
+492,-3278605.251524,2.100540
+493,-3278601.919837,3.331688
+494,-3278603.157496,1.237660
+495,-3278606.996242,3.838745
+496,-3278605.542266,1.453975
+497,-3278599.513378,6.028888
+498,-3278598.385482,1.127896
+499,-3278601.451480,3.065998
+Up and running. Check /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/2_Bacterial_Binning/CONCOCT/IndD/concoct_output/log.txt for progress
+133985 4188 8
+Completed CONCOCT
+No consensus cluster for contig k141_494124: [('132', 1), ('95', 1)]	 Chosen cluster: 132
+No consensus cluster for contig k141_164715: [('102', 3), ('81', 1)]	 Chosen cluster: 102
+No consensus cluster for contig k141_274530: [('68', 1), ('158', 8)]	 Chosen cluster: 158
+No consensus cluster for contig k141_164770: [('160', 1), ('133', 1)]	 Chosen cluster: 160
+No consensus cluster for contig k141_164814: [('247', 2), ('163', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_439310: [('234', 11), ('191', 1)]	 Chosen cluster: 234
+No consensus cluster for contig k141_494175: [('251', 7), ('143', 3)]	 Chosen cluster: 251
+No consensus cluster for contig k141_219817: [('39', 3), ('81', 2)]	 Chosen cluster: 39
+No consensus cluster for contig k141_109907: [('247', 2), ('117', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_274665: [('30', 2), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_164901: [('81', 1), ('39', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_317: [('230', 1), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_164952: [('24', 9), ('247', 8)]	 Chosen cluster: 24
+No consensus cluster for contig k141_274828: [('81', 2), ('223', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_384731: [('30', 1), ('182', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_439654: [('92', 3), ('28', 1)]	 Chosen cluster: 92
+No consensus cluster for contig k141_220030: [('68', 15), ('219', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_274906: [('95', 3), ('132', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_110171: [('30', 10), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_439784: [('96', 1), ('204', 1)]	 Chosen cluster: 96
+No consensus cluster for contig k141_549612: [('251', 5), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_55377: [('59', 2), ('247', 1), ('5', 1)]	 Chosen cluster: 59
+No consensus cluster for contig k141_439870: [('247', 1), ('51', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_384995: [('81', 1), ('9', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_329984: [('39', 1), ('57', 6)]	 Chosen cluster: 57
+No consensus cluster for contig k141_494797: [('5', 4), ('197', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_439895: [('98', 4), ('63', 1)]	 Chosen cluster: 98
+No consensus cluster for contig k141_55450: [('163', 1), ('105', 1)]	 Chosen cluster: 163
+No consensus cluster for contig k141_275056: [('191', 1), ('143', 2), ('39', 7), ('81', 2), ('251', 5)]	 Chosen cluster: 39
+No consensus cluster for contig k141_165247: [('242', 1), ('161', 1)]	 Chosen cluster: 242
+No consensus cluster for contig k141_275061: [('179', 1), ('1', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_165296: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_220336: [('259', 7), ('81', 1), ('155', 1)]	 Chosen cluster: 259
+No consensus cluster for contig k141_330149: [('247', 1), ('176', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_385131: [('141', 5), ('41', 4), ('81', 1)]	 Chosen cluster: 141
+No consensus cluster for contig k141_165434: [('81', 1), ('30', 3)]	 Chosen cluster: 30
+No consensus cluster for contig k141_385186: [('187', 1), ('247', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_549842: [('204', 6), ('161', 19), ('39', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_385246: [('222', 1), ('105', 1)]	 Chosen cluster: 222
+No consensus cluster for contig k141_165523: [('81', 1), ('73', 4), ('182', 2), ('247', 3)]	 Chosen cluster: 73
+No consensus cluster for contig k141_440142: [('247', 2), ('37', 18)]	 Chosen cluster: 37
+No consensus cluster for contig k141_385256: [('192', 2), ('200', 9), ('184', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_275439: [('247', 1), ('26', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_605286: [('154', 13), ('143', 1)]	 Chosen cluster: 154
+No consensus cluster for contig k141_1067: [('204', 3), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_1212: [('247', 1), ('187', 2)]	 Chosen cluster: 187
+No consensus cluster for contig k141_165656: [('247', 1), ('81', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_55783: [('81', 1), ('161', 10), ('204', 3)]	 Chosen cluster: 161
+No consensus cluster for contig k141_550048: [('204', 4), ('161', 5)]	 Chosen cluster: 161
+No consensus cluster for contig k141_440356: [('143', 1), ('39', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_1251: [('105', 1), ('28', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_495439: [('47', 2), ('39', 1)]	 Chosen cluster: 47
+No consensus cluster for contig k141_275586: [('143', 1), ('251', 3)]	 Chosen cluster: 251
+No consensus cluster for contig k141_385374: [('162', 20), ('143', 1)]	 Chosen cluster: 162
+No consensus cluster for contig k141_165736: [('101', 3), ('95', 1)]	 Chosen cluster: 101
+No consensus cluster for contig k141_1327: [('204', 6), ('158', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_330714: [('155', 5), ('138', 1), ('81', 1)]	 Chosen cluster: 155
+No consensus cluster for contig k141_55941: [('68', 2), ('219', 3)]	 Chosen cluster: 219
+No consensus cluster for contig k141_385418: [('96', 12), ('81', 1)]	 Chosen cluster: 96
+No consensus cluster for contig k141_1382: [('73', 1), ('228', 4)]	 Chosen cluster: 228
+No consensus cluster for contig k141_495593: [('117', 5), ('247', 2), ('81', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_330875: [('241', 5), ('81', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_495642: [('39', 4), ('143', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_330883: [('148', 6), ('39', 2), ('81', 1)]	 Chosen cluster: 148
+No consensus cluster for contig k141_56147: [('81', 1), ('192', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_275902: [('105', 3), ('247', 2)]	 Chosen cluster: 105
+No consensus cluster for contig k141_385504: [('191', 1), ('207', 2)]	 Chosen cluster: 207
+No consensus cluster for contig k141_166012: [('161', 8), ('204', 9)]	 Chosen cluster: 204
+No consensus cluster for contig k141_111453: [('247', 5), ('91', 1), ('41', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_550510: [('117', 5), ('247', 1), ('81', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_1652: [('142', 1), ('136', 1)]	 Chosen cluster: 142
+No consensus cluster for contig k141_166036: [('247', 2), ('24', 9)]	 Chosen cluster: 24
+No consensus cluster for contig k141_111588: [('150', 1), ('191', 1)]	 Chosen cluster: 150
+No consensus cluster for contig k141_385738: [('74', 5), ('160', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_331050: [('182', 1), ('167', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_56349: [('81', 2), ('29', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_495978: [('202', 2), ('247', 1)]	 Chosen cluster: 202
+No consensus cluster for contig k141_166055: [('148', 8), ('39', 2), ('162', 12), ('81', 1)]	 Chosen cluster: 162
+No consensus cluster for contig k141_276161: [('30', 1), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_331106: [('192', 3), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_111720: [('143', 3), ('39', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_550738: [('6', 2), ('81', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_56524: [('81', 1), ('202', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_221382: [('81', 1), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_276271: [('150', 1), ('133', 2)]	 Chosen cluster: 133
+No consensus cluster for contig k141_56531: [('247', 1), ('68', 3)]	 Chosen cluster: 68
+No consensus cluster for contig k141_496097: [('81', 2), ('194', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_605983: [('161', 6), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_550818: [('45', 1), ('53', 1)]	 Chosen cluster: 45
+No consensus cluster for contig k141_1871: [('71', 24), ('247', 1)]	 Chosen cluster: 71
+No consensus cluster for contig k141_441391: [('203', 3), ('191', 1), ('183', 5)]	 Chosen cluster: 183
+No consensus cluster for contig k141_386128: [('140', 1), ('85', 6)]	 Chosen cluster: 85
+No consensus cluster for contig k141_166265: [('96', 17), ('247', 1)]	 Chosen cluster: 96
+No consensus cluster for contig k141_386176: [('39', 3), ('75', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_276584: [('179', 2), ('253', 1), ('62', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_441482: [('160', 1), ('200', 2)]	 Chosen cluster: 200
+No consensus cluster for contig k141_606250: [('219', 1), ('68', 6)]	 Chosen cluster: 68
+No consensus cluster for contig k141_331604: [('155', 2), ('62', 1)]	 Chosen cluster: 155
+No consensus cluster for contig k141_331675: [('204', 3), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_496614: [('131', 5), ('230', 10), ('81', 1), ('39', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_221866: [('105', 2), ('144', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_276892: [('252', 1), ('17', 1)]	 Chosen cluster: 252
+No consensus cluster for contig k141_166533: [('10', 11), ('95', 1)]	 Chosen cluster: 10
+No consensus cluster for contig k141_551363: [('81', 1), ('225', 3)]	 Chosen cluster: 225
+No consensus cluster for contig k141_496677: [('81', 2), ('192', 9)]	 Chosen cluster: 192
+No consensus cluster for contig k141_386455: [('143', 6), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_551405: [('108', 1), ('39', 1), ('143', 1)]	 Chosen cluster: 108
+No consensus cluster for contig k141_551408: [('213', 1), ('121', 1)]	 Chosen cluster: 213
+No consensus cluster for contig k141_166738: [('91', 1), ('216', 1)]	 Chosen cluster: 91
+No consensus cluster for contig k141_386598: [('98', 2), ('63', 5)]	 Chosen cluster: 63
+No consensus cluster for contig k141_441836: [('62', 5), ('182', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_2495: [('143', 2), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_441852: [('138', 1), ('39', 1), ('182', 1), ('62', 1)]	 Chosen cluster: 138
+No consensus cluster for contig k141_57216: [('143', 4), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_57286: [('73', 1), ('92', 1)]	 Chosen cluster: 73
+No consensus cluster for contig k141_606852: [('144', 2), ('62', 1), ('123', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_166957: [('105', 3), ('153', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_441967: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_57385: [('251', 3), ('81', 2), ('118', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_441969: [('141', 4), ('41', 3)]	 Chosen cluster: 141
+No consensus cluster for contig k141_222129: [('234', 32), ('81', 1)]	 Chosen cluster: 234
+No consensus cluster for contig k141_277397: [('62', 2), ('81', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_113025: [('136', 1), ('123', 1)]	 Chosen cluster: 136
+No consensus cluster for contig k141_442128: [('143', 2), ('39', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_57429: [('143', 7), ('81', 5)]	 Chosen cluster: 143
+No consensus cluster for contig k141_551832: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_167303: [('41', 3), ('95', 1), ('97', 1), ('98', 5)]	 Chosen cluster: 98
+No consensus cluster for contig k141_332268: [('95', 1), ('132', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_497491: [('204', 3), ('251', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_277606: [('204', 4), ('161', 3)]	 Chosen cluster: 204
+No consensus cluster for contig k141_57542: [('81', 1), ('143', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_551970: [('143', 1), ('39', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_167357: [('108', 5), ('39', 1)]	 Chosen cluster: 108
+No consensus cluster for contig k141_167409: [('161', 3), ('204', 7)]	 Chosen cluster: 204
+No consensus cluster for contig k141_607270: [('81', 3), ('196', 31)]	 Chosen cluster: 196
+No consensus cluster for contig k141_442542: [('247', 2), ('140', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_332450: [('90', 8), ('125', 1)]	 Chosen cluster: 90
+No consensus cluster for contig k141_167488: [('170', 13), ('81', 1), ('192', 1)]	 Chosen cluster: 170
+No consensus cluster for contig k141_497760: [('163', 1), ('247', 1)]	 Chosen cluster: 163
+No consensus cluster for contig k141_57713: [('144', 1), ('120', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_277839: [('251', 2), ('81', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_387334: [('179', 1), ('202', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_442607: [('81', 1), ('179', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_57723: [('39', 1), ('28', 2)]	 Chosen cluster: 28
+No consensus cluster for contig k141_607314: [('255', 4), ('155', 1)]	 Chosen cluster: 255
+No consensus cluster for contig k141_222766: [('143', 5), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_552342: [('247', 1), ('240', 2)]	 Chosen cluster: 240
+No consensus cluster for contig k141_3368: [('157', 1), ('158', 2)]	 Chosen cluster: 158
+No consensus cluster for contig k141_57779: [('39', 1), ('118', 1), ('161', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_3426: [('155', 1), ('81', 1), ('138', 4)]	 Chosen cluster: 138
+No consensus cluster for contig k141_442766: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_113697: [('229', 2), ('81', 1)]	 Chosen cluster: 229
+No consensus cluster for contig k141_332723: [('81', 1), ('194', 2)]	 Chosen cluster: 194
+No consensus cluster for contig k141_497983: [('1', 3), ('192', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_442869: [('131', 1), ('230', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_277913: [('28', 30), ('39', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_442882: [('240', 2), ('247', 1)]	 Chosen cluster: 240
+No consensus cluster for contig k141_552513: [('143', 4), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_113729: [('251', 3), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_223015: [('143', 3), ('251', 3)]	 Chosen cluster: 143
+No consensus cluster for contig k141_387560: [('125', 4), ('81', 1)]	 Chosen cluster: 125
+No consensus cluster for contig k141_223016: [('39', 1), ('251', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_167787: [('68', 1), ('105', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_442992: [('81', 2), ('179', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_57995: [('140', 1), ('127', 8)]	 Chosen cluster: 127
+No consensus cluster for contig k141_387657: [('81', 2), ('51', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_607811: [('143', 3), ('251', 4), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_498304: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_387689: [('247', 1), ('117', 13)]	 Chosen cluster: 117
+No consensus cluster for contig k141_167966: [('138', 6), ('115', 1)]	 Chosen cluster: 138
+No consensus cluster for contig k141_387694: [('73', 1), ('62', 1)]	 Chosen cluster: 73
+No consensus cluster for contig k141_114102: [('41', 1), ('247', 2), ('71', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_498378: [('59', 3), ('247', 1)]	 Chosen cluster: 59
+No consensus cluster for contig k141_114112: [('247', 1), ('96', 2)]	 Chosen cluster: 96
+No consensus cluster for contig k141_443098: [('117', 5), ('247', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_3781: [('204', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_332930: [('39', 3), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_443151: [('90', 2), ('81', 1)]	 Chosen cluster: 90
+No consensus cluster for contig k141_3802: [('219', 1), ('68', 1)]	 Chosen cluster: 219
+No consensus cluster for contig k141_168086: [('187', 1), ('199', 1), ('247', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_498452: [('204', 3), ('161', 6)]	 Chosen cluster: 161
+No consensus cluster for contig k141_3809: [('260', 1), ('247', 1)]	 Chosen cluster: 260
+No consensus cluster for contig k141_387887: [('153', 1), ('247', 1), ('81', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_223420: [('247', 1), ('120', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_114195: [('186', 6), ('160', 1)]	 Chosen cluster: 186
+No consensus cluster for contig k141_58313: [('30', 1), ('1', 3)]	 Chosen cluster: 1
+No consensus cluster for contig k141_58348: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_223545: [('81', 1), ('192', 4)]	 Chosen cluster: 192
+No consensus cluster for contig k141_443311: [('81', 2), ('179', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_278485: [('234', 2), ('191', 1)]	 Chosen cluster: 234
+No consensus cluster for contig k141_223560: [('131', 14), ('81', 1), ('39', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_4080: [('192', 2), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_168392: [('105', 1), ('163', 2)]	 Chosen cluster: 163
+No consensus cluster for contig k141_498733: [('81', 2), ('202', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_4084: [('30', 1), ('192', 3), ('1', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_4092: [('230', 6), ('26', 1), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_333262: [('144', 2), ('153', 3)]	 Chosen cluster: 153
+No consensus cluster for contig k141_388177: [('247', 1), ('187', 8)]	 Chosen cluster: 187
+No consensus cluster for contig k141_168483: [('95', 1), ('146', 14)]	 Chosen cluster: 146
+No consensus cluster for contig k141_4181: [('247', 1), ('153', 4)]	 Chosen cluster: 153
+No consensus cluster for contig k141_498990: [('91', 1), ('184', 1)]	 Chosen cluster: 91
+No consensus cluster for contig k141_223730: [('234', 3), ('120', 1)]	 Chosen cluster: 234
+No consensus cluster for contig k141_333345: [('105', 1), ('163', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_443643: [('251', 1), ('39', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_114573: [('204', 1), ('161', 3)]	 Chosen cluster: 161
+No consensus cluster for contig k141_4326: [('105', 1), ('247', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_333449: [('74', 3), ('81', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_223931: [('251', 1), ('143', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_4390: [('247', 2), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_223932: [('247', 1), ('189', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_499253: [('105', 1), ('247', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_333549: [('39', 1), ('161', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_168725: [('257', 4), ('219', 1)]	 Chosen cluster: 257
+No consensus cluster for contig k141_224008: [('120', 1), ('68', 9)]	 Chosen cluster: 68
+No consensus cluster for contig k141_168770: [('143', 4), ('81', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_499468: [('247', 1), ('240', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_443952: [('17', 10), ('44', 1)]	 Chosen cluster: 17
+No consensus cluster for contig k141_168919: [('6', 2), ('81', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_388773: [('73', 1), ('247', 1)]	 Chosen cluster: 73
+No consensus cluster for contig k141_499602: [('73', 1), ('103', 2), ('247', 1)]	 Chosen cluster: 103
+No consensus cluster for contig k141_115204: [('62', 1), ('247', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_499665: [('199', 2), ('92', 1)]	 Chosen cluster: 199
+No consensus cluster for contig k141_4572: [('37', 36), ('41', 5), ('81', 1), ('182', 1)]	 Chosen cluster: 37
+No consensus cluster for contig k141_115219: [('247', 1), ('199', 2)]	 Chosen cluster: 199
+No consensus cluster for contig k141_169015: [('251', 1), ('39', 5)]	 Chosen cluster: 39
+No consensus cluster for contig k141_388871: [('253', 1), ('189', 1)]	 Chosen cluster: 253
+No consensus cluster for contig k141_115231: [('246', 2), ('155', 1)]	 Chosen cluster: 246
+No consensus cluster for contig k141_4649: [('191', 1), ('26', 1)]	 Chosen cluster: 191
+No consensus cluster for contig k141_279590: [('9', 3), ('259', 8)]	 Chosen cluster: 259
+No consensus cluster for contig k141_444085: [('105', 10), ('27', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_499721: [('192', 1), ('241', 2)]	 Chosen cluster: 241
+No consensus cluster for contig k141_279606: [('81', 5), ('179', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_115319: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_169147: [('160', 1), ('143', 3)]	 Chosen cluster: 143
+No consensus cluster for contig k141_4692: [('29', 9), ('81', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_115361: [('247', 2), ('117', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_388962: [('219', 14), ('115', 1)]	 Chosen cluster: 219
+No consensus cluster for contig k141_224585: [('241', 1), ('81', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_115444: [('247', 2), ('117', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_169254: [('81', 1), ('86', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_499824: [('97', 12), ('10', 1)]	 Chosen cluster: 97
+No consensus cluster for contig k141_334156: [('144', 1), ('153', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_59434: [('143', 2), ('81', 1), ('162', 1), ('86', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_499857: [('192', 2), ('184', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_169274: [('45', 4), ('53', 1)]	 Chosen cluster: 45
+No consensus cluster for contig k141_554428: [('161', 2), ('204', 7), ('195', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_499979: [('144', 1), ('247', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_334276: [('247', 5), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_169376: [('143', 2), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_4876: [('81', 1), ('146', 4)]	 Chosen cluster: 146
+No consensus cluster for contig k141_609354: [('192', 2), ('81', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_115597: [('247', 2), ('202', 1), ('81', 1), ('205', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_334433: [('29', 1), ('32', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_554586: [('147', 1), ('95', 1)]	 Chosen cluster: 147
+No consensus cluster for contig k141_389282: [('81', 1), ('182', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_5057: [('189', 2), ('81', 1)]	 Chosen cluster: 189
+No consensus cluster for contig k141_115661: [('247', 1), ('1', 7)]	 Chosen cluster: 1
+No consensus cluster for contig k141_59574: [('251', 7), ('143', 1), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_280118: [('131', 9), ('75', 2), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_5109: [('197', 2), ('73', 1), ('5', 1)]	 Chosen cluster: 197
+No consensus cluster for contig k141_444561: [('150', 1), ('133', 3)]	 Chosen cluster: 133
+No consensus cluster for contig k141_225228: [('251', 3), ('39', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_169594: [('179', 1), ('192', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_5139: [('222', 1), ('204', 5)]	 Chosen cluster: 204
+No consensus cluster for contig k141_500334: [('131', 2), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_334684: [('6', 2), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_444748: [('105', 1), ('187', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_225290: [('192', 1), ('30', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_500378: [('81', 1), ('9', 2)]	 Chosen cluster: 9
+No consensus cluster for contig k141_169686: [('57', 11), ('143', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_389435: [('186', 30), ('141', 8)]	 Chosen cluster: 186
+No consensus cluster for contig k141_334812: [('247', 1), ('163', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_609736: [('251', 1), ('81', 1), ('39', 1), ('191', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_5311: [('143', 1), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_225404: [('81', 1), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_225407: [('108', 2), ('81', 1)]	 Chosen cluster: 108
+No consensus cluster for contig k141_5342: [('161', 1), ('204', 3)]	 Chosen cluster: 204
+No consensus cluster for contig k141_116155: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_609840: [('39', 1), ('118', 4), ('161', 1)]	 Chosen cluster: 118
+No consensus cluster for contig k141_59867: [('204', 6), ('161', 16)]	 Chosen cluster: 161
+No consensus cluster for contig k141_500599: [('182', 1), ('234', 4)]	 Chosen cluster: 234
+No consensus cluster for contig k141_444971: [('252', 1), ('102', 14)]	 Chosen cluster: 102
+No consensus cluster for contig k141_116311: [('251', 1), ('143', 8), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_280659: [('251', 3), ('143', 4)]	 Chosen cluster: 143
+No consensus cluster for contig k141_5595: [('28', 1), ('182', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_170049: [('81', 2), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_335137: [('227', 3), ('39', 1)]	 Chosen cluster: 227
+No consensus cluster for contig k141_116353: [('153', 1), ('247', 4)]	 Chosen cluster: 247
+No consensus cluster for contig k141_335161: [('251', 2), ('143', 6)]	 Chosen cluster: 143
+No consensus cluster for contig k141_225740: [('98', 4), ('37', 1)]	 Chosen cluster: 98
+No consensus cluster for contig k141_610102: [('163', 2), ('105', 1)]	 Chosen cluster: 163
+No consensus cluster for contig k141_116385: [('5', 2), ('187', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_60075: [('81', 2), ('131', 15), ('26', 1), ('143', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_445368: [('205', 4), ('81', 1), ('202', 1), ('127', 1), ('179', 1)]	 Chosen cluster: 205
+No consensus cluster for contig k141_60174: [('143', 3), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_335469: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_610298: [('1', 2), ('81', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_116661: [('251', 2), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_280990: [('143', 2), ('75', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_280996: [('191', 2), ('10', 1)]	 Chosen cluster: 191
+No consensus cluster for contig k141_555755: [('30', 1), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_445510: [('204', 1), ('161', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_390242: [('45', 1), ('53', 2)]	 Chosen cluster: 53
+No consensus cluster for contig k141_226115: [('115', 1), ('237', 3)]	 Chosen cluster: 237
+No consensus cluster for contig k141_610478: [('247', 2), ('117', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_335705: [('30', 1), ('192', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_610505: [('57', 4), ('39', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_555963: [('62', 1), ('247', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_610515: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_116914: [('247', 1), ('142', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_501479: [('30', 3), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_501632: [('143', 3), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_445848: [('133', 4), ('150', 1)]	 Chosen cluster: 133
+No consensus cluster for contig k141_390640: [('90', 2), ('81', 1)]	 Chosen cluster: 90
+No consensus cluster for contig k141_610670: [('131', 5), ('81', 1), ('143', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_390676: [('247', 3), ('163', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_390700: [('39', 1), ('230', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_281553: [('125', 23), ('81', 1)]	 Chosen cluster: 125
+No consensus cluster for contig k141_60693: [('161', 1), ('230', 3)]	 Chosen cluster: 230
+No consensus cluster for contig k141_556479: [('120', 1), ('158', 1)]	 Chosen cluster: 120
+No consensus cluster for contig k141_446019: [('39', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_556526: [('26', 1), ('81', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_336082: [('120', 2), ('71', 2)]	 Chosen cluster: 120
+No consensus cluster for contig k141_501889: [('41', 4), ('98', 2)]	 Chosen cluster: 41
+No consensus cluster for contig k141_556655: [('247', 1), ('81', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_6686: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_391082: [('153', 1), ('144', 4)]	 Chosen cluster: 144
+No consensus cluster for contig k141_281887: [('81', 4), ('85', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_226818: [('5', 1), ('197', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_281923: [('179', 4), ('81', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_61002: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_336220: [('153', 4), ('144', 10), ('247', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_117644: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_336299: [('81', 2), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_6950: [('9', 2), ('157', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_556885: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_226991: [('39', 1), ('148', 3)]	 Chosen cluster: 148
+No consensus cluster for contig k141_446825: [('143', 5), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_282154: [('81', 1), ('1', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_227121: [('75', 1), ('39', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_7067: [('251', 5), ('143', 1), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_61287: [('39', 1), ('251', 12), ('143', 4)]	 Chosen cluster: 251
+No consensus cluster for contig k141_336613: [('163', 1), ('105', 4)]	 Chosen cluster: 105
+No consensus cluster for contig k141_171838: [('5', 1), ('59', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_282235: [('192', 4), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_611437: [('161', 14), ('204', 9)]	 Chosen cluster: 161
+No consensus cluster for contig k141_502673: [('247', 1), ('240', 2)]	 Chosen cluster: 240
+No consensus cluster for contig k141_227336: [('230', 1), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_61394: [('204', 7), ('161', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_611478: [('27', 2), ('144', 1)]	 Chosen cluster: 27
+No consensus cluster for contig k141_391811: [('81', 2), ('182', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_557226: [('251', 3), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_282353: [('205', 1), ('189', 1), ('247', 3)]	 Chosen cluster: 247
+No consensus cluster for contig k141_611541: [('187', 1), ('153', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_7431: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_172048: [('191', 1), ('211', 10)]	 Chosen cluster: 211
+No consensus cluster for contig k141_7437: [('81', 1), ('62', 4)]	 Chosen cluster: 62
+No consensus cluster for contig k141_502916: [('186', 3), ('141', 1)]	 Chosen cluster: 186
+No consensus cluster for contig k141_282537: [('81', 1), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_447192: [('28', 4), ('103', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_611627: [('143', 2), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_227542: [('192', 11), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_282628: [('81', 1), ('202', 5)]	 Chosen cluster: 202
+No consensus cluster for contig k141_503020: [('222', 3), ('187', 3)]	 Chosen cluster: 222
+No consensus cluster for contig k141_7559: [('23', 1), ('62', 1)]	 Chosen cluster: 23
+No consensus cluster for contig k141_447380: [('81', 1), ('192', 2), ('1', 4)]	 Chosen cluster: 1
+No consensus cluster for contig k141_172237: [('247', 1), ('120', 3)]	 Chosen cluster: 120
+No consensus cluster for contig k141_282789: [('182', 2), ('243', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_557681: [('260', 3), ('121', 1)]	 Chosen cluster: 260
+No consensus cluster for contig k141_227846: [('219', 7), ('115', 3)]	 Chosen cluster: 219
+No consensus cluster for contig k141_503354: [('81', 1), ('30', 2)]	 Chosen cluster: 30
+No consensus cluster for contig k141_118589: [('108', 3), ('39', 1)]	 Chosen cluster: 108
+No consensus cluster for contig k141_61908: [('191', 1), ('102', 2)]	 Chosen cluster: 102
+No consensus cluster for contig k141_557810: [('247', 2), ('62', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_392289: [('143', 15), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_503401: [('179', 1), ('1', 3), ('127', 12)]	 Chosen cluster: 127
+No consensus cluster for contig k141_227929: [('71', 27), ('41', 1), ('138', 4), ('73', 1)]	 Chosen cluster: 71
+No consensus cluster for contig k141_557914: [('247', 1), ('127', 6), ('64', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_392474: [('41', 1), ('157', 1)]	 Chosen cluster: 41
+No consensus cluster for contig k141_283204: [('210', 3), ('254', 1)]	 Chosen cluster: 210
+No consensus cluster for contig k141_227977: [('106', 1), ('255', 6), ('62', 1), ('247', 1)]	 Chosen cluster: 255
+No consensus cluster for contig k141_118769: [('81', 1), ('57', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_283224: [('187', 1), ('247', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_118828: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_392575: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_62339: [('132', 3), ('211', 1)]	 Chosen cluster: 132
+No consensus cluster for contig k141_447972: [('153', 3), ('247', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_503902: [('143', 1), ('251', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_228238: [('204', 1), ('161', 6)]	 Chosen cluster: 161
+No consensus cluster for contig k141_448128: [('30', 1), ('192', 3)]	 Chosen cluster: 192
+No consensus cluster for contig k141_172949: [('247', 2), ('103', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_612500: [('195', 1), ('108', 1)]	 Chosen cluster: 195
+No consensus cluster for contig k141_62462: [('237', 3), ('115', 1), ('146', 1)]	 Chosen cluster: 237
+No consensus cluster for contig k141_448231: [('73', 3), ('247', 2)]	 Chosen cluster: 73
+No consensus cluster for contig k141_62547: [('118', 1), ('204', 1)]	 Chosen cluster: 118
+No consensus cluster for contig k141_338546: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_283785: [('39', 1), ('161', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_504363: [('204', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_283822: [('81', 1), ('223', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_612713: [('192', 3), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_228644: [('105', 1), ('247', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_283857: [('127', 24), ('73', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_504528: [('247', 3), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_8899: [('148', 1), ('26', 1)]	 Chosen cluster: 148
+No consensus cluster for contig k141_504538: [('95', 3), ('132', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_448669: [('145', 2), ('160', 1)]	 Chosen cluster: 145
+No consensus cluster for contig k141_62863: [('41', 1), ('255', 2)]	 Chosen cluster: 255
+No consensus cluster for contig k141_228754: [('247', 4), ('142', 7)]	 Chosen cluster: 142
+No consensus cluster for contig k141_504621: [('105', 2), ('144', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_119399: [('28', 1), ('247', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_558939: [('200', 1), ('145', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_612970: [('90', 6), ('247', 1)]	 Chosen cluster: 90
+No consensus cluster for contig k141_448800: [('39', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_173511: [('189', 1), ('179', 1)]	 Chosen cluster: 189
+No consensus cluster for contig k141_228888: [('96', 2), ('247', 1)]	 Chosen cluster: 96
+No consensus cluster for contig k141_63065: [('222', 1), ('27', 1)]	 Chosen cluster: 222
+No consensus cluster for contig k141_338984: [('241', 1), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_228950: [('29', 1), ('81', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_119501: [('142', 9), ('247', 1)]	 Chosen cluster: 142
+No consensus cluster for contig k141_173647: [('144', 2), ('153', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_613018: [('187', 5), ('28', 2)]	 Chosen cluster: 187
+No consensus cluster for contig k141_119562: [('192', 8), ('81', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_284291: [('81', 1), ('39', 2)]	 Chosen cluster: 39
+No consensus cluster for contig k141_559302: [('81', 1), ('194', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_119631: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_9174: [('101', 15), ('95', 1)]	 Chosen cluster: 101
+No consensus cluster for contig k141_613214: [('81', 1), ('30', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_229079: [('191', 4), ('7', 15), ('134', 1)]	 Chosen cluster: 7
+No consensus cluster for contig k141_559400: [('194', 2), ('81', 1)]	 Chosen cluster: 194
+No consensus cluster for contig k141_119737: [('69', 1), ('17', 2)]	 Chosen cluster: 17
+No consensus cluster for contig k141_504949: [('170', 9), ('73', 1), ('247', 1)]	 Chosen cluster: 170
+No consensus cluster for contig k141_393748: [('81', 3), ('220', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_449143: [('29', 6), ('81', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_63406: [('202', 2), ('81', 2)]	 Chosen cluster: 202
+No consensus cluster for contig k141_393755: [('59', 1), ('247', 6), ('182', 2), ('81', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_559537: [('161', 1), ('204', 2), ('227', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_559582: [('247', 1), ('127', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_613475: [('192', 2), ('189', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_284643: [('250', 1), ('9', 8)]	 Chosen cluster: 9
+No consensus cluster for contig k141_613477: [('29', 9), ('81', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_339598: [('163', 1), ('105', 1)]	 Chosen cluster: 163
+No consensus cluster for contig k141_613482: [('191', 1), ('101', 2)]	 Chosen cluster: 101
+No consensus cluster for contig k141_339615: [('64', 2), ('81', 1)]	 Chosen cluster: 64
+No consensus cluster for contig k141_613540: [('192', 1), ('6', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_559697: [('28', 4), ('247', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_394019: [('192', 1), ('1', 8)]	 Chosen cluster: 1
+No consensus cluster for contig k141_174291: [('163', 2), ('105', 1)]	 Chosen cluster: 163
+No consensus cluster for contig k141_284769: [('143', 2), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_559824: [('92', 1), ('247', 1)]	 Chosen cluster: 92
+No consensus cluster for contig k141_229674: [('143', 4), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_9678: [('247', 3), ('73', 2), ('120', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_449551: [('247', 2), ('68', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_63883: [('81', 1), ('75', 2)]	 Chosen cluster: 75
+No consensus cluster for contig k141_9698: [('247', 2), ('176', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_559887: [('26', 1), ('143', 1), ('57', 1)]	 Chosen cluster: 26
+No consensus cluster for contig k141_64040: [('202', 1), ('145', 1)]	 Chosen cluster: 202
+No consensus cluster for contig k141_613713: [('188', 5), ('73', 1)]	 Chosen cluster: 188
+No consensus cluster for contig k141_505501: [('180', 3), ('219', 1), ('90', 2), ('81', 1)]	 Chosen cluster: 180
+No consensus cluster for contig k141_394248: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_340007: [('81', 1), ('62', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_229975: [('247', 1), ('144', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_613717: [('161', 10), ('39', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_64159: [('143', 2), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_394305: [('247', 1), ('59', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_9894: [('204', 14), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_174555: [('81', 1), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_613756: [('186', 1), ('225', 7)]	 Chosen cluster: 225
+No consensus cluster for contig k141_340072: [('142', 3), ('68', 1), ('247', 2)]	 Chosen cluster: 142
+No consensus cluster for contig k141_9985: [('118', 1), ('108', 1)]	 Chosen cluster: 118
+No consensus cluster for contig k141_560073: [('143', 1), ('75', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_394353: [('81', 2), ('192', 2), ('6', 3)]	 Chosen cluster: 6
+No consensus cluster for contig k141_120698: [('98', 2), ('37', 1)]	 Chosen cluster: 98
+No consensus cluster for contig k141_449805: [('182', 1), ('85', 3)]	 Chosen cluster: 85
+No consensus cluster for contig k141_560192: [('95', 1), ('101', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_394400: [('141', 23), ('203', 2)]	 Chosen cluster: 141
+No consensus cluster for contig k141_560236: [('28', 1), ('247', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_613996: [('251', 5), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_614042: [('81', 1), ('102', 3)]	 Chosen cluster: 102
+No consensus cluster for contig k141_174707: [('120', 21), ('247', 1)]	 Chosen cluster: 120
+No consensus cluster for contig k141_560491: [('133', 2), ('150', 1)]	 Chosen cluster: 133
+No consensus cluster for contig k141_450301: [('192', 3), ('81', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_285676: [('39', 2), ('81', 1), ('251', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_394783: [('1', 4), ('160', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_230783: [('223', 1), ('102', 3), ('81', 1)]	 Chosen cluster: 102
+No consensus cluster for contig k141_121355: [('30', 2), ('192', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_285904: [('81', 2), ('189', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_230842: [('247', 1), ('158', 10)]	 Chosen cluster: 158
+No consensus cluster for contig k141_65076: [('234', 2), ('115', 5)]	 Chosen cluster: 115
+No consensus cluster for contig k141_65095: [('5', 1), ('247', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_450536: [('39', 1), ('113', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_285969: [('32', 7), ('182', 1)]	 Chosen cluster: 32
+No consensus cluster for contig k141_230965: [('143', 6), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_506776: [('161', 1), ('204', 3)]	 Chosen cluster: 204
+No consensus cluster for contig k141_121633: [('259', 3), ('155', 1)]	 Chosen cluster: 259
+No consensus cluster for contig k141_395237: [('62', 1), ('81', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_560835: [('131', 9), ('75', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_450642: [('27', 1), ('123', 5), ('247', 1)]	 Chosen cluster: 123
+No consensus cluster for contig k141_560845: [('132', 1), ('95', 1)]	 Chosen cluster: 132
+No consensus cluster for contig k141_395270: [('81', 1), ('30', 4)]	 Chosen cluster: 30
+No consensus cluster for contig k141_231120: [('39', 1), ('131', 1), ('230', 3)]	 Chosen cluster: 230
+No consensus cluster for contig k141_175498: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_507008: [('247', 1), ('80', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_395368: [('143', 2), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_11063: [('247', 5), ('163', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_560956: [('1', 6), ('81', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_450742: [('161', 21), ('39', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_122020: [('247', 1), ('28', 3)]	 Chosen cluster: 28
+No consensus cluster for contig k141_507130: [('5', 1), ('247', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_561110: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_11211: [('32', 8), ('173', 1), ('31', 8)]	 Chosen cluster: 32
+No consensus cluster for contig k141_451032: [('251', 3), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_341447: [('241', 2), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_395702: [('1', 11), ('192', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_615149: [('118', 2), ('39', 1), ('131', 5)]	 Chosen cluster: 131
+No consensus cluster for contig k141_395709: [('86', 1), ('101', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_65943: [('204', 2), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_122313: [('95', 2), ('147', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_507259: [('81', 1), ('207', 4)]	 Chosen cluster: 207
+No consensus cluster for contig k141_561147: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_341522: [('204', 1), ('161', 8)]	 Chosen cluster: 161
+No consensus cluster for contig k141_451201: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_615272: [('241', 2), ('81', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_287001: [('81', 1), ('90', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_395958: [('153', 1), ('247', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_11566: [('161', 1), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_122647: [('39', 1), ('154', 6)]	 Chosen cluster: 154
+No consensus cluster for contig k141_615417: [('120', 12), ('143', 1)]	 Chosen cluster: 120
+No consensus cluster for contig k141_507628: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_341919: [('161', 7), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_615470: [('28', 1), ('247', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_451654: [('135', 4), ('81', 1)]	 Chosen cluster: 135
+No consensus cluster for contig k141_11680: [('251', 9), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_396141: [('10', 2), ('243', 1)]	 Chosen cluster: 10
+No consensus cluster for contig k141_507789: [('154', 5), ('143', 1)]	 Chosen cluster: 154
+No consensus cluster for contig k141_11742: [('217', 5), ('81', 1)]	 Chosen cluster: 217
+No consensus cluster for contig k141_561799: [('131', 12), ('26', 1), ('143', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_122930: [('230', 11), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_396223: [('192', 1), ('30', 5)]	 Chosen cluster: 30
+No consensus cluster for contig k141_396248: [('182', 1), ('204', 1), ('161', 4)]	 Chosen cluster: 161
+No consensus cluster for contig k141_561875: [('57', 1), ('143', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_451834: [('247', 4), ('81', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_122973: [('39', 1), ('161', 7)]	 Chosen cluster: 161
+No consensus cluster for contig k141_176787: [('5', 1), ('28', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_342079: [('154', 27), ('143', 1)]	 Chosen cluster: 154
+No consensus cluster for contig k141_123056: [('145', 2), ('81', 1)]	 Chosen cluster: 145
+No consensus cluster for contig k141_342121: [('247', 1), ('163', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_66666: [('102', 8), ('81', 2), ('62', 3)]	 Chosen cluster: 102
+No consensus cluster for contig k141_562032: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_452026: [('161', 2), ('39', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_396595: [('161', 14), ('195', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_615769: [('146', 2), ('157', 2)]	 Chosen cluster: 146
+No consensus cluster for contig k141_562224: [('251', 5), ('81', 2), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_452247: [('81', 1), ('247', 1), ('92', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_66936: [('91', 1), ('81', 1)]	 Chosen cluster: 91
+No consensus cluster for contig k141_562237: [('161', 2), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_177108: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_123329: [('247', 1), ('241', 2)]	 Chosen cluster: 241
+No consensus cluster for contig k141_123349: [('161', 2), ('204', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_562314: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_452516: [('62', 1), ('81', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_232968: [('183', 11), ('41', 1)]	 Chosen cluster: 183
+No consensus cluster for contig k141_616038: [('204', 11), ('161', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_233178: [('86', 2), ('101', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_342935: [('120', 9), ('222', 1)]	 Chosen cluster: 120
+No consensus cluster for contig k141_342964: [('191', 1), ('251', 1)]	 Chosen cluster: 191
+No consensus cluster for contig k141_562632: [('150', 2), ('9', 1)]	 Chosen cluster: 150
+No consensus cluster for contig k141_233435: [('247', 2), ('240', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_12856: [('81', 3), ('86', 9), ('191', 4)]	 Chosen cluster: 86
+No consensus cluster for contig k141_452813: [('127', 19), ('189', 2)]	 Chosen cluster: 127
+No consensus cluster for contig k141_233468: [('247', 2), ('120', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_233479: [('74', 2), ('81', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_343303: [('81', 1), ('51', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_452937: [('222', 1), ('28', 2)]	 Chosen cluster: 28
+No consensus cluster for contig k141_397247: [('161', 1), ('204', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_509145: [('170', 4), ('81', 1)]	 Chosen cluster: 170
+No consensus cluster for contig k141_67586: [('150', 1), ('81', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_562798: [('161', 4), ('204', 8)]	 Chosen cluster: 204
+No consensus cluster for contig k141_67608: [('179', 2), ('202', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_178086: [('251', 5), ('143', 7), ('39', 1), ('81', 2), ('75', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_616475: [('251', 3), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_562872: [('144', 1), ('161', 4)]	 Chosen cluster: 161
+No consensus cluster for contig k141_616554: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_233903: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_124234: [('196', 2), ('102', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_13437: [('5', 1), ('142', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_397573: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_67909: [('251', 5), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_563252: [('39', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_397646: [('158', 2), ('247', 3)]	 Chosen cluster: 247
+No consensus cluster for contig k141_178411: [('5', 2), ('247', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_563257: [('161', 1), ('230', 5), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_124598: [('150', 1), ('102', 3)]	 Chosen cluster: 102
+No consensus cluster for contig k141_289319: [('90', 6), ('81', 2)]	 Chosen cluster: 90
+No consensus cluster for contig k141_453385: [('62', 1), ('247', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_563302: [('95', 1), ('225', 2)]	 Chosen cluster: 225
+No consensus cluster for contig k141_178515: [('122', 1), ('219', 1)]	 Chosen cluster: 122
+No consensus cluster for contig k141_13715: [('133', 5), ('191', 1)]	 Chosen cluster: 133
+No consensus cluster for contig k141_289390: [('115', 1), ('234', 1)]	 Chosen cluster: 115
+No consensus cluster for contig k141_178620: [('39', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_616990: [('9', 12), ('191', 1), ('81', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_68305: [('197', 1), ('68', 1)]	 Chosen cluster: 197
+No consensus cluster for contig k141_68413: [('247', 1), ('120', 2)]	 Chosen cluster: 120
+No consensus cluster for contig k141_289566: [('133', 7), ('86', 1)]	 Chosen cluster: 133
+No consensus cluster for contig k141_398023: [('154', 14), ('118', 1)]	 Chosen cluster: 154
+No consensus cluster for contig k141_124838: [('81', 1), ('51', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_617128: [('112', 3), ('39', 1)]	 Chosen cluster: 112
+No consensus cluster for contig k141_344383: [('182', 1), ('81', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_289766: [('91', 2), ('182', 1), ('62', 3)]	 Chosen cluster: 62
+No consensus cluster for contig k141_510370: [('117', 1), ('119', 1), ('225', 11)]	 Chosen cluster: 225
+No consensus cluster for contig k141_344472: [('194', 3), ('81', 2)]	 Chosen cluster: 194
+No consensus cluster for contig k141_289856: [('30', 3), ('135', 2)]	 Chosen cluster: 30
+No consensus cluster for contig k141_510426: [('230', 5), ('26', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_14124: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_510454: [('230', 6), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_344631: [('1', 12), ('81', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_398528: [('182', 1), ('247', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_179175: [('247', 2), ('73', 1), ('105', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_290269: [('127', 6), ('81', 1), ('140', 2)]	 Chosen cluster: 127
+No consensus cluster for contig k141_510594: [('143', 2), ('251', 3)]	 Chosen cluster: 251
+No consensus cluster for contig k141_398610: [('204', 1), ('118', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_14319: [('153', 3), ('247', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_179249: [('228', 10), ('121', 1)]	 Chosen cluster: 228
+No consensus cluster for contig k141_14384: [('6', 2), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_14392: [('161', 3), ('204', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_617796: [('118', 5), ('39', 1), ('143', 2)]	 Chosen cluster: 118
+No consensus cluster for contig k141_510809: [('131', 4), ('230', 3), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_235457: [('39', 1), ('143', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_69186: [('162', 18), ('39', 1)]	 Chosen cluster: 162
+No consensus cluster for contig k141_69187: [('62', 2), ('81', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_179395: [('81', 1), ('192', 4)]	 Chosen cluster: 192
+No consensus cluster for contig k141_125663: [('68', 7), ('120', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_398880: [('118', 1), ('131', 5), ('39', 2)]	 Chosen cluster: 131
+No consensus cluster for contig k141_344983: [('44', 1), ('68', 27), ('219', 7)]	 Chosen cluster: 68
+No consensus cluster for contig k141_290620: [('30', 1), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_69341: [('198', 2), ('106', 1)]	 Chosen cluster: 198
+No consensus cluster for contig k141_617973: [('39', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_290623: [('131', 10), ('39', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_235667: [('228', 6), ('121', 1)]	 Chosen cluster: 228
+No consensus cluster for contig k141_345121: [('154', 2), ('81', 1)]	 Chosen cluster: 154
+No consensus cluster for contig k141_69451: [('143', 2), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_179735: [('155', 4), ('198', 1)]	 Chosen cluster: 155
+No consensus cluster for contig k141_345286: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_564716: [('186', 3), ('86', 1)]	 Chosen cluster: 186
+No consensus cluster for contig k141_69465: [('29', 12), ('189', 2)]	 Chosen cluster: 29
+No consensus cluster for contig k141_179815: [('247', 1), ('81', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_69566: [('247', 1), ('240', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_345429: [('1', 3), ('200', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_235941: [('29', 3), ('91', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_511362: [('146', 9), ('81', 1)]	 Chosen cluster: 146
+No consensus cluster for contig k141_455561: [('211', 2), ('132', 1)]	 Chosen cluster: 211
+No consensus cluster for contig k141_345682: [('222', 1), ('5', 1)]	 Chosen cluster: 222
+No consensus cluster for contig k141_511557: [('39', 2), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_455639: [('140', 1), ('81', 1)]	 Chosen cluster: 140
+No consensus cluster for contig k141_180160: [('149', 11), ('115', 1)]	 Chosen cluster: 149
+No consensus cluster for contig k141_618740: [('29', 1), ('192', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_565136: [('81', 2), ('170', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_399610: [('39', 3), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_565209: [('143', 2), ('251', 3)]	 Chosen cluster: 251
+No consensus cluster for contig k141_69961: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_345947: [('247', 3), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_455697: [('85', 22), ('247', 1)]	 Chosen cluster: 85
+No consensus cluster for contig k141_180332: [('187', 9), ('247', 3)]	 Chosen cluster: 187
+No consensus cluster for contig k141_345977: [('39', 1), ('148', 5)]	 Chosen cluster: 148
+No consensus cluster for contig k141_399710: [('81', 1), ('161', 5)]	 Chosen cluster: 161
+No consensus cluster for contig k141_618886: [('204', 4), ('161', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_15450: [('154', 6), ('26', 1), ('39', 3)]	 Chosen cluster: 154
+No consensus cluster for contig k141_236489: [('120', 1), ('149', 14)]	 Chosen cluster: 149
+No consensus cluster for contig k141_126690: [('131', 8), ('39', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_565455: [('247', 1), ('62', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_70244: [('251', 3), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_565513: [('135', 2), ('81', 2)]	 Chosen cluster: 135
+No consensus cluster for contig k141_180752: [('59', 1), ('187', 3)]	 Chosen cluster: 187
+No consensus cluster for contig k141_456064: [('192', 1), ('81', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_512133: [('247', 2), ('166', 3)]	 Chosen cluster: 166
+No consensus cluster for contig k141_180782: [('74', 3), ('81', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_512195: [('141', 3), ('186', 1)]	 Chosen cluster: 141
+No consensus cluster for contig k141_126873: [('131', 1), ('204', 23), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_619213: [('219', 14), ('81', 1)]	 Chosen cluster: 219
+No consensus cluster for contig k141_512276: [('194', 2), ('160', 4)]	 Chosen cluster: 160
+No consensus cluster for contig k141_456194: [('81', 1), ('39', 1), ('143', 1), ('75', 2)]	 Chosen cluster: 75
+No consensus cluster for contig k141_70589: [('161', 1), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_400235: [('251', 1), ('81', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_619306: [('251', 2), ('143', 2), ('81', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_565813: [('59', 1), ('187', 3)]	 Chosen cluster: 187
+No consensus cluster for contig k141_292031: [('39', 2), ('154', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_619340: [('86', 4), ('95', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_346666: [('82', 1), ('247', 1)]	 Chosen cluster: 82
+No consensus cluster for contig k141_70954: [('143', 1), ('39', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_619482: [('192', 1), ('81', 5)]	 Chosen cluster: 81
+No consensus cluster for contig k141_566120: [('81', 1), ('57', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_127315: [('253', 1), ('127', 5)]	 Chosen cluster: 127
+No consensus cluster for contig k141_181386: [('143', 3), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_566170: [('117', 2), ('199', 7)]	 Chosen cluster: 199
+No consensus cluster for contig k141_456658: [('247', 1), ('80', 4)]	 Chosen cluster: 80
+No consensus cluster for contig k141_292331: [('154', 1), ('143', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_237610: [('91', 1), ('62', 3)]	 Chosen cluster: 62
+No consensus cluster for contig k141_71301: [('192', 1), ('160', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_16356: [('204', 5), ('236', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_127503: [('6', 3), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_456885: [('247', 1), ('92', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_71336: [('135', 1), ('91', 1)]	 Chosen cluster: 135
+No consensus cluster for contig k141_347012: [('204', 3), ('161', 4)]	 Chosen cluster: 161
+No consensus cluster for contig k141_512812: [('170', 1), ('81', 1), ('86', 2)]	 Chosen cluster: 86
+No consensus cluster for contig k141_71405: [('247', 1), ('120', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_620016: [('189', 4), ('81', 1)]	 Chosen cluster: 189
+No consensus cluster for contig k141_347127: [('95', 5), ('119', 3)]	 Chosen cluster: 95
+No consensus cluster for contig k141_457078: [('161', 1), ('81', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_292751: [('223', 2), ('81', 1)]	 Chosen cluster: 223
+No consensus cluster for contig k141_513015: [('81', 1), ('30', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_566641: [('10', 2), ('243', 1)]	 Chosen cluster: 10
+No consensus cluster for contig k141_71456: [('142', 1), ('153', 7)]	 Chosen cluster: 153
+No consensus cluster for contig k141_620066: [('142', 2), ('247', 1)]	 Chosen cluster: 142
+No consensus cluster for contig k141_620105: [('247', 1), ('153', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_292945: [('219', 2), ('68', 1)]	 Chosen cluster: 219
+No consensus cluster for contig k141_292961: [('192', 2), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_71630: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_292994: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_401062: [('223', 1), ('81', 1)]	 Chosen cluster: 223
+No consensus cluster for contig k141_566832: [('205', 2), ('30', 1)]	 Chosen cluster: 205
+No consensus cluster for contig k141_238201: [('81', 1), ('75', 6)]	 Chosen cluster: 75
+No consensus cluster for contig k141_182205: [('144', 1), ('105', 3)]	 Chosen cluster: 105
+No consensus cluster for contig k141_182228: [('81', 1), ('145', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_238240: [('117', 6), ('247', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_71895: [('180', 2), ('5', 1)]	 Chosen cluster: 180
+No consensus cluster for contig k141_457640: [('200', 4), ('30', 1), ('81', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_347566: [('41', 2), ('98', 16)]	 Chosen cluster: 98
+No consensus cluster for contig k141_182408: [('101', 2), ('86', 1)]	 Chosen cluster: 101
+No consensus cluster for contig k141_567179: [('91', 1), ('1', 3)]	 Chosen cluster: 1
+No consensus cluster for contig k141_293379: [('247', 1), ('105', 3)]	 Chosen cluster: 105
+No consensus cluster for contig k141_182541: [('192', 4), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_347699: [('182', 1), ('81', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_293429: [('86', 2), ('81', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_17301: [('39', 2), ('131', 1), ('230', 2)]	 Chosen cluster: 39
+No consensus cluster for contig k141_620454: [('39', 1), ('81', 1), ('148', 2)]	 Chosen cluster: 148
+No consensus cluster for contig k141_457858: [('143', 10), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_17304: [('247', 1), ('153', 2)]	 Chosen cluster: 153
+No consensus cluster for contig k141_457887: [('39', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_238687: [('153', 6), ('247', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_567439: [('191', 1), ('203', 2)]	 Chosen cluster: 203
+No consensus cluster for contig k141_457968: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_347923: [('39', 1), ('251', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_128874: [('202', 1), ('192', 1)]	 Chosen cluster: 202
+No consensus cluster for contig k141_458016: [('141', 4), ('219', 1)]	 Chosen cluster: 141
+No consensus cluster for contig k141_182956: [('223', 2), ('192', 1)]	 Chosen cluster: 223
+No consensus cluster for contig k141_293855: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_72569: [('247', 1), ('184', 1), ('192', 1), ('182', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_17596: [('30', 1), ('91', 1), ('192', 4)]	 Chosen cluster: 192
+No consensus cluster for contig k141_401763: [('247', 1), ('105', 1), ('187', 2)]	 Chosen cluster: 187
+No consensus cluster for contig k141_401823: [('81', 3), ('9', 3)]	 Chosen cluster: 81
+No consensus cluster for contig k141_183167: [('81', 1), ('192', 2), ('241', 4)]	 Chosen cluster: 241
+No consensus cluster for contig k141_129217: [('192', 1), ('6', 2)]	 Chosen cluster: 6
+No consensus cluster for contig k141_458382: [('82', 2), ('199', 1)]	 Chosen cluster: 82
+No consensus cluster for contig k141_294025: [('186', 5), ('81', 1)]	 Chosen cluster: 186
+No consensus cluster for contig k141_348185: [('158', 1), ('163', 2)]	 Chosen cluster: 163
+No consensus cluster for contig k141_621143: [('153', 1), ('144', 3), ('105', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_514235: [('257', 2), ('219', 1)]	 Chosen cluster: 257
+No consensus cluster for contig k141_72729: [('204', 12), ('161', 8)]	 Chosen cluster: 204
+No consensus cluster for contig k141_129385: [('53', 6), ('45', 6)]	 Chosen cluster: 53
+No consensus cluster for contig k141_348329: [('178', 1), ('28', 1)]	 Chosen cluster: 178
+No consensus cluster for contig k141_514342: [('247', 2), ('199', 2), ('92', 1), ('53', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_568278: [('161', 1), ('39', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_129576: [('143', 4), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_514552: [('26', 1), ('251', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_183583: [('155', 1), ('41', 2)]	 Chosen cluster: 41
+No consensus cluster for contig k141_294481: [('161', 1), ('204', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_621492: [('5', 3), ('157', 3)]	 Chosen cluster: 5
+No consensus cluster for contig k141_348480: [('81', 5), ('192', 1), ('200', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_348498: [('117', 1), ('247', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_514862: [('92', 1), ('96', 1)]	 Chosen cluster: 92
+No consensus cluster for contig k141_240025: [('141', 1), ('81', 1)]	 Chosen cluster: 141
+No consensus cluster for contig k141_459026: [('39', 1), ('236', 33)]	 Chosen cluster: 236
+No consensus cluster for contig k141_514936: [('57', 14), ('26', 2)]	 Chosen cluster: 57
+No consensus cluster for contig k141_348741: [('241', 4), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_348746: [('243', 2), ('182', 1)]	 Chosen cluster: 243
+No consensus cluster for contig k141_568890: [('131', 6), ('143', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_240067: [('81', 1), ('135', 1), ('170', 1), ('1', 5)]	 Chosen cluster: 1
+No consensus cluster for contig k141_348769: [('153', 2), ('144', 2)]	 Chosen cluster: 153
+No consensus cluster for contig k141_294734: [('196', 29), ('91', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_621957: [('247', 1), ('5', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_569004: [('133', 5), ('9', 5)]	 Chosen cluster: 133
+No consensus cluster for contig k141_73465: [('26', 1), ('143', 5)]	 Chosen cluster: 143
+No consensus cluster for contig k141_622050: [('122', 1), ('219', 1)]	 Chosen cluster: 122
+No consensus cluster for contig k141_18906: [('29', 3), ('247', 1)]	 Chosen cluster: 29
+No consensus cluster for contig k141_622051: [('81', 1), ('143', 1), ('251', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_349097: [('247', 1), ('182', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_240309: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_622081: [('154', 3), ('81', 1), ('39', 2)]	 Chosen cluster: 154
+No consensus cluster for contig k141_240423: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_130567: [('142', 2), ('247', 1)]	 Chosen cluster: 142
+No consensus cluster for contig k141_459359: [('247', 2), ('199', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_569284: [('0', 1), ('101', 1)]	 Chosen cluster: 0
+No consensus cluster for contig k141_184367: [('120', 8), ('247', 1)]	 Chosen cluster: 120
+No consensus cluster for contig k141_459446: [('144', 1), ('153', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_349409: [('39', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_19115: [('118', 7), ('28', 10), ('247', 1), ('138', 1)]	 Chosen cluster: 28
+No consensus cluster for contig k141_403434: [('53', 6), ('21', 1)]	 Chosen cluster: 53
+No consensus cluster for contig k141_349536: [('131', 11), ('81', 2)]	 Chosen cluster: 131
+No consensus cluster for contig k141_516004: [('24', 2), ('247', 2)]	 Chosen cluster: 24
+No consensus cluster for contig k141_74042: [('223', 1), ('81', 1)]	 Chosen cluster: 223
+No consensus cluster for contig k141_130815: [('247', 4), ('142', 3)]	 Chosen cluster: 247
+No consensus cluster for contig k141_403459: [('170', 1), ('86', 6)]	 Chosen cluster: 86
+No consensus cluster for contig k141_569683: [('81', 1), ('39', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_459777: [('183', 6), ('41', 1)]	 Chosen cluster: 183
+No consensus cluster for contig k141_130845: [('167', 1), ('247', 1)]	 Chosen cluster: 167
+No consensus cluster for contig k141_19341: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_622495: [('81', 2), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_459846: [('131', 1), ('230', 2)]	 Chosen cluster: 230
+No consensus cluster for contig k141_569815: [('242', 1), ('81', 1)]	 Chosen cluster: 242
+No consensus cluster for contig k141_403606: [('199', 1), ('54', 1)]	 Chosen cluster: 199
+No consensus cluster for contig k141_184961: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_570163: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_131062: [('240', 3), ('247', 1)]	 Chosen cluster: 240
+No consensus cluster for contig k141_295615: [('68', 9), ('219', 4), ('120', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_570203: [('81', 1), ('247', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_74400: [('57', 16), ('39', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_185092: [('192', 4), ('30', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_516656: [('81', 3), ('39', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_131153: [('81', 1), ('205', 2)]	 Chosen cluster: 205
+No consensus cluster for contig k141_516673: [('81', 2), ('162', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_295849: [('247', 1), ('166', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_131231: [('39', 9), ('81', 1), ('204', 4)]	 Chosen cluster: 39
+No consensus cluster for contig k141_241642: [('187', 1), ('153', 4)]	 Chosen cluster: 153
+No consensus cluster for contig k141_295882: [('225', 10), ('160', 1)]	 Chosen cluster: 225
+No consensus cluster for contig k141_74658: [('247', 4), ('62', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_295943: [('59', 1), ('247', 1)]	 Chosen cluster: 59
+No consensus cluster for contig k141_404153: [('81', 1), ('29', 2)]	 Chosen cluster: 29
+No consensus cluster for contig k141_241946: [('95', 1), ('191', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_517163: [('30', 1), ('205', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_623380: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_517378: [('81', 3), ('90', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_350479: [('81', 2), ('148', 6)]	 Chosen cluster: 148
+No consensus cluster for contig k141_131995: [('204', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_570896: [('9', 22), ('191', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_350605: [('39', 1), ('57', 3)]	 Chosen cluster: 57
+No consensus cluster for contig k141_571037: [('95', 5), ('132', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_350752: [('75', 4), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_20570: [('81', 1), ('127', 4)]	 Chosen cluster: 127
+No consensus cluster for contig k141_242548: [('158', 9), ('247', 1)]	 Chosen cluster: 158
+No consensus cluster for contig k141_296882: [('247', 2), ('155', 2), ('41', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_75517: [('241', 9), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_518241: [('191', 2), ('119', 1)]	 Chosen cluster: 191
+No consensus cluster for contig k141_20907: [('143', 1), ('230', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_405309: [('153', 7), ('5', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_624175: [('81', 1), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_405376: [('62', 3), ('247', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_351085: [('6', 5), ('81', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_186885: [('75', 8), ('39', 1), ('251', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_297270: [('81', 4), ('182', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_75759: [('143', 3), ('251', 4)]	 Chosen cluster: 251
+No consensus cluster for contig k141_297342: [('6', 3), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_624326: [('143', 8), ('247', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_132915: [('251', 5), ('39', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_461669: [('81', 1), ('80', 28)]	 Chosen cluster: 80
+No consensus cluster for contig k141_21157: [('24', 5), ('247', 2)]	 Chosen cluster: 24
+No consensus cluster for contig k141_624356: [('141', 1), ('186', 4)]	 Chosen cluster: 186
+No consensus cluster for contig k141_405727: [('68', 1), ('222', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_571883: [('192', 7), ('81', 2), ('170', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_624503: [('81', 3), ('241', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_351488: [('81', 1), ('202', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_518756: [('39', 1), ('204', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_351495: [('115', 1), ('44', 1)]	 Chosen cluster: 115
+No consensus cluster for contig k141_243354: [('125', 17), ('81', 4)]	 Chosen cluster: 125
+No consensus cluster for contig k141_133163: [('161', 2), ('204', 15)]	 Chosen cluster: 204
+No consensus cluster for contig k141_518779: [('131', 16), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_133165: [('161', 3), ('204', 4)]	 Chosen cluster: 204
+No consensus cluster for contig k141_76320: [('230', 3), ('131', 1), ('161', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_21502: [('53', 1), ('45', 7)]	 Chosen cluster: 45
+No consensus cluster for contig k141_297951: [('81', 2), ('91', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_351672: [('81', 1), ('115', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_572068: [('131', 13), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_519000: [('247', 1), ('240', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_76424: [('204', 4), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_298152: [('45', 1), ('21', 3)]	 Chosen cluster: 21
+No consensus cluster for contig k141_519056: [('247', 3), ('127', 8)]	 Chosen cluster: 127
+No consensus cluster for contig k141_21807: [('251', 3), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_243868: [('57', 4), ('131', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_187900: [('182', 1), ('143', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_133750: [('247', 1), ('240', 2)]	 Chosen cluster: 240
+No consensus cluster for contig k141_625464: [('95', 1), ('101', 5)]	 Chosen cluster: 101
+No consensus cluster for contig k141_133837: [('127', 23), ('247', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_519351: [('81', 2), ('186', 10)]	 Chosen cluster: 186
+No consensus cluster for contig k141_133867: [('204', 10), ('161', 4), ('118', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_625474: [('81', 3), ('86', 17)]	 Chosen cluster: 86
+No consensus cluster for contig k141_244551: [('192', 1), ('241', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_519589: [('75', 1), ('81', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_352733: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_406645: [('251', 3), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_188578: [('161', 1), ('204', 14)]	 Chosen cluster: 204
+No consensus cluster for contig k141_134073: [('9', 5), ('160', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_299194: [('57', 11), ('26', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_188814: [('41', 2), ('98', 1)]	 Chosen cluster: 41
+No consensus cluster for contig k141_463185: [('41', 2), ('98', 2)]	 Chosen cluster: 41
+No consensus cluster for contig k141_352988: [('247', 2), ('220', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_573271: [('236', 1), ('39', 1)]	 Chosen cluster: 236
+No consensus cluster for contig k141_134220: [('170', 1), ('200', 2), ('81', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_22693: [('39', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_188917: [('81', 3), ('192', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_134329: [('219', 3), ('68', 1)]	 Chosen cluster: 219
+No consensus cluster for contig k141_520204: [('81', 1), ('125', 11)]	 Chosen cluster: 125
+No consensus cluster for contig k141_189078: [('183', 2), ('191', 2), ('41', 1)]	 Chosen cluster: 183
+No consensus cluster for contig k141_245317: [('30', 1), ('192', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_407383: [('81', 1), ('131', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_189132: [('192', 1), ('81', 5)]	 Chosen cluster: 81
+No consensus cluster for contig k141_22746: [('236', 37), ('242', 1)]	 Chosen cluster: 236
+No consensus cluster for contig k141_573749: [('196', 5), ('81', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_77804: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_189298: [('158', 8), ('247', 1)]	 Chosen cluster: 158
+No consensus cluster for contig k141_245641: [('225', 1), ('95', 1)]	 Chosen cluster: 225
+No consensus cluster for contig k141_189559: [('29', 2), ('81', 13)]	 Chosen cluster: 81
+No consensus cluster for contig k141_300067: [('192', 8), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_135063: [('146', 1), ('101', 1)]	 Chosen cluster: 146
+No consensus cluster for contig k141_520803: [('191', 1), ('95', 4)]	 Chosen cluster: 95
+No consensus cluster for contig k141_245974: [('160', 1), ('223', 1)]	 Chosen cluster: 160
+No consensus cluster for contig k141_354291: [('1', 4), ('81', 2)]	 Chosen cluster: 1
+No consensus cluster for contig k141_246006: [('68', 6), ('197', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_23662: [('161', 2), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_78621: [('5', 1), ('179', 1)]	 Chosen cluster: 5
+No consensus cluster for contig k141_520982: [('161', 1), ('204', 4)]	 Chosen cluster: 204
+No consensus cluster for contig k141_300468: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_190003: [('133', 5), ('81', 2)]	 Chosen cluster: 133
+No consensus cluster for contig k141_23751: [('6', 4), ('192', 2)]	 Chosen cluster: 6
+No consensus cluster for contig k141_627095: [('247', 1), ('117', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_464623: [('39', 1), ('161', 13)]	 Chosen cluster: 161
+No consensus cluster for contig k141_574805: [('251', 4), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_135551: [('39', 1), ('161', 2), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_300704: [('191', 1), ('81', 1)]	 Chosen cluster: 191
+No consensus cluster for contig k141_627215: [('81', 1), ('141', 3)]	 Chosen cluster: 141
+No consensus cluster for contig k141_78958: [('143', 1), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_300788: [('81', 1), ('144', 3)]	 Chosen cluster: 144
+No consensus cluster for contig k141_354866: [('86', 20), ('191', 1), ('81', 3)]	 Chosen cluster: 86
+No consensus cluster for contig k141_24052: [('6', 1), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_408701: [('145', 3), ('81', 1)]	 Chosen cluster: 145
+No consensus cluster for contig k141_190430: [('74', 10), ('81', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_354930: [('259', 8), ('81', 1)]	 Chosen cluster: 259
+No consensus cluster for contig k141_521609: [('247', 1), ('24', 6)]	 Chosen cluster: 24
+No consensus cluster for contig k141_24209: [('251', 1), ('39', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_190625: [('81', 1), ('6', 4)]	 Chosen cluster: 6
+No consensus cluster for contig k141_627685: [('105', 5), ('247', 1), ('73', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_627732: [('183', 1), ('10', 2)]	 Chosen cluster: 10
+No consensus cluster for contig k141_136015: [('81', 2), ('207', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_136048: [('105', 2), ('247', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_409170: [('242', 1), ('161', 1)]	 Chosen cluster: 242
+No consensus cluster for contig k141_575531: [('161', 1), ('204', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_190930: [('170', 3), ('200', 1), ('192', 1)]	 Chosen cluster: 170
+No consensus cluster for contig k141_522138: [('251', 9), ('143', 4), ('81', 1), ('39', 4), ('216', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_522177: [('39', 1), ('112', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_465826: [('247', 1), ('117', 2)]	 Chosen cluster: 117
+No consensus cluster for contig k141_24849: [('101', 8), ('95', 1)]	 Chosen cluster: 101
+No consensus cluster for contig k141_80541: [('191', 1), ('57', 2)]	 Chosen cluster: 57
+No consensus cluster for contig k141_628556: [('219', 1), ('143', 1), ('81', 1)]	 Chosen cluster: 219
+No consensus cluster for contig k141_522705: [('189', 3), ('73', 1)]	 Chosen cluster: 189
+No consensus cluster for contig k141_356345: [('143', 2), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_25148: [('131', 14), ('26', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_409765: [('219', 52), ('115', 3), ('81', 1), ('149', 2)]	 Chosen cluster: 219
+No consensus cluster for contig k141_576139: [('161', 6), ('204', 18)]	 Chosen cluster: 204
+No consensus cluster for contig k141_522907: [('251', 1), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_628811: [('251', 1), ('143', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_80772: [('45', 1), ('53', 1)]	 Chosen cluster: 45
+No consensus cluster for contig k141_191834: [('80', 6), ('81', 1), ('247', 1)]	 Chosen cluster: 80
+No consensus cluster for contig k141_466692: [('73', 2), ('28', 2)]	 Chosen cluster: 73
+No consensus cluster for contig k141_410280: [('41', 1), ('182', 1), ('167', 2)]	 Chosen cluster: 167
+No consensus cluster for contig k141_80912: [('39', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_523428: [('251', 3), ('143', 3), ('75', 1), ('81', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_192246: [('5', 1), ('187', 9)]	 Chosen cluster: 187
+No consensus cluster for contig k141_25829: [('192', 3), ('6', 3)]	 Chosen cluster: 192
+No consensus cluster for contig k141_523674: [('143', 1), ('251', 4)]	 Chosen cluster: 251
+No consensus cluster for contig k141_303060: [('98', 2), ('37', 1)]	 Chosen cluster: 98
+No consensus cluster for contig k141_410586: [('191', 1), ('10', 3)]	 Chosen cluster: 10
+No consensus cluster for contig k141_523680: [('155', 8), ('41', 1)]	 Chosen cluster: 155
+No consensus cluster for contig k141_577100: [('163', 2), ('153', 2), ('247', 2)]	 Chosen cluster: 163
+No consensus cluster for contig k141_357176: [('2', 1), ('240', 1), ('73', 1)]	 Chosen cluster: 2
+No consensus cluster for contig k141_410603: [('161', 1), ('113', 5)]	 Chosen cluster: 113
+No consensus cluster for contig k141_303077: [('81', 1), ('62', 1), ('32', 15)]	 Chosen cluster: 32
+No consensus cluster for contig k141_192747: [('21', 35), ('45', 1)]	 Chosen cluster: 21
+No consensus cluster for contig k141_357305: [('219', 1), ('68', 23)]	 Chosen cluster: 68
+No consensus cluster for contig k141_630097: [('154', 9), ('81', 2), ('191', 1)]	 Chosen cluster: 154
+No consensus cluster for contig k141_81771: [('131', 12), ('81', 1), ('39', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_192994: [('251', 13), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_26695: [('41', 1), ('37', 8)]	 Chosen cluster: 37
+No consensus cluster for contig k141_467613: [('192', 2), ('6', 3)]	 Chosen cluster: 6
+No consensus cluster for contig k141_524277: [('39', 1), ('81', 1), ('57', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_630345: [('101', 8), ('95', 1)]	 Chosen cluster: 101
+No consensus cluster for contig k141_138544: [('199', 1), ('117', 1), ('247', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_138635: [('143', 1), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_250028: [('57', 5), ('191', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_358023: [('143', 2), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_524635: [('41', 3), ('71', 12)]	 Chosen cluster: 71
+No consensus cluster for contig k141_578459: [('187', 3), ('247', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_138815: [('81', 2), ('143', 10)]	 Chosen cluster: 143
+No consensus cluster for contig k141_304384: [('30', 1), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_411670: [('57', 21), ('191', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_139145: [('81', 1), ('202', 3)]	 Chosen cluster: 202
+No consensus cluster for contig k141_468419: [('105', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig k141_358813: [('86', 7), ('101', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_27639: [('183', 2), ('191', 1)]	 Chosen cluster: 183
+No consensus cluster for contig k141_27658: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_251206: [('189', 2), ('81', 1), ('192', 1)]	 Chosen cluster: 189
+No consensus cluster for contig k141_139617: [('30', 1), ('192', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_83028: [('131', 19), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_27860: [('127', 1), ('81', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_579318: [('219', 1), ('259', 2)]	 Chosen cluster: 259
+No consensus cluster for contig k141_525381: [('81', 4), ('29', 5)]	 Chosen cluster: 29
+No consensus cluster for contig k141_139775: [('95', 1), ('41', 4)]	 Chosen cluster: 41
+No consensus cluster for contig k141_83039: [('179', 6), ('29', 2)]	 Chosen cluster: 179
+No consensus cluster for contig k141_251618: [('160', 1), ('170', 2)]	 Chosen cluster: 170
+No consensus cluster for contig k141_83109: [('240', 5), ('247', 1)]	 Chosen cluster: 240
+No consensus cluster for contig k141_305332: [('68', 12), ('219', 2)]	 Chosen cluster: 68
+No consensus cluster for contig k141_139927: [('251', 3), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_139967: [('57', 8), ('191', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_140067: [('204', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_359513: [('117', 4), ('199', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_305624: [('81', 2), ('192', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_359543: [('81', 2), ('131', 9)]	 Chosen cluster: 131
+No consensus cluster for contig k141_83353: [('247', 1), ('166', 9)]	 Chosen cluster: 166
+No consensus cluster for contig k141_579779: [('138', 1), ('28', 7)]	 Chosen cluster: 28
+No consensus cluster for contig k141_28531: [('219', 3), ('68', 3)]	 Chosen cluster: 219
+No consensus cluster for contig k141_305691: [('134', 1), ('4', 5)]	 Chosen cluster: 4
+No consensus cluster for contig k141_469379: [('241', 4), ('192', 1), ('81', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_413215: [('143', 2), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_28618: [('81', 1), ('192', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_83444: [('143', 1), ('230', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_195176: [('143', 5), ('251', 5), ('81', 2), ('39', 8)]	 Chosen cluster: 39
+No consensus cluster for contig k141_140403: [('98', 8), ('37', 2)]	 Chosen cluster: 98
+No consensus cluster for contig k141_195180: [('161', 1), ('81', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_305896: [('1', 7), ('192', 1), ('160', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_526476: [('166', 9), ('160', 1)]	 Chosen cluster: 166
+No consensus cluster for contig k141_83856: [('81', 1), ('102', 10)]	 Chosen cluster: 102
+No consensus cluster for contig k141_580287: [('47', 7), ('39', 1)]	 Chosen cluster: 47
+No consensus cluster for contig k141_28920: [('146', 21), ('225', 1)]	 Chosen cluster: 146
+No consensus cluster for contig k141_84098: [('81', 1), ('90', 2)]	 Chosen cluster: 90
+No consensus cluster for contig k141_413787: [('255', 2), ('222', 1)]	 Chosen cluster: 255
+No consensus cluster for contig k141_580474: [('81', 1), ('131', 11)]	 Chosen cluster: 131
+No consensus cluster for contig k141_141111: [('251', 2), ('39', 1), ('118', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_306653: [('149', 9), ('120', 1)]	 Chosen cluster: 149
+No consensus cluster for contig k141_470328: [('26', 1), ('143', 8), ('131', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_633090: [('115', 1), ('68', 2)]	 Chosen cluster: 68
+No consensus cluster for contig k141_527042: [('81', 1), ('182', 3)]	 Chosen cluster: 182
+No consensus cluster for contig k141_633119: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_253496: [('81', 1), ('143', 3)]	 Chosen cluster: 143
+No consensus cluster for contig k141_527095: [('81', 1), ('200', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_196407: [('95', 1), ('101', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_633122: [('143', 2), ('251', 14)]	 Chosen cluster: 251
+No consensus cluster for contig k141_141620: [('179', 2), ('81', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_306938: [('73', 1), ('39', 1), ('96', 1)]	 Chosen cluster: 73
+No consensus cluster for contig k141_141670: [('247', 1), ('28', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_306959: [('81', 1), ('102', 10)]	 Chosen cluster: 102
+No consensus cluster for contig k141_470940: [('247', 6), ('90', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_471059: [('143', 2), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_414739: [('5', 2), ('247', 2)]	 Chosen cluster: 5
+No consensus cluster for contig k141_471082: [('133', 1), ('150', 1)]	 Chosen cluster: 133
+No consensus cluster for contig k141_30119: [('161', 1), ('204', 4)]	 Chosen cluster: 204
+No consensus cluster for contig k141_471204: [('204', 3), ('195', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_85253: [('187', 1), ('117', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_30306: [('204', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_307556: [('81', 1), ('196', 5)]	 Chosen cluster: 196
+No consensus cluster for contig k141_30445: [('131', 1), ('108', 4)]	 Chosen cluster: 108
+No consensus cluster for contig k141_254616: [('39', 1), ('62', 4)]	 Chosen cluster: 62
+No consensus cluster for contig k141_142692: [('86', 1), ('101', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_361989: [('92', 1), ('247', 2), ('153', 6)]	 Chosen cluster: 153
+No consensus cluster for contig k141_471428: [('225', 8), ('146', 1), ('237', 8)]	 Chosen cluster: 225
+No consensus cluster for contig k141_254931: [('81', 1), ('143', 2), ('39', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_634223: [('153', 2), ('222', 1), ('187', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_307838: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_471565: [('247', 1), ('24', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_30794: [('74', 8), ('81', 2)]	 Chosen cluster: 74
+No consensus cluster for contig k141_582363: [('205', 9), ('81', 1)]	 Chosen cluster: 205
+No consensus cluster for contig k141_582382: [('143', 1), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_143114: [('184', 1), ('192', 1)]	 Chosen cluster: 184
+No consensus cluster for contig k141_255268: [('24', 1), ('247', 1)]	 Chosen cluster: 24
+No consensus cluster for contig k141_471834: [('259', 6), ('210', 1)]	 Chosen cluster: 259
+No consensus cluster for contig k141_86010: [('9', 2), ('150', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_308371: [('251', 5), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_31274: [('247', 1), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_308431: [('81', 1), ('196', 5)]	 Chosen cluster: 196
+No consensus cluster for contig k141_31310: [('81', 10), ('73', 2), ('162', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_198472: [('155', 2), ('41', 1), ('247', 2), ('60', 1)]	 Chosen cluster: 155
+No consensus cluster for contig k141_143621: [('90', 1), ('81', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_582943: [('117', 6), ('247', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_582992: [('230', 3), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_86715: [('204', 2), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_583087: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_416301: [('247', 6), ('73', 1), ('194', 1), ('182', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_363174: [('39', 1), ('62', 2)]	 Chosen cluster: 62
+No consensus cluster for contig k141_143960: [('118', 1), ('251', 1)]	 Chosen cluster: 118
+No consensus cluster for contig k141_529951: [('30', 1), ('189', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_309097: [('143', 3), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_32034: [('194', 1), ('81', 1)]	 Chosen cluster: 194
+No consensus cluster for contig k141_472759: [('150', 1), ('133', 1)]	 Chosen cluster: 150
+No consensus cluster for contig k141_309241: [('81', 2), ('170', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_256063: [('131', 24), ('251', 1), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_87129: [('247', 1), ('28', 3)]	 Chosen cluster: 28
+No consensus cluster for contig k141_309308: [('247', 1), ('153', 3)]	 Chosen cluster: 153
+No consensus cluster for contig k141_530151: [('161', 3), ('195', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_530307: [('257', 3), ('44', 1)]	 Chosen cluster: 257
+No consensus cluster for contig k141_530355: [('81', 1), ('194', 2)]	 Chosen cluster: 194
+No consensus cluster for contig k141_473119: [('229', 1), ('186', 3)]	 Chosen cluster: 186
+No consensus cluster for contig k141_32327: [('161', 13), ('204', 8)]	 Chosen cluster: 161
+No consensus cluster for contig k141_309712: [('187', 1), ('247', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_530552: [('192', 3), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_473304: [('118', 1), ('161', 1)]	 Chosen cluster: 118
+No consensus cluster for contig k141_636458: [('247', 2), ('117', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_199920: [('156', 1), ('9', 1)]	 Chosen cluster: 156
+No consensus cluster for contig k141_144959: [('68', 15), ('219', 2)]	 Chosen cluster: 68
+No consensus cluster for contig k141_473537: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_584370: [('202', 1), ('81', 1)]	 Chosen cluster: 202
+No consensus cluster for contig k141_417590: [('196', 14), ('160', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_257381: [('230', 3), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_636994: [('81', 1), ('39', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_417877: [('39', 2), ('251', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_145528: [('153', 4), ('247', 1), ('5', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_32742: [('131', 73), ('81', 1), ('143', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_364581: [('153', 1), ('247', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_584798: [('230', 5), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_200892: [('10', 1), ('132', 1), ('243', 1)]	 Chosen cluster: 10
+No consensus cluster for contig k141_32823: [('196', 4), ('81', 2), ('160', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_418215: [('153', 1), ('247', 1)]	 Chosen cluster: 153
+No consensus cluster for contig k141_474436: [('81', 2), ('85', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_88532: [('148', 1), ('81', 1), ('39', 1)]	 Chosen cluster: 148
+No consensus cluster for contig k141_584977: [('251', 2), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_364853: [('253', 1), ('81', 1)]	 Chosen cluster: 253
+No consensus cluster for contig k141_145821: [('177', 1), ('119', 13), ('191', 1)]	 Chosen cluster: 119
+No consensus cluster for contig k141_585218: [('192', 5), ('160', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_418773: [('143', 1), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_33318: [('161', 1), ('204', 2)]	 Chosen cluster: 204
+No consensus cluster for contig k141_311441: [('81', 1), ('232', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_311598: [('95', 1), ('101', 2)]	 Chosen cluster: 101
+No consensus cluster for contig k141_418948: [('39', 1), ('143', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_201777: [('192', 1), ('6', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_258883: [('97', 1), ('81', 1)]	 Chosen cluster: 97
+No consensus cluster for contig k141_365580: [('75', 2), ('81', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_585580: [('39', 9), ('161', 1), ('81', 1), ('230', 5), ('131', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_585603: [('192', 1), ('6', 2)]	 Chosen cluster: 6
+No consensus cluster for contig k141_532613: [('161', 2), ('204', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_532830: [('9', 9), ('160', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_585872: [('108', 3), ('160', 1)]	 Chosen cluster: 108
+No consensus cluster for contig k141_366100: [('251', 1), ('143', 3)]	 Chosen cluster: 143
+No consensus cluster for contig k141_89764: [('241', 2), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_639013: [('222', 1), ('68', 1)]	 Chosen cluster: 222
+No consensus cluster for contig k141_366213: [('81', 1), ('95', 1), ('146', 6)]	 Chosen cluster: 146
+No consensus cluster for contig k141_312563: [('73', 1), ('247', 1)]	 Chosen cluster: 73
+No consensus cluster for contig k141_420053: [('237', 4), ('81', 1), ('115', 1)]	 Chosen cluster: 237
+No consensus cluster for contig k141_639225: [('105', 1), ('27', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_203059: [('251', 5), ('143', 2)]	 Chosen cluster: 251
+No consensus cluster for contig k141_420208: [('30', 1), ('192', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_34903: [('192', 1), ('1', 3)]	 Chosen cluster: 1
+No consensus cluster for contig k141_90516: [('39', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_203469: [('241', 2), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_35338: [('202', 3), ('81', 1)]	 Chosen cluster: 202
+No consensus cluster for contig k141_260458: [('114', 7), ('116', 1)]	 Chosen cluster: 114
+No consensus cluster for contig k141_203604: [('57', 5), ('95', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_90781: [('57', 2), ('191', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_534076: [('133', 2), ('9', 1)]	 Chosen cluster: 133
+No consensus cluster for contig k141_476978: [('167', 2), ('81', 2)]	 Chosen cluster: 167
+No consensus cluster for contig k141_534126: [('161', 1), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_90973: [('200', 1), ('1', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_148205: [('138', 5), ('182', 1)]	 Chosen cluster: 138
+No consensus cluster for contig k141_260846: [('74', 4), ('81', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_534402: [('21', 1), ('45', 1)]	 Chosen cluster: 21
+No consensus cluster for contig k141_91229: [('81', 1), ('247', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_534626: [('53', 1), ('21', 3)]	 Chosen cluster: 21
+No consensus cluster for contig k141_91391: [('163', 1), ('32', 7)]	 Chosen cluster: 32
+No consensus cluster for contig k141_421468: [('24', 2), ('247', 1)]	 Chosen cluster: 24
+No consensus cluster for contig k141_640809: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_367691: [('9', 8), ('81', 1)]	 Chosen cluster: 9
+No consensus cluster for contig k141_148815: [('247', 3), ('252', 5)]	 Chosen cluster: 252
+No consensus cluster for contig k141_478031: [('81', 1), ('160', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_204454: [('182', 1), ('220', 3)]	 Chosen cluster: 220
+No consensus cluster for contig k141_421547: [('251', 10), ('81', 1), ('143', 4)]	 Chosen cluster: 251
+No consensus cluster for contig k141_148818: [('143', 2), ('118', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_36678: [('247', 1), ('153', 3)]	 Chosen cluster: 153
+No consensus cluster for contig k141_535377: [('191', 1), ('182', 1), ('81', 1)]	 Chosen cluster: 191
+No consensus cluster for contig k141_368173: [('247', 2), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_262149: [('257', 1), ('246', 3)]	 Chosen cluster: 246
+No consensus cluster for contig k141_314597: [('207', 2), ('81', 1)]	 Chosen cluster: 207
+No consensus cluster for contig k141_149762: [('192', 2), ('184', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_535970: [('96', 2), ('182', 1), ('225', 26)]	 Chosen cluster: 225
+No consensus cluster for contig k141_478932: [('247', 1), ('81', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_368630: [('1', 6), ('192', 2)]	 Chosen cluster: 1
+No consensus cluster for contig k141_37595: [('179', 1), ('29', 1)]	 Chosen cluster: 179
+No consensus cluster for contig k141_92904: [('81', 1), ('143', 5)]	 Chosen cluster: 143
+No consensus cluster for contig k141_92943: [('247', 6), ('92', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_37873: [('232', 2), ('247', 1)]	 Chosen cluster: 232
+No consensus cluster for contig k141_262981: [('230', 6), ('131', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_150050: [('251', 12), ('143', 6)]	 Chosen cluster: 251
+No consensus cluster for contig k141_536369: [('81', 1), ('205', 9)]	 Chosen cluster: 205
+No consensus cluster for contig k141_315211: [('161', 4), ('204', 6)]	 Chosen cluster: 204
+No consensus cluster for contig k141_38004: [('108', 1), ('131', 7)]	 Chosen cluster: 131
+No consensus cluster for contig k141_263081: [('247', 5), ('187', 1), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_422732: [('148', 21), ('81', 1), ('39', 1)]	 Chosen cluster: 148
+No consensus cluster for contig k141_479201: [('39', 1), ('62', 4), ('81', 1), ('225', 20)]	 Chosen cluster: 225
+No consensus cluster for contig k141_422808: [('189', 3), ('160', 1)]	 Chosen cluster: 189
+No consensus cluster for contig k141_38115: [('164', 3), ('247', 1)]	 Chosen cluster: 164
+No consensus cluster for contig k141_315260: [('225', 10), ('119', 1), ('86', 1)]	 Chosen cluster: 225
+No consensus cluster for contig k141_479220: [('73', 1), ('180', 1), ('5', 1), ('59', 2)]	 Chosen cluster: 59
+No consensus cluster for contig k141_315330: [('81', 1), ('74', 3)]	 Chosen cluster: 74
+No consensus cluster for contig k141_536761: [('143', 3), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_423199: [('17', 9), ('44', 1)]	 Chosen cluster: 17
+No consensus cluster for contig k141_206221: [('192', 1), ('170', 2)]	 Chosen cluster: 170
+No consensus cluster for contig k141_263671: [('182', 1), ('247', 1)]	 Chosen cluster: 182
+No consensus cluster for contig k141_423224: [('81', 1), ('102', 10)]	 Chosen cluster: 102
+No consensus cluster for contig k141_479635: [('143', 7), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_206347: [('164', 1), ('247', 1)]	 Chosen cluster: 164
+No consensus cluster for contig k141_315656: [('183', 15), ('191', 2)]	 Chosen cluster: 183
+No consensus cluster for contig k141_206540: [('196', 7), ('192', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_423458: [('127', 2), ('81', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_589929: [('143', 1), ('39', 3), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_537257: [('192', 1), ('241', 2)]	 Chosen cluster: 241
+No consensus cluster for contig k141_315971: [('205', 3), ('81', 1)]	 Chosen cluster: 205
+No consensus cluster for contig k141_151021: [('140', 2), ('127', 9)]	 Chosen cluster: 127
+No consensus cluster for contig k141_94313: [('160', 1), ('192', 7)]	 Chosen cluster: 192
+No consensus cluster for contig k141_39347: [('219', 1), ('68', 2)]	 Chosen cluster: 68
+No consensus cluster for contig k141_423798: [('21', 2), ('45', 1), ('53', 1), ('81', 1)]	 Chosen cluster: 21
+No consensus cluster for contig k141_643753: [('192', 1), ('241', 3)]	 Chosen cluster: 241
+No consensus cluster for contig k141_94728: [('192', 2), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_644211: [('144', 1), ('73', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_424382: [('247', 1), ('117', 3)]	 Chosen cluster: 117
+No consensus cluster for contig k141_590914: [('75', 2), ('81', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_265031: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_95274: [('192', 1), ('51', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_317188: [('170', 1), ('81', 1)]	 Chosen cluster: 170
+No consensus cluster for contig k141_265170: [('251', 8), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_591130: [('81', 2), ('251', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_424743: [('68', 8), ('219', 3)]	 Chosen cluster: 68
+No consensus cluster for contig k141_371620: [('220', 1), ('247', 1)]	 Chosen cluster: 220
+No consensus cluster for contig k141_151983: [('6', 13), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_208310: [('127', 13), ('247', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_208555: [('33', 1), ('182', 1)]	 Chosen cluster: 33
+No consensus cluster for contig k141_208788: [('117', 1), ('199', 1), ('92', 1)]	 Chosen cluster: 117
+No consensus cluster for contig k141_95945: [('105', 1), ('81', 1), ('247', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_645270: [('143', 1), ('131', 11), ('41', 1), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_591890: [('161', 5), ('242', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_645386: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_372422: [('81', 2), ('241', 1), ('155', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_425958: [('131', 2), ('39', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_96243: [('38', 2), ('55', 1)]	 Chosen cluster: 38
+No consensus cluster for contig k141_645568: [('204', 2), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_41619: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_318422: [('247', 1), ('240', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_266739: [('229', 3), ('81', 2)]	 Chosen cluster: 229
+No consensus cluster for contig k141_592600: [('170', 1), ('192', 1)]	 Chosen cluster: 170
+No consensus cluster for contig k141_426289: [('220', 2), ('88', 1)]	 Chosen cluster: 220
+No consensus cluster for contig k141_266814: [('39', 5), ('216', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_592623: [('251', 3), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_153234: [('81', 2), ('120', 1), ('85', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_42129: [('57', 3), ('81', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_96839: [('143', 2), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_42177: [('132', 1), ('95', 9)]	 Chosen cluster: 95
+No consensus cluster for contig k141_540217: [('10', 42), ('191', 2), ('132', 2)]	 Chosen cluster: 10
+No consensus cluster for contig k141_267338: [('30', 3), ('81', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_153572: [('191', 1), ('9', 3)]	 Chosen cluster: 9
+No consensus cluster for contig k141_646610: [('81', 1), ('143', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_426893: [('204', 1), ('161', 2), ('242', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_540567: [('73', 2), ('222', 1)]	 Chosen cluster: 73
+No consensus cluster for contig k141_97410: [('200', 2), ('81', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_647109: [('167', 2), ('247', 1)]	 Chosen cluster: 167
+No consensus cluster for contig k141_647191: [('108', 1), ('131', 1)]	 Chosen cluster: 108
+No consensus cluster for contig k141_97632: [('225', 5), ('101', 2)]	 Chosen cluster: 225
+No consensus cluster for contig k141_43081: [('143', 1), ('251', 1), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_593622: [('192', 2), ('184', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_541061: [('247', 1), ('187', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_374411: [('143', 1), ('251', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_154598: [('182', 3), ('81', 2)]	 Chosen cluster: 182
+No consensus cluster for contig k141_97764: [('240', 3), ('73', 1)]	 Chosen cluster: 240
+No consensus cluster for contig k141_211490: [('86', 5), ('160', 1), ('81', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_154627: [('81', 4), ('191', 2)]	 Chosen cluster: 81
+No consensus cluster for contig k141_154673: [('9', 21), ('35', 4)]	 Chosen cluster: 9
+No consensus cluster for contig k141_593927: [('236', 20), ('242', 1)]	 Chosen cluster: 236
+No consensus cluster for contig k141_268583: [('32', 3), ('182', 1)]	 Chosen cluster: 32
+No consensus cluster for contig k141_428267: [('39', 1), ('81', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_374771: [('86', 32), ('95', 1)]	 Chosen cluster: 86
+No consensus cluster for contig k141_428321: [('81', 1), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_648106: [('81', 1), ('251', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_541938: [('204', 6), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_98562: [('161', 4), ('204', 4)]	 Chosen cluster: 161
+No consensus cluster for contig k141_485297: [('45', 3), ('53', 1)]	 Chosen cluster: 45
+No consensus cluster for contig k141_374988: [('127', 19), ('247', 1)]	 Chosen cluster: 127
+No consensus cluster for contig k141_594618: [('81', 1), ('39', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_44594: [('24', 3), ('247', 1)]	 Chosen cluster: 24
+No consensus cluster for contig k141_375398: [('187', 4), ('247', 2)]	 Chosen cluster: 187
+No consensus cluster for contig k141_542597: [('158', 7), ('247', 1)]	 Chosen cluster: 158
+No consensus cluster for contig k141_44901: [('95', 7), ('134', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_595265: [('247', 1), ('73', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_99377: [('204', 1), ('161', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_486231: [('68', 4), ('224', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_429671: [('142', 2), ('247', 1)]	 Chosen cluster: 142
+No consensus cluster for contig k141_376041: [('247', 1), ('28', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_99660: [('68', 3), ('219', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_543464: [('6', 2), ('81', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_270458: [('192', 3), ('1', 2)]	 Chosen cluster: 192
+No consensus cluster for contig k141_543480: [('154', 10), ('75', 2)]	 Chosen cluster: 154
+No consensus cluster for contig k141_270518: [('68', 2), ('5', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_270686: [('39', 1), ('113', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_430660: [('81', 1), ('157', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_649703: [('10', 21), ('97', 1), ('191', 1)]	 Chosen cluster: 10
+No consensus cluster for contig k141_430709: [('161', 2), ('81', 2)]	 Chosen cluster: 161
+No consensus cluster for contig k141_46143: [('240', 3), ('247', 1)]	 Chosen cluster: 240
+No consensus cluster for contig k141_430993: [('144', 2), ('247', 1)]	 Chosen cluster: 144
+No consensus cluster for contig k141_431010: [('160', 1), ('143', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_487231: [('102', 10), ('51', 1)]	 Chosen cluster: 102
+No consensus cluster for contig k141_377376: [('143', 2), ('26', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_487276: [('205', 6), ('81', 1)]	 Chosen cluster: 205
+No consensus cluster for contig k141_650113: [('148', 1), ('39', 1)]	 Chosen cluster: 148
+No consensus cluster for contig k141_431319: [('68', 4), ('120', 1)]	 Chosen cluster: 68
+No consensus cluster for contig k141_431350: [('120', 2), ('247', 1)]	 Chosen cluster: 120
+No consensus cluster for contig k141_544465: [('81', 1), ('191', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_431493: [('251', 1), ('143', 7)]	 Chosen cluster: 143
+No consensus cluster for contig k141_271706: [('205', 3), ('160', 1)]	 Chosen cluster: 205
+No consensus cluster for contig k141_323850: [('247', 1), ('163', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_101026: [('236', 23), ('242', 2)]	 Chosen cluster: 236
+No consensus cluster for contig k141_650750: [('243', 1), ('10', 1)]	 Chosen cluster: 243
+No consensus cluster for contig k141_101156: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_271903: [('220', 4), ('81', 1)]	 Chosen cluster: 220
+No consensus cluster for contig k141_157956: [('57', 30), ('81', 1), ('195', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_597432: [('39', 1), ('251', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_101351: [('131', 10), ('81', 1), ('75', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_597497: [('192', 2), ('6', 4), ('81', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_597502: [('187', 1), ('73', 1)]	 Chosen cluster: 187
+No consensus cluster for contig k141_651149: [('131', 4), ('81', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_432328: [('141', 11), ('157', 2)]	 Chosen cluster: 141
+No consensus cluster for contig k141_158318: [('230', 4), ('75', 1)]	 Chosen cluster: 230
+No consensus cluster for contig k141_158606: [('39', 1), ('75', 2)]	 Chosen cluster: 75
+No consensus cluster for contig k141_217100: [('241', 1), ('192', 1)]	 Chosen cluster: 241
+No consensus cluster for contig k141_651587: [('57', 3), ('81', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_432816: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_489099: [('81', 1), ('241', 10)]	 Chosen cluster: 241
+No consensus cluster for contig k141_651770: [('105', 3), ('62', 1)]	 Chosen cluster: 105
+No consensus cluster for contig k141_102269: [('202', 7), ('81', 3)]	 Chosen cluster: 202
+No consensus cluster for contig k141_546089: [('132', 3), ('86', 1)]	 Chosen cluster: 132
+No consensus cluster for contig k141_48648: [('161', 1), ('204', 1)]	 Chosen cluster: 161
+No consensus cluster for contig k141_102393: [('96', 1), ('232', 1)]	 Chosen cluster: 96
+No consensus cluster for contig k141_433141: [('95', 14), ('101', 1)]	 Chosen cluster: 95
+No consensus cluster for contig k141_159258: [('30', 1), ('29', 1)]	 Chosen cluster: 30
+No consensus cluster for contig k141_598579: [('143', 4), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_102793: [('39', 1), ('162', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_652336: [('90', 2), ('81', 1)]	 Chosen cluster: 90
+No consensus cluster for contig k141_380120: [('143', 6), ('81', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_48942: [('39', 1), ('162', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_598842: [('81', 1), ('143', 4)]	 Chosen cluster: 143
+No consensus cluster for contig k141_218546: [('200', 2), ('192', 1)]	 Chosen cluster: 200
+No consensus cluster for contig k141_652577: [('57', 11), ('143', 1)]	 Chosen cluster: 57
+No consensus cluster for contig k141_598900: [('143', 10), ('81', 1)]	 Chosen cluster: 143
+No consensus cluster for contig k141_49319: [('240', 1), ('247', 1)]	 Chosen cluster: 240
+No consensus cluster for contig k141_652822: [('182', 1), ('81', 1), ('188', 5)]	 Chosen cluster: 188
+No consensus cluster for contig k141_103334: [('81', 2), ('57', 7)]	 Chosen cluster: 57
+No consensus cluster for contig k141_380793: [('75', 1), ('143', 1)]	 Chosen cluster: 75
+No consensus cluster for contig k141_491076: [('131', 6), ('39', 1)]	 Chosen cluster: 131
+No consensus cluster for contig k141_491320: [('247', 2), ('85', 3)]	 Chosen cluster: 85
+No consensus cluster for contig k141_327441: [('24', 4), ('247', 1)]	 Chosen cluster: 24
+No consensus cluster for contig k141_104250: [('162', 9), ('39', 10), ('81', 1), ('86', 1)]	 Chosen cluster: 39
+No consensus cluster for contig k141_104325: [('81', 2), ('192', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_161435: [('251', 1), ('143', 1)]	 Chosen cluster: 251
+No consensus cluster for contig k141_104459: [('62', 1), ('81', 1), ('141', 1)]	 Chosen cluster: 62
+No consensus cluster for contig k141_327973: [('1', 6), ('81', 1)]	 Chosen cluster: 1
+No consensus cluster for contig k141_491861: [('143', 5), ('39', 2), ('251', 2)]	 Chosen cluster: 143
+No consensus cluster for contig k141_381774: [('192', 1), ('81', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_161663: [('144', 1), ('120', 7)]	 Chosen cluster: 120
+No consensus cluster for contig k141_548991: [('143', 4), ('251', 5)]	 Chosen cluster: 251
+No consensus cluster for contig k141_381920: [('247', 11), ('182', 2)]	 Chosen cluster: 247
+No consensus cluster for contig k141_51664: [('192', 1), ('196', 18), ('81', 1), ('91', 1)]	 Chosen cluster: 196
+No consensus cluster for contig k141_161996: [('204', 12), ('81', 1)]	 Chosen cluster: 204
+No consensus cluster for contig k141_382767: [('81', 1), ('62', 2)]	 Chosen cluster: 62
+No consensus cluster for contig k141_382926: [('167', 1), ('81', 1)]	 Chosen cluster: 167
+No consensus cluster for contig k141_437403: [('192', 1), ('6', 1)]	 Chosen cluster: 192
+No consensus cluster for contig k141_437550: [('81', 1), ('90', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_437644: [('1', 1), ('170', 2)]	 Chosen cluster: 170
+No consensus cluster for contig k141_493557: [('244', 1), ('73', 1), ('222', 1)]	 Chosen cluster: 244
+No consensus cluster for contig k141_437891: [('6', 8), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_383483: [('106', 2), ('247', 1)]	 Chosen cluster: 106
+No consensus cluster for contig k141_383697: [('230', 7), ('131', 2)]	 Chosen cluster: 230
+No consensus cluster for contig k141_53953: [('81', 1), ('191', 1)]	 Chosen cluster: 81
+No consensus cluster for contig k141_54153: [('74', 5), ('81', 1)]	 Chosen cluster: 74
+No consensus cluster for contig k141_164636: [('247', 1), ('163', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_164701: [('136', 1), ('105', 1), ('182', 1)]	 Chosen cluster: 136
+No consensus cluster for contig k141_107758: [('170', 8), ('81', 2)]	 Chosen cluster: 170
+No consensus cluster for contig k141_658288: [('170', 1), ('160', 2)]	 Chosen cluster: 160
+No consensus cluster for contig k141_108006: [('6', 1), ('192', 1)]	 Chosen cluster: 6
+No consensus cluster for contig k141_658517: [('42', 3), ('160', 1)]	 Chosen cluster: 42
+No consensus cluster for contig k141_658526: [('247', 1), ('153', 1)]	 Chosen cluster: 247
+No consensus cluster for contig k141_109369: [('81', 1), ('57', 6)]	 Chosen cluster: 57
+Completed merge

@@ -1,0 +1,3129 @@
+Running on Individual F
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+MaxBin 2.2.7
+Input contig: 1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa
+out header: 2_Bacterial_Binning/Maxbin2/IndF
+Located abundance file [2_Bacterial_Binning/Metabat2/IndF_metabat_bins/Ind_F_depth.txt]
+Thread: 4
+Searching against 107 marker genes to find starting seed contigs for [1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa]...
+Running FragGeneScan....
+Running HMMER hmmsearch....
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.seed -out 2_Bacterial_Binning/Maxbin2/IndF -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_352499 [2058.000000]
+	k141_220485 [68181.000000]
+	k141_397117 [60472.000000]
+	k141_309380 [15508.000000]
+	k141_132928 [8344.000000]
+	k141_309527 [11031.000000]
+	k141_45038 [84107.000000]
+	k141_309653 [208868.000000]
+	k141_177467 [30063.000000]
+	k141_177468 [98572.000000]
+	k141_133406 [10869.000000]
+	k141_221821 [48230.000000]
+	k141_485974 [61839.000000]
+	k141_89327 [3273.000000]
+	k141_442126 [79038.000000]
+	k141_397847 [21490.000000]
+	k141_222115 [18005.000000]
+	k141_222346 [27814.000000]
+	k141_354301 [12204.000000]
+	k141_486505 [51135.000000]
+	k141_354508 [1855.000000]
+	k141_310524 [17208.000000]
+	k141_486556 [56910.000000]
+	k141_46306 [4763.000000]
+	k141_178633 [35489.000000]
+	k141_354859 [16139.000000]
+	k141_355093 [65498.000000]
+	k141_134865 [34602.000000]
+	k141_311328 [17856.000000]
+	k141_311515 [77430.000000]
+	k141_47129 [3002.000000]
+	k141_47169 [182806.000000]
+	k141_91869 [75957.000000]
+	k141_269167 [7965.000000]
+	k141_400861 [32664.000000]
+	k141_401305 [108097.000000]
+	k141_225325 [3568.000000]
+	k141_488956 [35167.000000]
+	k141_269855 [31455.000000]
+	k141_49476 [34714.000000]
+	k141_358166 [68697.000000]
+	k141_446235 [111755.000000]
+	k141_402418 [40961.000000]
+	k141_271020 [45040.000000]
+	k141_402998 [6260.000000]
+	k141_227212 [12144.000000]
+	k141_183463 [42623.000000]
+	k141_271921 [3441.000000]
+	k141_6481 [298816.000000]
+	k141_95669 [11503.000000]
+	k141_140367 [3362.000000]
+	k141_184332 [65395.000000]
+	k141_96172 [48339.000000]
+	k141_316859 [137731.000000]
+	k141_51984 [182356.000000]
+	k141_492675 [47955.000000]
+	k141_492776 [115667.000000]
+	k141_186117 [5303.000000]
+	k141_405919 [12646.000000]
+	k141_406108 [23450.000000]
+	k141_97359 [1783.000000]
+	k141_318829 [1844.000000]
+	k141_319078 [5700.000000]
+	k141_362849 [1619.000000]
+	k141_450106 [28060.000000]
+	k141_494222 [3490.000000]
+	k141_494331 [115204.000000]
+	k141_494603 [43538.000000]
+	k141_408203 [9787.000000]
+	k141_451057 [2852.000000]
+	k141_10426 [52385.000000]
+	k141_320557 [108816.000000]
+	k141_232663 [25757.000000]
+	k141_11059 [56201.000000]
+	k141_144701 [12436.000000]
+	k141_190689 [53337.000000]
+	k141_322064 [1682.000000]
+	k141_322138 [36224.000000]
+	k141_453792 [22513.000000]
+	k141_322551 [1805.000000]
+	k141_411027 [7999.000000]
+	k141_454064 [5168.000000]
+	k141_322814 [27450.000000]
+	k141_454166 [19278.000000]
+	k141_58155 [9939.000000]
+	k141_412360 [107580.000000]
+	k141_369531 [86070.000000]
+	k141_194692 [3766.000000]
+	k141_282000 [5303.000000]
+	k141_499363 [29363.000000]
+	k141_103795 [78651.000000]
+	k141_370172 [27968.000000]
+	k141_456437 [3056.000000]
+	k141_15394 [61760.000000]
+	k141_325443 [148676.000000]
+	k141_499750 [14780.000000]
+	k141_238031 [62610.000000]
+	k141_282618 [170263.000000]
+	k141_282716 [82598.000000]
+	k141_282946 [44426.000000]
+	k141_500637 [51188.000000]
+	k141_458282 [114818.000000]
+	k141_105842 [11856.000000]
+	k141_17831 [16520.000000]
+	k141_106464 [35885.000000]
+	k141_198458 [11236.000000]
+	k141_199039 [3150.000000]
+	k141_241026 [7081.000000]
+	k141_459625 [17140.000000]
+	k141_64213 [1783.000000]
+	k141_64284 [10314.000000]
+	k141_19531 [50505.000000]
+	k141_200731 [77773.000000]
+	k141_330383 [17911.000000]
+	k141_155688 [36213.000000]
+	k141_330668 [2125.000000]
+	k141_330768 [48232.000000]
+	k141_110237 [3600.000000]
+	k141_21995 [61548.000000]
+	k141_420107 [181999.000000]
+	k141_157846 [121069.000000]
+	k141_23281 [309543.000000]
+	k141_158835 [240723.000000]
+	k141_204603 [43274.000000]
+	k141_292029 [28157.000000]
+	k141_159148 [20606.000000]
+	k141_507122 [17572.000000]
+	k141_421858 [642713.000000]
+	k141_113482 [5306.000000]
+	k141_292819 [6617.000000]
+	k141_334803 [21101.000000]
+	k141_70400 [80196.000000]
+	k141_206275 [60178.000000]
+	k141_381121 [68308.000000]
+	k141_508353 [200308.000000]
+	k141_293968 [15014.000000]
+	k141_381307 [67865.000000]
+	k141_249371 [49942.000000]
+	k141_116412 [2603.000000]
+	k141_467766 [69696.000000]
+	k141_27047 [2848.000000]
+	k141_382784 [75925.000000]
+	k141_208734 [403759.000000]
+	k141_383055 [16866.000000]
+	k141_73917 [40320.000000]
+	k141_383654 [7044.000000]
+	k141_164003 [166380.000000]
+	k141_470071 [61459.000000]
+	k141_427749 [30340.000000]
+	k141_253115 [73009.000000]
+	k141_211105 [3789.000000]
+	k141_211146 [1568.000000]
+	k141_76215 [1752.000000]
+	k141_339410 [10327.000000]
+	k141_385541 [47290.000000]
+	k141_254638 [2495.000000]
+	k141_121240 [235753.000000]
+	k141_472023 [2854.000000]
+	k141_387883 [9550.000000]
+	k141_168411 [39147.000000]
+	k141_431088 [7037.000000]
+	k141_473200 [2091.000000]
+	k141_215022 [3754.000000]
+	k141_388668 [42761.000000]
+	k141_215441 [30928.000000]
+	k141_33673 [4939.000000]
+	k141_79810 [1854.000000]
+	k141_170438 [9038.000000]
+	k141_390633 [2194.000000]
+	k141_390889 [22532.000000]
+	k141_475702 [2933.000000]
+	k141_391974 [2767.000000]
+	k141_219625 [26949.000000]
+	k141_261712 [76532.000000]
+	k141_521015 [4680.000000]
+	k141_521283 [4023.000000]
+	k141_347622 [18967.000000]
+	k141_394434 [2460.000000]
+	k141_478890 [3325.000000]
+	k141_522318 [22467.000000]
+	k141_479634 [14775.000000]
+	k141_349308 [20208.000000]
+	k141_524057 [7536.000000]
+	k141_483208 [54913.000000]
+Get 184 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 41525 (45.76%)
+Elapsed time:  0 days 03:24:46
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0008.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0008.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0008.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_485862 [8258.000000]
+	k141_276731 [146299.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0009.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0009.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0009.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_92586 [96457.000000]
+	k141_66299 [94124.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0012.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0012.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0012.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_322814 [27450.000000]
+	k141_370172 [27968.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0017.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0017.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0017.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_10426 [52385.000000]
+	k141_500637 [51188.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0021.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0021.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0021.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_400861 [32664.000000]
+	k141_269855 [31455.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0025.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0025.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0025.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_138045 [3313.000000]
+	k141_489816 [45162.000000]
+	k141_113291 [28249.000000]
+Get 3 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 320 (30.42%)
+Elapsed time:  0 days 00:00:04
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0033.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0033.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0033.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_49647 [77123.000000]
+	k141_200731 [77773.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0034.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0034.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0034.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_149090 [21304.000000]
+	k141_240488 [21176.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0036.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0036.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0036.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_177468 [98572.000000]
+	k141_330668 [2125.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0051.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0051.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0051.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_485007 [10794.000000]
+	k141_346776 [10121.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0052.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0052.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0052.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_17690 [32040.000000]
+	k141_74043 [10183.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0056.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0056.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0056.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_271921 [3441.000000]
+	k141_204603 [43274.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0057.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0057.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0057.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_21995 [61548.000000]
+	k141_168411 [39147.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0058.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0058.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0058.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_58155 [9939.000000]
+	k141_387883 [9550.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0067.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0067.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0067.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_137030 [7015.000000]
+	k141_225742 [7136.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0071.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0071.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0071.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_51652 [19992.000000]
+	k141_496991 [81547.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0082.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0082.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0082.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_221608 [14223.000000]
+	k141_101574 [13930.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0084.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0084.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0084.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_220485 [68181.000000]
+	k141_381121 [68308.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0093.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0093.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0093.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_304171 [3686.000000]
+	k141_352009 [2971.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:03
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0096.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0096.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0096.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_44263 [13963.000000]
+	k141_92686 [14563.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0098.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0098.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0098.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_204290 [1745.000000]
+	k141_439180 [55981.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0103.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0103.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0103.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_418095 [3550.000000]
+	k141_386603 [42676.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0106.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0106.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0106.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_490053 [2017.000000]
+	k141_374696 [3220.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0107.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0107.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0107.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_453901 [8284.000000]
+	k141_332515 [8253.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0109.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0109.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0109.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_442126 [79038.000000]
+	k141_70400 [80196.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0115.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0115.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0115.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_402643 [29611.000000]
+	k141_497408 [2218.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0118.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0118.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0118.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_310524 [17208.000000]
+	k141_330383 [17911.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0119.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0119.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0119.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_396531 [13068.000000]
+	k141_450175 [126988.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0121.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0121.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0121.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_331345 [3329.000000]
+	k141_249371 [49942.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:03
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0122.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0122.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0122.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_185686 [46177.000000]
+	k141_16892 [130521.000000]
+	k141_215534 [12843.000000]
+Get 3 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 46 (9.06%)
+Elapsed time:  0 days 00:00:03
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0123.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0123.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0123.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_193178 [27163.000000]
+	k141_14818 [272724.000000]
+	k141_301398 [591554.000000]
+Get 3 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 1 (0.66%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0124.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0124.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0124.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_485974 [61839.000000]
+	k141_15394 [61760.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0129.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0129.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0129.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_266736 [21934.000000]
+	k141_365293 [20095.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0131.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0131.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0131.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_293968 [15014.000000]
+	k141_479634 [14775.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0135.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0135.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0135.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_195735 [1833.000000]
+	k141_505114 [260958.000000]
+	k141_384758 [2176.000000]
+Get 3 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 15 (1.49%)
+Elapsed time:  0 days 00:00:04
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0153.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0153.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0153.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_399791 [7281.000000]
+	k141_457873 [3543.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0156.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0156.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0156.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_24735 [30896.000000]
+	k141_80662 [31262.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0158.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0158.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0158.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_367247 [13575.000000]
+	k141_326269 [12736.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0159.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0159.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0159.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_269167 [7965.000000]
+	k141_411027 [7999.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:04
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0165.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0165.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0165.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_178035 [10265.000000]
+	k141_254418 [11136.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0167.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0167.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0167.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_402784 [49538.000000]
+	k141_271635 [47967.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0170.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0170.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0170.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_317784 [9788.000000]
+	k141_274201 [9130.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:03
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0174.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0174.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0174.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_401305 [108097.000000]
+	k141_157846 [121069.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0180.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0180.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0180.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_269034 [12960.000000]
+	k141_462276 [12371.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0181.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0181.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0181.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_354859 [16139.000000]
+	k141_17831 [16520.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0017.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0017.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0017.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_10426 [52385.000000]
+	k141_500637 [51188.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0021.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0021.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0021.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_400861 [32664.000000]
+	k141_269855 [31455.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0033.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0033.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0033.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_49647 [77123.000000]
+	k141_200731 [77773.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0057.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0057.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0057.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_21995 [61548.000000]
+	k141_168411 [39147.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0058.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0058.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0058.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_53981 [9225.000000]
+	k141_320494 [9940.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0067.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0067.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0067.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_137030 [7015.000000]
+	k141_225742 [7136.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0103.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0103.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0103.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_282946 [44426.000000]
+	k141_417089 [43664.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_490053 [2017.000000]
+	k141_374696 [3220.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0109.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0109.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0109.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_442126 [79038.000000]
+	k141_70400 [80196.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0115.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0115.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0115.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_352499 [2058.000000]
+	k141_211105 [3789.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0129.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0129.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0129.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_266736 [21934.000000]
+	k141_365293 [20095.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0135.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0135.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0135.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_505114 [260958.000000]
+	k141_464895 [3466.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0153.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0153.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0153.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_89697 [7015.000000]
+	k141_241026 [7081.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0158.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0158.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0158.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_314951 [13735.000000]
+	k141_52787 [13582.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_221821 [48230.000000]
+	k141_500991 [48310.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0180.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0180.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0180.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_139033 [12204.000000]
+	k141_228731 [12099.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0181.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0181.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0181.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_354859 [16139.000000]
+	k141_17831 [16520.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0033.out.0002.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0033.out.0002.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0033.out.0002.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_311515 [77430.000000]
+	k141_200731 [77773.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_490053 [2017.000000]
+	k141_374696 [3220.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_221821 [48230.000000]
+	k141_500991 [48310.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_490053 [2017.000000]
+	k141_374696 [3220.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_96172 [48339.000000]
+	k141_492675 [47955.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.0001.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.0001.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0106.out.0001.out.0001.out.0001.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_490053 [2017.000000]
+	k141_374696 [3220.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.0001.out.0001.fasta  -abund 2_Bacterial_Binning/Maxbin2/IndF.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.0001.out.0001.out.seed -out 2_Bacterial_Binning/Maxbin2/IndF.0167.out.0002.out.0002.out.0001.out.0001.out -min_contig_length 1000 -thread 4
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	k141_96172 [48339.000000]
+	k141_492675 [47955.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IndF.001.marker.fasta
+IndF.002.marker.fasta
+IndF.003.marker.fasta
+IndF.004.marker.fasta
+IndF.005.marker.fasta
+IndF.006.marker.fasta
+IndF.007.marker.fasta
+IndF.008.marker.fasta
+IndF.009.marker.fasta
+IndF.010.marker.fasta
+IndF.011.marker.fasta
+IndF.012.marker.fasta
+IndF.013.marker.fasta
+IndF.014.marker.fasta
+IndF.015.marker.fasta
+IndF.016.marker.fasta
+IndF.017.marker.fasta
+IndF.018.marker.fasta
+IndF.019.marker.fasta
+IndF.020.marker.fasta
+IndF.021.marker.fasta
+IndF.022.marker.fasta
+IndF.023.marker.fasta
+IndF.024.marker.fasta
+IndF.025.marker.fasta
+IndF.026.marker.fasta
+IndF.027.marker.fasta
+IndF.028.marker.fasta
+IndF.029.marker.fasta
+IndF.030.marker.fasta
+IndF.031.marker.fasta
+IndF.032.marker.fasta
+IndF.033.marker.fasta
+IndF.034.marker.fasta
+IndF.035.marker.fasta
+IndF.036.marker.fasta
+IndF.037.marker.fasta
+IndF.038.marker.fasta
+IndF.039.marker.fasta
+IndF.040.marker.fasta
+IndF.041.marker.fasta
+IndF.042.marker.fasta
+IndF.043.marker.fasta
+IndF.044.marker.fasta
+IndF.045.marker.fasta
+IndF.046.marker.fasta
+IndF.047.marker.fasta
+IndF.048.marker.fasta
+IndF.049.marker.fasta
+IndF.050.marker.fasta
+IndF.051.marker.fasta
+IndF.052.marker.fasta
+IndF.053.marker.fasta
+IndF.054.marker.fasta
+IndF.055.marker.fasta
+IndF.056.marker.fasta
+IndF.057.marker.fasta
+IndF.058.marker.fasta
+IndF.059.marker.fasta
+IndF.060.marker.fasta
+IndF.061.marker.fasta
+IndF.062.marker.fasta
+IndF.063.marker.fasta
+IndF.064.marker.fasta
+IndF.065.marker.fasta
+IndF.066.marker.fasta
+IndF.067.marker.fasta
+IndF.068.marker.fasta
+IndF.069.marker.fasta
+IndF.070.marker.fasta
+IndF.071.marker.fasta
+IndF.072.marker.fasta
+IndF.073.marker.fasta
+IndF.074.marker.fasta
+IndF.075.marker.fasta
+IndF.076.marker.fasta
+IndF.077.marker.fasta
+IndF.078.marker.fasta
+IndF.079.marker.fasta
+IndF.080.marker.fasta
+IndF.082.marker.fasta
+IndF.083.marker.fasta
+IndF.084.marker.fasta
+IndF.085.marker.fasta
+IndF.086.marker.fasta
+IndF.087.marker.fasta
+IndF.088.marker.fasta
+IndF.089.marker.fasta
+IndF.090.marker.fasta
+IndF.091.marker.fasta
+IndF.092.marker.fasta
+IndF.093.marker.fasta
+IndF.094.marker.fasta
+IndF.095.marker.fasta
+IndF.096.marker.fasta
+IndF.097.marker.fasta
+IndF.098.marker.fasta
+IndF.099.marker.fasta
+IndF.100.marker.fasta
+IndF.101.marker.fasta
+IndF.102.marker.fasta
+IndF.103.marker.fasta
+IndF.104.marker.fasta
+IndF.105.marker.fasta
+IndF.106.marker.fasta
+IndF.107.marker.fasta
+IndF.108.marker.fasta
+IndF.109.marker.fasta
+IndF.110.marker.fasta
+IndF.111.marker.fasta
+IndF.112.marker.fasta
+IndF.113.marker.fasta
+IndF.114.marker.fasta
+IndF.115.marker.fasta
+IndF.116.marker.fasta
+IndF.117.marker.fasta
+IndF.118.marker.fasta
+IndF.119.marker.fasta
+IndF.120.marker.fasta
+IndF.121.marker.fasta
+IndF.122.marker.fasta
+IndF.123.marker.fasta
+IndF.124.marker.fasta
+IndF.125.marker.fasta
+IndF.126.marker.fasta
+IndF.127.marker.fasta
+IndF.128.marker.fasta
+IndF.129.marker.fasta
+IndF.130.marker.fasta
+IndF.131.marker.fasta
+IndF.132.marker.fasta
+IndF.133.marker.fasta
+IndF.134.marker.fasta
+IndF.135.marker.fasta
+IndF.136.marker.fasta
+IndF.137.marker.fasta
+IndF.138.marker.fasta
+IndF.139.marker.fasta
+IndF.140.marker.fasta
+IndF.141.marker.fasta
+IndF.142.marker.fasta
+IndF.143.marker.fasta
+IndF.144.marker.fasta
+IndF.145.marker.fasta
+IndF.146.marker.fasta
+IndF.147.marker.fasta
+IndF.148.marker.fasta
+IndF.149.marker.fasta
+IndF.150.marker.fasta
+IndF.151.marker.fasta
+IndF.152.marker.fasta
+IndF.153.marker.fasta
+IndF.154.marker.fasta
+IndF.155.marker.fasta
+IndF.156.marker.fasta
+IndF.157.marker.fasta
+IndF.158.marker.fasta
+IndF.159.marker.fasta
+IndF.160.marker.fasta
+IndF.161.marker.fasta
+IndF.162.marker.fasta
+IndF.163.marker.fasta
+IndF.164.marker.fasta
+IndF.165.marker.fasta
+IndF.166.marker.fasta
+IndF.167.marker.fasta
+IndF.168.marker.fasta
+IndF.169.marker.fasta
+IndF.170.marker.fasta
+IndF.171.marker.fasta
+IndF.172.marker.fasta
+IndF.173.marker.fasta
+IndF.174.marker.fasta
+IndF.175.marker.fasta
+IndF.176.marker.fasta
+IndF.177.marker.fasta
+IndF.178.marker.fasta
+IndF.179.marker.fasta
+IndF.180.marker.fasta
+IndF.181.marker.fasta
+IndF.182.marker.fasta
+IndF.183.marker.fasta
+IndF.184.marker.fasta
+IndF.185.marker.fasta
+IndF.186.marker.fasta
+IndF.187.marker.fasta
+IndF.188.marker.fasta
+IndF.189.marker.fasta
+IndF.190.marker.fasta
+IndF.191.marker.fasta
+IndF.192.marker.fasta
+IndF.193.marker.fasta
+IndF.194.marker.fasta
+IndF.195.marker.fasta
+IndF.196.marker.fasta
+IndF.197.marker.fasta
+IndF.198.marker.fasta
+IndF.199.marker.fasta
+IndF.200.marker.fasta
+IndF.201.marker.fasta
+IndF.202.marker.fasta
+IndF.203.marker.fasta
+IndF.204.marker.fasta
+IndF.205.marker.fasta
+IndF.206.marker.fasta
+IndF.207.marker.fasta
+IndF.208.marker.fasta
+IndF.209.marker.fasta
+IndF.210.marker.fasta
+IndF.211.marker.fasta
+IndF.212.marker.fasta
+IndF.213.marker.fasta
+IndF.214.marker.fasta
+IndF.215.marker.fasta
+IndF.216.marker.fasta
+IndF.217.marker.fasta
+IndF.218.marker.fasta
+IndF.219.marker.fasta
+IndF.220.marker.fasta
+IndF.221.marker.fasta
+IndF.222.marker.fasta
+IndF.223.marker.fasta
+IndF.224.marker.fasta
+IndF.225.marker.fasta
+IndF.226.marker.fasta
+IndF.227.marker.fasta
+IndF.228.marker.fasta
+IndF.229.marker.fasta
+IndF.230.marker.fasta
+IndF.231.marker.fasta
+IndF.232.marker.fasta
+IndF.233.marker.fasta
+IndF.234.marker.fasta
+IndF.235.marker.fasta
+IndF.236.marker.fasta
+IndF.237.marker.fasta
+IndF.238.marker.fasta
+IndF.239.marker.fasta
+IndF.240.marker.fasta
+IndF.241.marker.fasta
+IndF.242.marker.fasta
+IndF.243.marker.fasta
+IndF.244.marker.fasta
+IndF.245.marker.fasta
+IndF.246.marker.fasta
+IndF.247.marker.fasta
+IndF.248.marker.fasta
+IndF.249.marker.fasta
+IndF.250.marker.fasta
+IndF.251.marker.fasta
+IndF.252.marker.fasta
+IndF.253.marker.fasta
+Deleting intermediate files.
+
+
+========== Job finished ==========
+Yielded 253 bins for contig (scaffold) file 1_Assembled_Contigs/F_megahit_output/IndF.contigs.fa
+
+Here are the output files for this run.
+Please refer to the README file for further details.
+
+Summary file: 2_Bacterial_Binning/Maxbin2/IndF.summary
+Marker counts: 2_Bacterial_Binning/Maxbin2/IndF.marker
+Marker genes for each bin: 2_Bacterial_Binning/Maxbin2/IndF.marker_of_each_gene.tar.gz
+Bin files: 2_Bacterial_Binning/Maxbin2/IndF.001.fasta - 2_Bacterial_Binning/Maxbin2/IndF.253.fasta
+Unbinned sequences: 2_Bacterial_Binning/Maxbin2/IndF.noclass
+
+
+========== Elapsed Time ==========
+3 hours 43 minutes and 12 seconds.
+

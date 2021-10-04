@@ -1,0 +1,9 @@
+Running on Individual B
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) gsl/2.6     2) openmpi/4.0.3
+
+Cannot run FragGeneScan. Please indicate the file directory in 'setting' file.

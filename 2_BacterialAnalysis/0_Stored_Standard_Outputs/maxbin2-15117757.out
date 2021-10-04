@@ -1,0 +1,16 @@
+Running on Individual D
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) gsl/2.6     2) openmpi/4.0.3
+
+MaxBin 2.2.7
+Input contig: 1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa
+out header: 2_Bacterial_Binning/Maxbin2/IndD
+Located abundance file [2_Bacterial_Binning/Metabat2/IndD_metabat_bins/Ind_D_depth.txt]
+Thread: 4
+Searching against 107 marker genes to find starting seed contigs for [1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa]...
+Running FragGeneScan....
+slurmstepd: error: *** JOB 15117757 ON cdr535 CANCELLED AT 2021-09-26T18:47:29 ***

@@ -27,6 +27,10 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  metaQUAST_[A-J].sh : QC summary of Assembly Step
 *  prebinning_bowtie2_[A-J].sh : Binning relies on contig coverage I will use this to make the sorted bam files for metabat2
 *  assembly_multiqc.sh : amalgamates each individuals quast results for assembly
+*  CONCOCT_[A-J].sh : Runs all steps required for CONCOCT binning of assembled contigs
+*  maxbin2_[A-J].sh : Runs MaxBin2 on all assembled contigs to bin them
+*  metabat2_[A-J].sh : Runs MetaBat2 binner on all assembled contigs
+*  DAS-Tool_[A-J].sh : Takes all bins from CONCOCT/MaxBin2/MetaBat2 and merges them into bins
 
 ## Tools Used
 
@@ -34,6 +38,9 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  metabat2 v.2.14(https://bitbucket.org/berkeleylab/metabat/src/master/)
 *  bowtie2 v.2.4.2(http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 *  quast v.5.0.2(http://bioinf.spbau.ru/quast)
+*  DAS Tool v.1.1.2(https://github.com/cmks/DAS_Tool)
+*  CONCOCT v.1.1.0(https://concoct.readthedocs.io/en/latest/#)
+*  MaxBin2 v.2.2.7(https://sourceforge.net/projects/maxbin2/)
 
 ### Sample naming
 
@@ -315,8 +322,28 @@ depth=2_Bacterial_Binning/Metabat2/Ind${ind}_metabat_bins/Ind_${ind}_depth.txt
 run_MaxBin.pl -contig $megahit_contigs -out ${output} -abund ${depth} -thread 4
 ```
 As with Metabat2 I will make a batch script for each individual.
+Note: MaxBin2 gave a lot of errors, that simply required re-running to fix.
+Also, I couldn't get the output to go into the proper output directories. So I had to move the files in there after they successfully ran.
+```shell
+#Individual
+ind=A
+echo "Running on Individual $ind"
 
-### 2B Binning Bacterial Assembled Contigs: CONCOCT
+module load StdEnv/2020 gcc/9.3.0 maxbin/2.2.7
+
+#megahit contigs
+megahit_contigs=1_Assembled_Contigs/${ind}_megahit_output/Ind${ind}.contigs.fa
+
+#Output file
+output=2_Bacterial_Binning/Maxbin2/Ind${ind}
+
+#Metabat2 depth file
+depth=2_Bacterial_Binning/Metabat2/Ind${ind}_metabat_bins/Ind_${ind}_depth.txt
+
+run_MaxBin.pl -contig $megahit_contigs -out ${output} -abund ${depth} -thread 4
+```
+Now they have successfully all been run.
+### 2C Binning Bacterial Assembled Contigs: CONCOCT
 Note: I have CONCOCT installed in an env located elsewhere in my project space. I had previously used it for a different project. 
 
 CONCOCT; like Metabat2 and Maxbin2 needs and abundance file for the contigs.
@@ -335,3 +362,41 @@ I will run each step in one bash script per individual.
 
 I wont write this one out in full as it is too long:
 CONCOCT_A.sh
+
+They all appeared to have worked.
+
+### 2D Binning Bacterial Assembled Contigs: DAS-Tool
+
+Now that we have bins using Metabat2/MaxBin2/CONCOCT we need to merge them together. There are a few tools that do this. We will use DAS-Tool
+
+I've previously installed in my my CEDAR account ~/LIBS/DAS_Tool/
+
+I'm going to run DAS-Tool twice. 1) Using default cut-off 2) Using 0.35 bin score cut-off so I can see if I am losing any bins close to the 0.4 cut-off which is published as being fine.
+I will run Check M to see if I lose any medium-high quality bins.
+
+First step of DAS-Tool is to make the input-files needed (tab seperated file of scaffold IDs and bin IDs)
+https://github.com/cmks/DAS_Tool#preparation-of-input-files
+I will use their Fasta_to_Scaffolds2Bin.sh script.
+For CONCOCT I will use a perl one-liner on the .csv file it outputs. This is because
+There is an issue:
+The contig names from megahit look like this:  
+```shell
+>k141_98793 flag=1 multi=8.0000 len=1717
+```
+But the metabat and maxbin did this:
+```shell
+>k141_14377
+```
+Whereas CONCOCT keeps the whole name
+```shell
+>k141_98793 flag=1 multi=8.0000 len=1717
+```
+So to make the tsv file for CONCOCT I use the perl script.
+
+The output bin ids do not need to match the contig names it seems, it just needs to be the same for all tools.
+
+### Quality Check Binning: CheckM & DAS-Tool
+Along with merging bins together DAS-Tool checks the quality of the bins. I used a loose cut-off of 0.35 bin score (default is 0.5 and others use 0.4).
+
+I plan on comparing each binner with a more robust analysis of quality. Along with trying binning using different abundance strategy.
+

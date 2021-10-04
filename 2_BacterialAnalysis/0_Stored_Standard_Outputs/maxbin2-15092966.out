@@ -1,0 +1,19 @@
+Running on Individual D
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) gsl/2.6     2) openmpi/4.0.3
+
+MaxBin 2.2.7
+Input contig: 1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa
+out header: 2_Bacterial_Binning/Maxbin2/IndD
+Located abundance file [2_Bacterial_Binning/Metabat2/IndD_metabat_bins/Ind_D_depth.txt]
+Thread: 4
+Searching against 107 marker genes to find starting seed contigs for [1_Assembled_Contigs/D_megahit_output/IndD.contigs.fa]...
+Running FragGeneScan....
+Running HMMER hmmsearch....
+Done data collection. Running MaxBin...
+Command: /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/maxbin/2.2.7/bin/src/MaxBin -fasta 2_Bacterial_Binning/Maxbin2/IndD.contig.tmp  -abund 2_Bacterial_Binning/Maxbin2/IndD.contig.tmp.abund1 -seed 2_Bacterial_Binning/Maxbin2/IndD.seed -out 2_Bacterial_Binning/Maxbin2/IndD -min_contig_length 1000 -thread 4
+slurmstepd: error: *** JOB 15092966 ON cdr528 CANCELLED AT 2021-09-26T18:39:41 DUE TO TIME LIMIT ***
