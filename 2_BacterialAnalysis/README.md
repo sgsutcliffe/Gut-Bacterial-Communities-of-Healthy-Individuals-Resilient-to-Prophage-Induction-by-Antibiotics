@@ -41,6 +41,7 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  DAS Tool v.1.1.2(https://github.com/cmks/DAS_Tool)
 *  CONCOCT v.1.1.0(https://concoct.readthedocs.io/en/latest/#)
 *  MaxBin2 v.2.2.7(https://sourceforge.net/projects/maxbin2/)
+*  CheckM v.1.0.18(https://github.com/Ecogenomics/CheckM/wiki)
 
 ### Sample naming
 
@@ -414,4 +415,29 @@ It also produces this nice image where you get a sense of how it worked.
 
 So I will start with running CheckM on the bins found in:  
 2_Bacterial_Binning/DAS-Tool/0_35
+
+Note: CC has version 1.0.18 of CheckM but I could never get it to work. So I use v1.1.3 that I installed myself.
+```shell
+module --force purge
+module load StdEnv/2020 gcc/9.3.0
+module load prodigal pplacer hmmer
+
+module load python/3 scipy-stack
+virtualenv $HOME/CheckM_env
+source $HOME/CheckM_env/bin/activate
+
+pip3 install checkm-genome --no-index
+```
+
+I will run three commands:
+1.  lineage_wf : this is the basic command and produces all the output
+2.  bin_qa_plot : a feature in 1.0.18 that makes a nice plot of the results of lineage_wf
+3.  unique : this ia another quality check to make sure DAS-Tool outputs bins that are unique
+
+Note: checkm bin_qa_plot command doesn't work on newer versions so I loaded v.1.0.18 at the last step to run that specific command
+
+As expected, we see there are bacterial bins that met the DAS-Tool bin score cutoff of 0.35 but do not pass CheckM cutoffs of
+>40% complete, and <10% contaminated.
+
+![CheckM_IndA](2_Bacterial_Binning/CheckM/0_35/IndA/plots/bin_qa_plot.png "CheckM of Individual A of the 0.35 DAS-Tool cutoff")
 
