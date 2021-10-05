@@ -54,3 +54,421 @@ TrimmomaticPE: Started with arguments:
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
+Input Read Pairs: 2194511 Both Surviving: 1687943 (76.92%) Forward Only Surviving: 316187 (14.41%) Reverse Only Surviving: 13778 (0.63%) Dropped: 176603 (8.05%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_J2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_J2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2800922 Both Surviving: 2079083 (74.23%) Forward Only Surviving: 222764 (7.95%) Reverse Only Surviving: 16177 (0.58%) Dropped: 482898 (17.24%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_J1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_J1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_J1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2424598 Both Surviving: 1599084 (65.95%) Forward Only Surviving: 433010 (17.86%) Reverse Only Surviving: 15407 (0.64%) Dropped: 377097 (15.55%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_I6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_I6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1767945 Both Surviving: 1459520 (82.55%) Forward Only Surviving: 205095 (11.60%) Reverse Only Surviving: 7233 (0.41%) Dropped: 96097 (5.44%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_I5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_I5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2015619 Both Surviving: 1496933 (74.27%) Forward Only Surviving: 200611 (9.95%) Reverse Only Surviving: 9326 (0.46%) Dropped: 308749 (15.32%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_I4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_I4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1297627 Both Surviving: 953176 (73.46%) Forward Only Surviving: 295002 (22.73%) Reverse Only Surviving: 5760 (0.44%) Dropped: 43689 (3.37%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_I3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_I3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 886024 Both Surviving: 712781 (80.45%) Forward Only Surviving: 120429 (13.59%) Reverse Only Surviving: 3962 (0.45%) Dropped: 48852 (5.51%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_A6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_A6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 294966 Both Surviving: 202189 (68.55%) Forward Only Surviving: 81561 (27.65%) Reverse Only Surviving: 955 (0.32%) Dropped: 10261 (3.48%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_I2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_I2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1750911 Both Surviving: 1428204 (81.57%) Forward Only Surviving: 225050 (12.85%) Reverse Only Surviving: 8894 (0.51%) Dropped: 88763 (5.07%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_I1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_I1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_I1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2295245 Both Surviving: 1733995 (75.55%) Forward Only Surviving: 273974 (11.94%) Reverse Only Surviving: 11328 (0.49%) Dropped: 275948 (12.02%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_H6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_H6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1295555 Both Surviving: 966674 (74.61%) Forward Only Surviving: 131364 (10.14%) Reverse Only Surviving: 6003 (0.46%) Dropped: 191514 (14.78%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_H5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_H5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 467203 Both Surviving: 140400 (30.05%) Forward Only Surviving: 42420 (9.08%) Reverse Only Surviving: 1268 (0.27%) Dropped: 283115 (60.60%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_H4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_H4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 714260 Both Surviving: 496972 (69.58%) Forward Only Surviving: 94530 (13.23%) Reverse Only Surviving: 2861 (0.40%) Dropped: 119897 (16.79%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_H3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_H3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2500483 Both Surviving: 1559716 (62.38%) Forward Only Surviving: 385417 (15.41%) Reverse Only Surviving: 10334 (0.41%) Dropped: 545016 (21.80%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_H2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_H2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3390233 Both Surviving: 2372560 (69.98%) Forward Only Surviving: 525234 (15.49%) Reverse Only Surviving: 21418 (0.63%) Dropped: 471021 (13.89%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_H1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_H1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_H1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1769156 Both Surviving: 1289121 (72.87%) Forward Only Surviving: 297640 (16.82%) Reverse Only Surviving: 8182 (0.46%) Dropped: 174213 (9.85%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_G6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_G6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 720098 Both Surviving: 421996 (58.60%) Forward Only Surviving: 119232 (16.56%) Reverse Only Surviving: 2140 (0.30%) Dropped: 176730 (24.54%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_G5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_G5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 849982 Both Surviving: 609778 (71.74%) Forward Only Surviving: 131835 (15.51%) Reverse Only Surviving: 3994 (0.47%) Dropped: 104375 (12.28%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_A5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_A5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 999533 Both Surviving: 753976 (75.43%) Forward Only Surviving: 153230 (15.33%) Reverse Only Surviving: 4694 (0.47%) Dropped: 87633 (8.77%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_G4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_G4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1752387 Both Surviving: 1270024 (72.47%) Forward Only Surviving: 228888 (13.06%) Reverse Only Surviving: 10853 (0.62%) Dropped: 242622 (13.85%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_G3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_G3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2349367 Both Surviving: 1496807 (63.71%) Forward Only Surviving: 268399 (11.42%) Reverse Only Surviving: 13909 (0.59%) Dropped: 570252 (24.27%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_G2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_G2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1542419 Both Surviving: 1180912 (76.56%) Forward Only Surviving: 290428 (18.83%) Reverse Only Surviving: 8243 (0.53%) Dropped: 62836 (4.07%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_G1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_G1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_G1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2424570 Both Surviving: 1724717 (71.13%) Forward Only Surviving: 217942 (8.99%) Reverse Only Surviving: 18792 (0.78%) Dropped: 463119 (19.10%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_F6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_F6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 621726 Both Surviving: 454489 (73.10%) Forward Only Surviving: 73350 (11.80%) Reverse Only Surviving: 2839 (0.46%) Dropped: 91048 (14.64%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_F5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_F5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 999703 Both Surviving: 728748 (72.90%) Forward Only Surviving: 152008 (15.21%) Reverse Only Surviving: 4922 (0.49%) Dropped: 114025 (11.41%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_F4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_F4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1374227 Both Surviving: 1087882 (79.16%) Forward Only Surviving: 223696 (16.28%) Reverse Only Surviving: 5197 (0.38%) Dropped: 57452 (4.18%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_F3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_F3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1804952 Both Surviving: 1414900 (78.39%) Forward Only Surviving: 249640 (13.83%) Reverse Only Surviving: 10746 (0.60%) Dropped: 129666 (7.18%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_F2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_F2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1498750 Both Surviving: 1045135 (69.73%) Forward Only Surviving: 191761 (12.79%) Reverse Only Surviving: 8169 (0.55%) Dropped: 253685 (16.93%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_F1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_F1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_F1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3049200 Both Surviving: 2126766 (69.75%) Forward Only Surviving: 473318 (15.52%) Reverse Only Surviving: 15846 (0.52%) Dropped: 433270 (14.21%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_A4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_A4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 606000 Both Surviving: 460715 (76.03%) Forward Only Surviving: 47225 (7.79%) Reverse Only Surviving: 2508 (0.41%) Dropped: 95552 (15.77%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_E6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_E6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 931544 Both Surviving: 613651 (65.87%) Forward Only Surviving: 204838 (21.99%) Reverse Only Surviving: 4044 (0.43%) Dropped: 109011 (11.70%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_E5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_E5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 740354 Both Surviving: 597370 (80.69%) Forward Only Surviving: 115213 (15.56%) Reverse Only Surviving: 2021 (0.27%) Dropped: 25750 (3.48%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_E4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_E4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 6889717 Both Surviving: 5444854 (79.03%) Forward Only Surviving: 629697 (9.14%) Reverse Only Surviving: 40876 (0.59%) Dropped: 774290 (11.24%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_E3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_E3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1878796 Both Surviving: 1266879 (67.43%) Forward Only Surviving: 265842 (14.15%) Reverse Only Surviving: 10191 (0.54%) Dropped: 335884 (17.88%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_E2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_E2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2216719 Both Surviving: 1501744 (67.75%) Forward Only Surviving: 287953 (12.99%) Reverse Only Surviving: 12171 (0.55%) Dropped: 414851 (18.71%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_E1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_E1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_E1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 5829973 Both Surviving: 4423942 (75.88%) Forward Only Surviving: 594567 (10.20%) Reverse Only Surviving: 24313 (0.42%) Dropped: 787151 (13.50%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_D6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_D6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2064690 Both Surviving: 1619800 (78.45%) Forward Only Surviving: 209248 (10.13%) Reverse Only Surviving: 12054 (0.58%) Dropped: 223588 (10.83%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_D5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_D5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1686609 Both Surviving: 1316397 (78.05%) Forward Only Surviving: 253705 (15.04%) Reverse Only Surviving: 9050 (0.54%) Dropped: 107457 (6.37%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_D4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_D4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 566631 Both Surviving: 448346 (79.12%) Forward Only Surviving: 75770 (13.37%) Reverse Only Surviving: 2660 (0.47%) Dropped: 39855 (7.03%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_D3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_D3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1468036 Both Surviving: 1140944 (77.72%) Forward Only Surviving: 192224 (13.09%) Reverse Only Surviving: 8569 (0.58%) Dropped: 126299 (8.60%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_A3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_A3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 178035 Both Surviving: 107336 (60.29%) Forward Only Surviving: 55076 (30.94%) Reverse Only Surviving: 645 (0.36%) Dropped: 14978 (8.41%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_D2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_D2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1657924 Both Surviving: 1265901 (76.35%) Forward Only Surviving: 306116 (18.46%) Reverse Only Surviving: 9973 (0.60%) Dropped: 75934 (4.58%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_D1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_D1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_D1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1296280 Both Surviving: 950423 (73.32%) Forward Only Surviving: 222558 (17.17%) Reverse Only Surviving: 6200 (0.48%) Dropped: 117099 (9.03%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_C6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_C6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 735510 Both Surviving: 546276 (74.27%) Forward Only Surviving: 122444 (16.65%) Reverse Only Surviving: 3225 (0.44%) Dropped: 63565 (8.64%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_C5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_C5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1085940 Both Surviving: 814786 (75.03%) Forward Only Surviving: 146304 (13.47%) Reverse Only Surviving: 6295 (0.58%) Dropped: 118555 (10.92%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_C4_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_C4_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C4_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C4_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C4_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1718056 Both Surviving: 1338959 (77.93%) Forward Only Surviving: 254352 (14.80%) Reverse Only Surviving: 8397 (0.49%) Dropped: 116348 (6.77%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_C3_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_C3_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C3_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C3_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C3_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 824299 Both Surviving: 580912 (70.47%) Forward Only Surviving: 204313 (24.79%) Reverse Only Surviving: 4010 (0.49%) Dropped: 35064 (4.25%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_C2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_C2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 958391 Both Surviving: 645626 (67.37%) Forward Only Surviving: 148352 (15.48%) Reverse Only Surviving: 4269 (0.45%) Dropped: 160144 (16.71%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_C1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_C1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_C1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2877650 Both Surviving: 2016296 (70.07%) Forward Only Surviving: 411068 (14.28%) Reverse Only Surviving: 17638 (0.61%) Dropped: 432648 (15.03%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_B6_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_B6_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B6_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B6_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B6_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 1098089 Both Surviving: 773974 (70.48%) Forward Only Surviving: 111016 (10.11%) Reverse Only Surviving: 7545 (0.69%) Dropped: 205554 (18.72%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_B5_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_B5_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B5_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B5_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B5_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_B5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 402877 Both Surviving: 294998 (73.22%) Forward Only Surviving: 52990 (13.15%) Reverse Only Surviving: 2365 (0.59%) Dropped: 52524 (13.04%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_A2_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_A2_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A2_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A2_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A2_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3064371 Both Surviving: 2403658 (78.44%) Forward Only Surviving: 226262 (7.38%) Reverse Only Surviving: 20046 (0.65%) Dropped: 414405 (13.52%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/2_Phage/Res2_Phage_A1_1.fastq.gz ../0_RawData/2_Phage/Res2_Phage_A1_2.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A1_1_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A1_1_unpaired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A1_2_paired.fastq.gz 2_Trimmed_Phage/trimmed_Res2_Phage_A1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2785123 Both Surviving: 1944916 (69.83%) Forward Only Surviving: 582928 (20.93%) Reverse Only Surviving: 12670 (0.45%) Dropped: 244609 (8.78%)
+TrimmomaticPE: Completed successfully

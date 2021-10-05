@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+QUAST	all_sections	IndA	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndA/report.tsv
+QUAST	all_sections	IndB	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndB/report.tsv
+QUAST	all_sections	IndC	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndC/report.tsv
+QUAST	all_sections	IndD	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndD/report.tsv
+QUAST	all_sections	IndE	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndE/report.tsv
+QUAST	all_sections	IndF	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndF/report.tsv
+QUAST	all_sections	IndG	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndG/report.tsv
+QUAST	all_sections	IndH	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndH/report.tsv
+QUAST	all_sections	IndI	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndI/report.tsv
+QUAST	all_sections	IndJ	/project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/report.tsv

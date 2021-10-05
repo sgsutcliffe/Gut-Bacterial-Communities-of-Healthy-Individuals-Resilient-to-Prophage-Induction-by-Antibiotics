@@ -1,0 +1,57 @@
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_D1_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_D1_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_D1_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_D1_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_D1_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_D1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 41184087 Both Surviving: 31994684 (77.69%) Forward Only Surviving: 4722175 (11.47%) Reverse Only Surviving: 1592118 (3.87%) Dropped: 2875110 (6.98%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_C6_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_C6_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C6_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C6_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C6_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C6_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 43695345 Both Surviving: 34165934 (78.19%) Forward Only Surviving: 5089183 (11.65%) Reverse Only Surviving: 1515653 (3.47%) Dropped: 2924575 (6.69%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_C5_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_C5_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C5_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C5_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C5_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C5_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 42534741 Both Surviving: 34801370 (81.82%) Forward Only Surviving: 3713777 (8.73%) Reverse Only Surviving: 1668392 (3.92%) Dropped: 2351202 (5.53%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_C4_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_C4_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C4_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C4_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C4_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C4_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 42203771 Both Surviving: 33968953 (80.49%) Forward Only Surviving: 4057061 (9.61%) Reverse Only Surviving: 1646877 (3.90%) Dropped: 2530880 (6.00%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_C3_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_C3_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C3_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C3_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C3_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C3_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 28692730 Both Surviving: 23704768 (82.62%) Forward Only Surviving: 2533277 (8.83%) Reverse Only Surviving: 938511 (3.27%) Dropped: 1516174 (5.28%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_C2_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_C2_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C2_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C2_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C2_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C2_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 45368772 Both Surviving: 35008307 (77.16%) Forward Only Surviving: 5910203 (13.03%) Reverse Only Surviving: 1352359 (2.98%) Dropped: 3097903 (6.83%)
+TrimmomaticPE: Completed successfully
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+TrimmomaticPE: Started with arguments:
+ -threads 8 ../0_RawData/0_DNA/Res2_DNA_C1_1.fastq.gz ../0_RawData/0_DNA/Res2_DNA_C1_2.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C1_1_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C1_1_unpaired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C1_2_paired.fastq.gz 0_Trimmed_DNA/trimmed_Res2_DNA_C1_2_unpaired.fastq.gz ILLUMINACLIP:/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/trimmomatic/0.39/adapters/TruSeq3-PE.fa:2:30:10:8:keepBothReads SLIDINGWINDOW:4:20 MINLEN:75
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 40511885 Both Surviving: 31579743 (77.95%) Forward Only Surviving: 4462953 (11.02%) Reverse Only Surviving: 1607699 (3.97%) Dropped: 2861490 (7.06%)
+TrimmomaticPE: Completed successfully

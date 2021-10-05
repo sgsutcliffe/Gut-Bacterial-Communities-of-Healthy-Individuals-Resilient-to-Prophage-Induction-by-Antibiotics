@@ -1,0 +1,62 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/quast.py -t 4 1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa -o /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ --labels IndJ.contigs
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.36.2.el7.x86_64-x86_64-with-glibc2.2.5 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 32
+
+Started: 2021-09-17 10:15:31
+
+Logging to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis
+Main parameters: 
+  MODE: meta, threads: 4, minimum contig length: 500, minimum alignment length: 65, ambiguity: one, \
+  threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1_Assembled_Contigs/J_megahit_output/IndJ.contigs.fa ==> IndJ.contigs
+
+2021-09-17 10:15:48
+Running Basic statistics processor...
+  Contig files: 
+    IndJ.contigs
+  Calculating N50 and L50...
+    IndJ.contigs, N50 = 27860, L50 = 2844, Total length = 410890728, GC % = 47.31, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/basic_stats/GC_content_plot.pdf
+  Drawing IndJ.contigs GC content plot...
+    saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/basic_stats/IndJ.contigs_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-09-17 10:16:16
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-09-17 10:16:22
+RESULTS:
+  Text versions of total report are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/report.html
+  PDF version (tables and plots) is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/report.pdf
+  Icarus (contig browser) is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/icarus.html
+  Log is saved to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndJ/quast.log
+
+Finished: 2021-09-17 10:16:23
+Elapsed time: 0:00:51.834312
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

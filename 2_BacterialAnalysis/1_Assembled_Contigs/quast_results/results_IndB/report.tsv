@@ -1,0 +1,22 @@
+Assembly	IndB.contigs
+# contigs (>= 0 bp)	74922
+# contigs (>= 1000 bp)	74922
+# contigs (>= 5000 bp)	22892
+# contigs (>= 10000 bp)	11620
+# contigs (>= 25000 bp)	4132
+# contigs (>= 50000 bp)	1642
+Total length (>= 0 bp)	574488758
+Total length (>= 1000 bp)	574488758
+Total length (>= 5000 bp)	441193074
+Total length (>= 10000 bp)	362767109
+Total length (>= 25000 bp)	247787203
+Total length (>= 50000 bp)	161498934
+# contigs	74922
+Largest contig	616964
+Total length	574488758
+GC (%)	44.81
+N50	18405
+N75	5493
+L50	5977
+L75	20923
+# N's per 100 kbp	0.00

@@ -1,0 +1,20 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/quast/5.0.2/bin/metaquast.py 1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa -o 1_Assembled_Contigs/quast_results/results_IndC -t 4 --max-ref-num 0
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.36.2.el7.x86_64-x86_64-with-glibc2.2.5 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 32
+
+Started: 2021-09-17 10:15:13
+
+Logging to /project/6003890/ssutclif/temp_storage/Third_Aim/2_BacterialAnalysis/1_Assembled_Contigs/quast_results/results_IndC/metaquast.log
+
+Contigs:
+  Pre-processing...
+  1_Assembled_Contigs/C_megahit_output/IndC.contigs.fa ==> IndC.contigs
+
+NOTICE: Maximum number of references (--max-ref-number) is set to 0, search in SILVA 16S rRNA database is disabled
+
+NOTICE: No references are provided, starting regular QUAST with MetaGeneMark gene finder
