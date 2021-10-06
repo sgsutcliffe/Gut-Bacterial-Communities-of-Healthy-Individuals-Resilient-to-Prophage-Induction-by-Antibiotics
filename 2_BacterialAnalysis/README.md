@@ -10,7 +10,7 @@ folder for it 3_Experimental_bacterial_binning.
   
 ## Files
 
-*
+*  DAS_Check_Bins_Ind[A-J].tsv : Summary of all the bins that met our criteria of medium-quality
 
 ## Directories
 
@@ -19,6 +19,9 @@ folder for it 3_Experimental_bacterial_binning.
 *  2_Bacterial_Binning : Parent directory for subdirectories of each binning tool
 *  3_Experimental_bacterial_binning : This folder I will try using a different coverage approach (aligning reads per sample per individual) 
 *  4_Stored_BASH_scripts : After a step is done I moved the BASH script for the job here to be more organized.
+*  5_Final_Bins : Bins used in downstream analysis after QC
+*  6_Bacterial_taxonomy : We will use GDTB-Tk and determine the taxonomy of each final bacterial bin
+*  7_Relative_Abundance : We will also determine the relative abundance of each bacterial bin per sample per individual
 
 ## Scripts + Batch Jobs
 Finished jobs are found here in 4_Stored_BASH_scripts but should be run from this directory.
@@ -31,6 +34,8 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  maxbin2_[A-J].sh : Runs MaxBin2 on all assembled contigs to bin them
 *  metabat2_[A-J].sh : Runs MetaBat2 binner on all assembled contigs
 *  DAS-Tool_[A-J].sh : Takes all bins from CONCOCT/MaxBin2/MetaBat2 and merges them into bins
+*  Combining_CheckM_DAS_Tool.R : Combines DAS-Tool and CheckM QC on Bins, and makes a table with bins that pass per individual, and their new bin name
+*  Renaming_Bacterial_Bins.py : Python script to rename 5_Final_Bins according to DAS_Check_Bins_Ind[A-J].tsv files that store their new names and which bins met our cut-off
 
 ## Tools Used
 
@@ -441,3 +446,65 @@ As expected, we see there are bacterial bins that met the DAS-Tool bin score cut
 
 ![CheckM_IndA](2_Bacterial_Binning/CheckM/0_35/IndA/plots/bin_qa_plot.png "CheckM of Individual A of the 0.35 DAS-Tool cutoff")
 
+I ran both DAS-Tool and CheckM to deliver their analysis in tab-deliminated form:  
+DAS-Tool:2_Bacterial_Binning/DAS-Tool/0_35/IndA/IndA_DASTool_DASTool_summary.txt
+CheckM:2_Bacterial_Binning/CheckM/0_35/IndA/checkm_summary_IndA
+
+Currently I am not familiar enough to run R in an interactive session of the analysis. I will make all these files available on the Github repo  
+I will be downloading them onto my personal computer. I will put the R project up here to be downloaded.
+
+I will run my script Combining_CheckM_DAS_Tool.R (see below)
+
+```r
+library(tidyverse)
+#Tidyverse includes dplyr, ggplot, readr, tibble
+
+# The Goal of this script is to import quality reports from DAS-Tool output, with the CheckM report and pick bins that meet a medium-high quality score
+
+#We will use bins that have DAS-Tool score of 0.35 (below published 0.4, and the default 0.5)
+
+#When inputing checkM data-tables the header breaks, also I will change bin_id to bin so that I can join both datatables
+checkm_header <- c('bin','marker_lineage', 'numof_genomes', 'numof_markers', 'numof_markersets','0', '1', '2', '3', '4', '5+', 'completeness', 'contamination', 'strain_heterogeneity')
+for (i in LETTERS[1:10]){
+  ind = (paste("Ind",i, sep = ""))
+  print(ind)
+  checkm<- read_delim(paste('0_Raw_Files/checkm_summary_', ind, sep = ""), delim = '\t', col_names = FALSE, skip =1)
+  colnames(checkm) <- checkm_header
+  dastool <- read_delim(paste("0_Raw_Files/",ind ,"_DASTool_DASTool_summary.txt", sep = ""), col_names = TRUE)
+  
+  #Quick sanity check that I have imported the DAS-Tool and CheckM file for the same individual
+  print(identical(sort(checkm$bin), sort(dastool$bin)))
+  
+  #Make a table with all columns joined by bin, and focus on the columns I actually want to use
+  quality_bin <- full_join(checkm, dastool) %>% select(bin, completeness, contamination, binScore)
+  
+  #I will use two criteria to select which bins to keep
+  #1) If <10% contaminated AND >=40% complete (CheckM) OR
+  #2) Bin score >0.5 (default cutoff)
+  
+  med_high_bins <- filter(quality_bin, (completeness >= 40 & contamination < 10) | binScore >= 0.5)
+  med_high_bins <- mutate(med_high_bins, bin_name = ifelse(as.numeric(row.names(med_high_bins)) < 10, paste("bin", paste("00", row.names(med_high_bins), sep = ""), sep = '_'), ifelse((as.numeric(row.names(med_high_bins)) < 100 & as.numeric(row.names(med_high_bins)) > 9), paste("bin", paste("0", row.names(med_high_bins), sep = ""), sep = '_'), paste("bin", row.names(med_high_bins), sep = '_'))))
+  
+  write_tsv(med_high_bins, paste("1_Output_Files/DAS_Check_Bins_",ind,".tsv", sep = ""), col_names = TRUE)
+}
+```
+This also takes their old names, and gives them a new name.
+I moved the bins too 5_Final_Bins; if I decided to change the analysis I will change the bins. So currently the bins are in duplicate.
+```shell
+#Copied bins too 5_Final_Bins/Ind[A-J]
+$ for i in {A..J}; do cp 2_Bacterial_Binning/DAS-Tool/0_35/Ind${i}/Ind${i}_DASTool_DASTool_bins/* 5_Final_bins/Ind${i};done
+#I will still need to run the script for each individual, then delete leftover bins, and rename contigs, I will show for IndA
+$ cd 5_Final_bins/IndA
+$ python3 ../../Renaming_Bacterial_Bins.py -f ../../DAS_Check_Bins_IndA.tsv
+$ rm concoct* IndA*
+$ mkdir temp
+$ for i in {001..059}; do sed "s/>/>IndA_bin_${i}_/" bin_${i}.fa > temp/IndA_bin_${i}.fa; done
+$ mv temp/IndA* .
+$ rm -r temp
+$ rm bin*
+```
+Sadly I have to do this for every Individual. 
+
+Now the information for each bacterial bin is stored in DAS_Check_Bins_Ind[A-J].tsv for each individual
+
+### 3 Assignment of taxonomy: GTDB-Tk
