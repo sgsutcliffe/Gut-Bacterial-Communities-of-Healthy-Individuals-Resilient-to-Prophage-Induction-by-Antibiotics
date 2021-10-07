@@ -69,7 +69,7 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
   * 5 : Post-treatment (Day 30)
   * 6 : Post-treatment (Day 90)
 
-Note: Sample J5 does not exist for any of the samples. So there are 59 paired sequences per 'omic'
+Note: Sample J3 does not exist for any of the samples. So there are 59 paired sequences per 'omic'
 
 ### Step 1: Bacterial Assembly
 
