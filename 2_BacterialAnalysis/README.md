@@ -7,6 +7,8 @@ Decontaminated/Trimmed sequences are in 1_QC_Reads/3_Decontaminated_DNA
 I have decided to do a little experiment. Initially, I had been planning on aligning all the reads of an individual to their assembled contigs for  
 for bacterial binning but after talking to a colleague maybe per sample coverage file might give different bins. I will make a second bacterial binning  
 folder for it 3_Experimental_bacterial_binning.
+
+For storage sake I deleted .sam files for bowtie2 after making bam files. To save on space.
   
 ## Files
 
@@ -47,7 +49,8 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  CONCOCT v.1.1.0(https://concoct.readthedocs.io/en/latest/#)
 *  MaxBin2 v.2.2.7(https://sourceforge.net/projects/maxbin2/)
 *  CheckM v.1.0.18(https://github.com/Ecogenomics/CheckM/wiki)
-
+*  samtools v.1.12
+     * coverage (http://www.htslib.org/doc/samtools-coverage.html)
 ### Sample naming
 
 * [A-J]
@@ -507,4 +510,71 @@ Sadly I have to do this for every Individual.
 
 Now the information for each bacterial bin is stored in DAS_Check_Bins_Ind[A-J].tsv for each individual
 
-### 3 Assignment of taxonomy: GTDB-Tk
+### 3 Coverage of bacterial bins
+Using bowtie2 I will make an index for all the bins of an individual. I will then align each days reads 1-6 (except for individual J) to see how their coverage changes over the course of the experiment.
+I will also use these coverages with PropagAte to determine if prophage regions are more active than neighbouring regions. This will tell me when prophages are active too.
+
+Because each sample needs a seperate coverage profile, so this time I will use bowtie2 to align each days reads to the index of all the bins together (each contig has a bin identified).
+```shell
+#Label of individual involved
+ind=A
+
+#QC reads directory in relation to the script
+input_directory=../1_QCReads/3_Decontaminated_DNA/
+
+#Bacterial bins directory in relation to the script
+bin_dir=5_Final_bins/Ind${ind}
+
+#Make the bacterial bin list
+bin_names=$(ls $bin_dir) #Makes a variable with all the names
+bin_list=$(for i in $bin_names; do echo -n "$bin_dir/${i},"; done) #Turns the list of names into a string
+
+#Make index name/location
+index_name=7_Relative_Abundance/bowtie2/Ind${ind}/individual_${ind}_bin_index
+
+bowtie2-build -f ${bin_list::-1} $index_name
+
+echo "Index made for Ind ${ind}"
+
+#Align each day in the study
+#For loop for each sample, note for J it is not 1..6
+
+for i in {1..6}
+
+do
+
+#Read lists
+pe1=${input_directory}Res2_DNA_${ind}${i}_paired_decontaminated.fastq.1.gz
+pe2=${input_directory}Res2_DNA_${ind}${i}_paired_decontaminated.fastq.2.gz
+
+#Make an output for sam file
+output_sam=7_Relative_Abundance/bowtie2/Ind${ind}/Ind${ind}_${i}_bin_coverage.sam
+
+#Align QC reads used in megahit assembly to measure coverage
+
+bowtie2 -p 8 -x ${index_name} -1 ${pe1} -2 ${pe2} -S ${output_sam}
+
+echo "Finished aligning Sample Ind${ind}"
+
+#Make an output for bam file
+output_bam=7_Relative_Abundance/bowtie2/Ind${ind}/Ind${ind}_${i}_bin_sorted_coverage.bam
+
+samtools sort ${output_sam} -O bam -o ${output_bam}
+
+rm ${output_sam}
+
+done
+```
+
+I also only wanted a sorted bam file as output.
+postbinning_bowtie2_[A-J].sh
+
+To make a coverage profile I can handle in R, I will use samtools coverage and keep it in the same directory
+
+
+### 4 Assignment of taxonomy: GTDB-Tk
+Running this on Galaxy to save time on install. Generates a simple .tsv file. Easy enough to transfer back.
+
+Note: This step takes a long time to run. I had split up my bins into seperate runs so that I could accomplish this. ~50 bins per run, and still had time-out issues. If possible I would reccommed running this on smallest number of bins possible (possibly even once per bin). In the past when I did 25 bins it ran reasonably fast. 
+
+
