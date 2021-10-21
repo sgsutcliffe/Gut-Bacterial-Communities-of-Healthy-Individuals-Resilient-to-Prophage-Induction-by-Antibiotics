@@ -13,6 +13,7 @@ For storage sake I deleted .sam files for bowtie2 after making bam files. To sav
 ## Files
 
 *  DAS_Check_Bins_Ind[A-J].tsv : Summary of all the bins that met our criteria of medium-quality
+*  7_Relative_Abundance/Data/Ind{A..J} : Collection of files used in relative abundance analysis of bacteria.
 
 ## Directories
 
@@ -38,6 +39,7 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  DAS-Tool_[A-J].sh : Takes all bins from CONCOCT/MaxBin2/MetaBat2 and merges them into bins
 *  Combining_CheckM_DAS_Tool.R : Combines DAS-Tool and CheckM QC on Bins, and makes a table with bins that pass per individual, and their new bin name
 *  Renaming_Bacterial_Bins.py : Python script to rename 5_Final_Bins according to DAS_Check_Bins_Ind[A-J].tsv files that store their new names and which bins met our cut-off
+*  bacterial_samtools_coverage_profile_{A..J}.sh : Use samtools coverage to convert bowtie2 bam file to a smaller more parsable format for R
 
 ## Tools Used
 
@@ -51,6 +53,7 @@ Finished jobs are found here in 4_Stored_BASH_scripts but should be run from thi
 *  CheckM v.1.0.18(https://github.com/Ecogenomics/CheckM/wiki)
 *  samtools v.1.12
      * coverage (http://www.htslib.org/doc/samtools-coverage.html)
+
 ### Sample naming
 
 * [A-J]
@@ -568,8 +571,10 @@ done
 
 I also only wanted a sorted bam file as output.
 postbinning_bowtie2_[A-J].sh
-
+### 3b Modify bam coverage for R
 To make a coverage profile I can handle in R, I will use samtools coverage and keep it in the same directory
+It barely needs to be a script as all 6 time points can be run with 13MB in 25mins. But I made the script before knowing this. So to run it in parallel I will use the scripts.  
+bacterial_samtools_coverage_profile_{A..J}.sh
 
 
 ### 4 Assignment of taxonomy: GTDB-Tk
@@ -578,3 +583,17 @@ Running this on Galaxy to save time on install. Generates a simple .tsv file. Ea
 Note: This step takes a long time to run. I had split up my bins into seperate runs so that I could accomplish this. ~50 bins per run, and still had time-out issues. If possible I would reccommed running this on smallest number of bins possible (possibly even once per bin). In the past when I did 25 bins it ran reasonably fast. 
 
 
+### 4 Relative Abundance Analysis:
+
+My relative abundance analysis will be done in R. Typically, I do my R analysis in RStudio on my PC. I will put all the files in:
+7_Relative_Abundance/Data/Ind{A..J}
+
+Note: GTDB-Tk analysis took place on Galaxy server. So that was downloaded directly to my PC.
+
+*  Bin Size (The metric of how large each bacterial bin is, and I will use to normalize abundance): 
+2_Bacterial_Binning/DAS-Tool/0_35/Ind{A..J}/Ind{A..J}_DASTool_DASTool_summary.txt
+*  Bin Scaffold Coverage : The output of Bowtie2 -> Samtools Coverage -> Which gives me the coverage of each scaffold per bin per day.  
+7_Relative_Abundance/bowtie2/Ind{A..J}/Ind{A..J}_{1..5}_samtools_coverage
+*  Lysogeny meta-data : While not directly relative abundance, I want to know which bins are lysogens. I will use VIBRANT lysogen category I used for PropagAte.  
+../3_ViralAnalysis/2_Prophages/VIBRANT/Ind{A..J}/VIBRANT_Ind{A..J}_vibrant/VIBRANT_results_Ind{A..J}_vibrant/VIBRANT_integrated_prophage_coordinates_Ind{A..J}_vibrant.tsv
+*  Bacterial Taxonomy: GTDB-Tk
