@@ -9,6 +9,7 @@ See (https://www.nature.com/articles/s41587-020-0718-6; supplementary section :B
 
 ## Files
 *  VIBRANT_requirements.txt : This the output of Python dependencies I used for running VIBRANT.
+*  propagAte_requirements.txt : Output of python dependencies for propagAte
 
 ## Directories
 
@@ -24,7 +25,7 @@ See (https://www.nature.com/articles/s41587-020-0718-6; supplementary section :B
 
 *  VIBRANT v1.2.1(https://github.com/AnantharamanLab/VIBRANT) (see notes on install)
 *  PropagAte v1.0.0(https://github.com/AnantharamanLab/PropagAtE)
-
+*  Spades v.3.15.1(https://github.com/ablab/spades)
 ### Sample Naming
 
 * [A-J]
@@ -252,3 +253,43 @@ for (i in LETTERS[10:10]){
   }
 }
 ```
+
+### Step 3: Assembly of phages from viral sequences
+
+Unlike bacterial assembly I will use metaSPades as it has been published that it is better at viral assembly (Simon Roux's benchmarking paper).  
+
+Like with bacterial assembly, I will assembled all the samples for each individual together.
+Note: spades doesn't like how I named my fastq files (fastq.1.gz) so I add a renaming step in this script.
+
+Also, note this program takes a lot of resources:
+default 16 cores, 250 GB. It is not fast either for this work. So 30hrs is not crazy. I will run seff after to help out if you need to rerun it on similar samples.
+I ran 4 samples A-D; it actually only used 7-33 GB 32-cores (60-70%) for 30min-2h30min. SO I cancled the other jobs before they ran and altered their specs.
+
+### Step 4: QC of Phage Contigs
+
+In the past I would use three methods for detecting phage contigs from my assembled contigs.
+1.  Tool-based (VIBRANT or VIRSorter)
+2.  Presence of viral protien homologs
+3.  Match to phage-databases
+
+The results was that I didn't find that many more contigs by running all three.  
+I have decided to proceed with using VIRSorter w/ custom GVD database* which is loaded on Galaxy right now by Michel.
+
+*GVD (https://doi.org/10.1016/j.chom.2020.08.003) Gut-Virome-Database.
+
+This time, I will also save some time by only proceeding with 10kb > contigs from the get-go as has been recommended.
+
+My approach is 1) to move more efficiently 2) I will be looking for general trends in temperate phages (there is no need to look at incomplete phages for temperate analysis)
+
+The output from metaSpades put all contigs in a file 'contigs.fasta' for each individual
+
+Also, the name of the contigs are something like: >NODE_1_length_170994_cov_402.280182
+
+Therefore, before proceeding, I will rename the contig.fasta file and add an individual identifier to contigs.
+
+```shell
+#Rename contig fasta file
+#Add "Ind{A..J}_" to the start of each contig, just in case we need to identify them downstream later
+for i in {A..J}; do sed "s/^>/>Ind${i}_/" 3_Viral_Assembly/Ind${i}/contigs.fasta >> 3_Viral_Assembly/Ind${i}/Ind${i}_contigs.fasta; done
+```
+I will then move them to Galaxy, and remove contigs smaller than 10kb, then run VIRSorter with GVD database
