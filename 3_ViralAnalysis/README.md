@@ -16,16 +16,24 @@ See (https://www.nature.com/articles/s41587-020-0718-6; supplementary section :B
 *  0_Stored_Standard_Outputs : Each script generates a standard output. To declutter I am moving them here after the step is complete.
 *  1_Stored_BASH_scripts : After a step is done I moved the BASH script for the job here to be more organized.
 *  2_Prophages : Storage of VIBRANT prophages detected
+*  3_Viral_Assembly : Outputs of metaSpades assemblies for both Pooled or Seperate
+*  4_QC_Viral_Contigs : I will store output of Galaxy loaded tools here (for future comparison)
 
 ## Scripts + Batch Jobs
 
 *  VIBRANT_{A..J}.sh : Running VIBRANT on bacterial bins
+*  propagate_{A..J}.sh : Running propagAte on prophages detected from VIBRANT
+*  viral_assembly_{A..J}.sh : This the 'Pooled' assembly I did first with metaSpades
+*  viral_seperate_assembly_{A..J}.sh : This the 'Seperate' assembly I did second.
 
 ## Tools Used
 
 *  VIBRANT v1.2.1(https://github.com/AnantharamanLab/VIBRANT) (see notes on install)
 *  PropagAte v1.0.0(https://github.com/AnantharamanLab/PropagAtE)
 *  Spades v.3.15.1(https://github.com/ablab/spades)
+*  CD-HIT-EST (Galaxy Version 1.2) (http://weizhong-lab.ucsd.edu/cd-hit/)
+*  VIRSorter (Galaxy Version 1.0.6)
+
 ### Sample Naming
 
 * [A-J]
@@ -255,7 +263,12 @@ for (i in LETTERS[10:10]){
 ```
 
 ### Step 3: Assembly of phages from viral sequences
-
+NOTE: My first pass at assembling phage contigs I pooled all 6 samples from an individual. After QC, only a few contigs were assembled and classified as viral (sometimes as low as 20).  
+I believe, that the viral composition before/during/after antibiotics is too disimilar to assemble well pooled now.  
+I will try this again but assemble each sample per individual seperately. This will also require a 'remove redundent contig step' in the QC.
+I made two directories in 3_Viral_Assembly/Pooled & 3_Viral_Assembly/Seperate; Pooled will be when each sample was assembled together.
+This will break the orginal scripts (BEWARE)
+Also, because my viral_seperate_assembly{A..J}.sh required output from each day. I made subfolders for each sample.
 Unlike bacterial assembly I will use metaSPades as it has been published that it is better at viral assembly (Simon Roux's benchmarking paper).  
 
 Like with bacterial assembly, I will assembled all the samples for each individual together.
@@ -272,12 +285,14 @@ In the past I would use three methods for detecting phage contigs from my assemb
 2.  Presence of viral protien homologs
 3.  Match to phage-databases
 
+Seperately assembled contigs also have the extra step of removing redundant contigs.
+
 The results was that I didn't find that many more contigs by running all three.  
 I have decided to proceed with using VIRSorter w/ custom GVD database* which is loaded on Galaxy right now by Michel.
 
 *GVD (https://doi.org/10.1016/j.chom.2020.08.003) Gut-Virome-Database.
 
-This time, I will also save some time by only proceeding with 10kb > contigs from the get-go as has been recommended.
+This time, I will also save some time by only proceeding with 5kb > contigs from the get-go  which is lower than has has been recommended. If only a few contigs are below this or I get a lot of reads aligning to these contigs I might tighten the cutoff to 10kb.
 
 My approach is 1) to move more efficiently 2) I will be looking for general trends in temperate phages (there is no need to look at incomplete phages for temperate analysis)
 
@@ -286,10 +301,48 @@ The output from metaSpades put all contigs in a file 'contigs.fasta' for each in
 Also, the name of the contigs are something like: >NODE_1_length_170994_cov_402.280182
 
 Therefore, before proceeding, I will rename the contig.fasta file and add an individual identifier to contigs.
-
+NOTE: This is for pooled assembly, I will run a slightly different approach for seperate contigs, as they then need to be catenated together.
+NOTE: This one-liner needs to be modified as I have created a parent directory for pooled-assembly.
 ```shell
 #Rename contig fasta file
 #Add "Ind{A..J}_" to the start of each contig, just in case we need to identify them downstream later
 for i in {A..J}; do sed "s/^>/>Ind${i}_/" 3_Viral_Assembly/Ind${i}/contigs.fasta >> 3_Viral_Assembly/Ind${i}/Ind${i}_contigs.fasta; done
 ```
-I will then move them to Galaxy, and remove contigs smaller than 10kb, then run VIRSorter with GVD database
+
+For the unpooled, seperate assemblies:
+```shell
+for i in {A..I}; do sed "s/^>/>Ind${i}_/" 3_Viral_Assembly/Seperate/Ind${i}/sample{1..5}/contigs.fasta >> 3_Viral_Assembly/Seperate/Ind${i}/Ind${i}_seperate_assemb_contigs.fasta; done
+for i in {1,2,4,5,6}; do sed "s/^>/>IndJ_/" 3_Viral_Assembly/Seperate/IndJ/sample${i}/contigs.fasta >> 3_Viral_Assembly/Seperate/IndJ/IndJ_seperate_assemb_contigs.fasta; done
+```
+
+
+I will then move them to Galaxy, and remove contigs redundant contigs (seperate assembled contigs), smaller than 5kb, then run VIRSorter with GVD database
+
+1. Remove Redundant Samples with CD-HIT-EST (For seperately assembled contigs)
+	Settings: Similarity 0.9 / Word Size 8 / Length difference 0.9
+2. Size-cut off 5kb
+	I used Michels Galaxy script. But I will then rename the files to
+	Ind{A..J}_5kb_contigs.fasta
+3. VIRSORTER
+	Settings: Viromes + Gut Virome Database (v1, 2020), No virome decontamination, diamond
+	Including all categories of output. Moved the FASTA files, and renamed Ind{A..J}_cat{1..4}_VIRSorter.fasta (for whicher categories were output)
+	Then I combined them all into one file for Step 4: Ind{A..J}_VIRSORTER.fasta
+4. Align viral reads back to these contigs to see what % of phages we are capturing.
+	viral_abundance_pooled_{A..J}.sh : Align all the reads for pooled assembly  
+
+It looks like I am loosing %reads by the final stage of the process.
+So I aligned the reads to all the contigs. viral_QC_on_pooled_{A..J}.sh
+We got 85-95% of reads aligning. Next I will check the 5kb contigs to see if that is what lost the biggest amount
+I put the outputs of aligning reads to original contigs in
+3_ViralAnalysis/3_Viral_Assembly/Pooled/QC/all_contigs
+
+I will put the 5kb contings QC results in a directory 5kb_contigs
+I will also run a check to see the % of reads that align to contigs >= 5kB
+viral_QC_on_pooled_5kb_{A..J}.sh
+For individual A, for example I still see 85%,82%,86%,79%,94%,92%. So it is not the losing of the smaller than 5kb contigs.
+
+I will therefore proceed with pooled, 5kb (or longer) contigs. Since VIRSorter, does not seem to be capturig all the viral contigs. I will use an approach from my other project.
+Keep contigs that meet of the three criteria:
+1) VIRSorter +
+2) Match to GVD 
+3) Have 3 or more CDS with homology to pVOG database
