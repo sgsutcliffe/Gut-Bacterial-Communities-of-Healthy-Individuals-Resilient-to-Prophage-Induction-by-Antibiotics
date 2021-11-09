@@ -7,6 +7,8 @@ Bacterial bins were made for each individual (including data from all time point
 In the past, I used multiple prophage tools to detect prophages from MAGs. Talking with Simon Roux he mentioned that viral contigs are not reliably binned, and can sometimes lead to misleading prophage detection.
 See (https://www.nature.com/articles/s41587-020-0718-6; supplementary section :Benchmarking host-prediction methods for more info). So I will begin with relying on VIBRANTs fragment category.
 
+My intial process of QC of viral contigs didn't work. So this README.md is in progress. I will clean it up when I finish the QC so that I am satisfied with the outcome.
+
 ## Files
 *  VIBRANT_requirements.txt : This the output of Python dependencies I used for running VIBRANT.
 *  propagAte_requirements.txt : Output of python dependencies for propagAte
@@ -33,6 +35,7 @@ See (https://www.nature.com/articles/s41587-020-0718-6; supplementary section :B
 *  Spades v.3.15.1(https://github.com/ablab/spades)
 *  CD-HIT-EST (Galaxy Version 1.2) (http://weizhong-lab.ucsd.edu/cd-hit/)
 *  VIRSorter (Galaxy Version 1.0.6)
+*  blast+ v2.12.0 (https://blast.ncbi.nlm.nih.gov/)
 
 ### Sample Naming
 
@@ -263,8 +266,13 @@ for (i in LETTERS[10:10]){
 ```
 
 ### Step 3: Assembly of phages from viral sequences
-NOTE: My first pass at assembling phage contigs I pooled all 6 samples from an individual. After QC, only a few contigs were assembled and classified as viral (sometimes as low as 20).  
-I believe, that the viral composition before/during/after antibiotics is too disimilar to assemble well pooled now.  
+At one point I was worried that pooling viral reads before assembly was leading to miss-assemblies. After completing my first assembly I decided to run assemblies seperately.
+Now I don't think it is the issue. 
+Until I finish QC I will keep them around. So folders will have 
+1) Pooled
+2) Seperate
+To indicate where each came from.
+
 I will try this again but assemble each sample per individual seperately. This will also require a 'remove redundent contig step' in the QC.
 I made two directories in 3_Viral_Assembly/Pooled & 3_Viral_Assembly/Seperate; Pooled will be when each sample was assembled together.
 This will break the orginal scripts (BEWARE)
@@ -279,11 +287,12 @@ default 16 cores, 250 GB. It is not fast either for this work. So 30hrs is not c
 I ran 4 samples A-D; it actually only used 7-33 GB 32-cores (60-70%) for 30min-2h30min. SO I cancled the other jobs before they ran and altered their specs.
 
 ### Step 4: QC of Phage Contigs
-
-In the past I would use three methods for detecting phage contigs from my assembled contigs.
-1.  Tool-based (VIBRANT or VIRSorter)
-2.  Presence of viral protien homologs
-3.  Match to phage-databases
+Note: I tried to just do steps 1 and 2 initially but only kept a small amount of viral reads.
+I will use three methods for detecting phage contigs from my assembled contigs.
+1.  Size-select, remove smaller than 5kb contigs
+2.  Tool-based (VIRSorter)
+3.  Presence of viral protien homologs
+4.  Match to phage-databases (e.g. GVD, from Sullivan Lab)
 
 Seperately assembled contigs also have the extra step of removing redundant contigs.
 
@@ -346,3 +355,42 @@ Keep contigs that meet of the three criteria:
 1) VIRSorter +
 2) Match to GVD 
 3) Have 3 or more CDS with homology to pVOG database
+
+### Step 4b: QC of Phage Contigs Match GVD
+
+The Gut Virome Database was used in the previous aim from Sullivan lab (https://doi.org/10.1016/j.chom.2020.08.003)  
+I have stored the orginal database:
+/home/ssutclif/scratch/collab_project_storage/viral/GVD/GVDv1_viralpopulations.fna
+It is 33242 uncultivated viral genomes from the gut. So I wont redownload it.
+
+Basically what I will do is BLASTn my contigs for each individual (twice switching which is the query or subject)  
+Then I take all the contigs that have coverage > 80, so the shortest contig.
+I also use an evalue cutoff of 1e-10
+
+blastn_5kb_viral_contigs_vs_GVD_{A..J}.sh
+
+This will output two files, each with a different query/subject. Because some of the GVD genomes are shortter than my assembled genomes.
+I just want the shortest contig to be 80% covered.
+
+So I will select those with a quick one liner
+```shell
+$ awk '-F\t' '$3>79' IndAblastn_80x_cov_1 | cut -f2 | sort | uniq >> temp
+$ awk '-F\t' '$3>79' IndAblastn_80x_cov_2 | cut -f2 | sort | uniq >> temp
+$ sort temp | uniq > IndA_80x_coverage_blast_hits
+```
+To check to see how many contigs fit this criteria:
+```shell
+$ for i in {A..J}; do grep -c 'NODE' Ind${i}/Ind${i}_80x_coverage_blast_hits; done
+41
+45
+64
+64
+68
+84
+38
+83
+48
+30
+```
+So like VIRSorter it seems low. 
+The next step will be to predict CDS with prodigal, and see if these match pVOG database for phage-proteins.
