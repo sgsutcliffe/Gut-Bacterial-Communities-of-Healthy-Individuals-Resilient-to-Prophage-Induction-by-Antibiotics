@@ -27,6 +27,10 @@ My intial process of QC of viral contigs didn't work. So this README.md is in pr
 *  propagate_{A..J}.sh : Running propagAte on prophages detected from VIBRANT
 *  viral_assembly_{A..J}.sh : This the 'Pooled' assembly I did first with metaSpades
 *  viral_seperate_assembly_{A..J}.sh : This the 'Seperate' assembly I did second.
+*  blastn_5kb_viral_contigs_vs_GVD_{A..J}.sh : BLASTn against GVD to find shortest contig with 80% overlap
+*  viral_QC_on_pooled_5kb_{A..J}.sh : Aligns viral reads to the 5kb or greater contigs, to see how much viral reads align before selecting phage contigs
+*  viral_QC_on_pooled_{A..J}.sh : This gives me my pre-QC viral read alignment on pooled assembly.  
+
 
 ## Tools Used
 
@@ -36,6 +40,7 @@ My intial process of QC of viral contigs didn't work. So this README.md is in pr
 *  CD-HIT-EST (Galaxy Version 1.2) (http://weizhong-lab.ucsd.edu/cd-hit/)
 *  VIRSorter (Galaxy Version 1.0.6)
 *  blast+ v2.12.0 (https://blast.ncbi.nlm.nih.gov/)
+*  prodigal v2.6.3 (https://github.com/hyattpd/Prodigal)
 
 ### Sample Naming
 
@@ -394,3 +399,25 @@ $ for i in {A..J}; do grep -c 'NODE' Ind${i}/Ind${i}_80x_coverage_blast_hits; do
 ```
 So like VIRSorter it seems low. 
 The next step will be to predict CDS with prodigal, and see if these match pVOG database for phage-proteins.
+
+### Step 4C: QC of Phage Contigs: Match CDS of phages to pVOG
+
+First I need to predict coding sequences
+I will use Prodigal "Fast, reliable protein-coding gene preductuib for prokaryotic genomes"  
+From these genes I can think check them against pVOG.
+We have Prodigal v.2.6.3 installed on CC.
+
+prodigal_ORF_prediction_{A..J}.sh
+
+I have already downloaded pVOG database:
+Database is VOG HMM profiles downloaded on December 1, 2020 from
+http://dmk-brain.ecn.uiowa.edu/pVOGs/downloads.html
+I will also include ViPhOGs V2
+https://osf.io/zd287/
+
+I will begin with pVOG for now.
+```shell
+$ grep '>' ../../1_Size_Cutoff/IndA_5kb_contigs.fasta | sed 's/>//' | cut -d" " -f1 >> contig_list
+$ cat contig_list | while read in; do k=($(grep -c ${in} IndA_PVOG_domtblout)); echo -e "${in}\t${k}" >> PVOG_counts_viral_contigs; done
+$ cat PVOG_counts_viral_contigs  | awk '-F\t' '{if($2>2)print$1}' | sort | uniq >> PVOG_contig_List
+```
