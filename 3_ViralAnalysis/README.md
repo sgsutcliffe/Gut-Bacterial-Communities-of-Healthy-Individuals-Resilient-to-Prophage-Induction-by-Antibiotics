@@ -30,7 +30,9 @@ My intial process of QC of viral contigs didn't work. So this README.md is in pr
 *  blastn_5kb_viral_contigs_vs_GVD_{A..J}.sh : BLASTn against GVD to find shortest contig with 80% overlap
 *  viral_QC_on_pooled_5kb_{A..J}.sh : Aligns viral reads to the 5kb or greater contigs, to see how much viral reads align before selecting phage contigs
 *  viral_QC_on_pooled_{A..J}.sh : This gives me my pre-QC viral read alignment on pooled assembly.  
-
+*  prodigal_ORF_prediction_{A..J}.sh : This predicts protein-coding genes on my viral contigs for searching against HMM profiles  
+*  HMMSearch_pVOG_{A..J}.sh : This searches my ORFs against PVOG HMM profiles
+*  pvog_summary_script.sh : Collects the contigs that have 3 or more PVOG matches, and makes a contig list
 
 ## Tools Used
 
@@ -41,6 +43,7 @@ My intial process of QC of viral contigs didn't work. So this README.md is in pr
 *  VIRSorter (Galaxy Version 1.0.6)
 *  blast+ v2.12.0 (https://blast.ncbi.nlm.nih.gov/)
 *  prodigal v2.6.3 (https://github.com/hyattpd/Prodigal)
+*  HMMER v3.2.1 (http://hmmer.org/)
 
 ### Sample Naming
 
@@ -259,7 +262,7 @@ for (i in LETTERS[1:9]){
 }
 
 for (i in LETTERS[10:10]){
-  for (n in c(1, 2, 4, 5)){
+  for (n in c(1, 2, 4, 5, 6)){
     ind = (paste("Ind",i, sep = ""))
     
     propagate_table <- read_delim(paste(ind,'/', ind, '_', as.character(n), '_propagate_result.tsv', sep = ""), delim = '\t')
@@ -269,6 +272,7 @@ for (i in LETTERS[10:10]){
   }
 }
 ```
+All the contigs in the files are the active prophages, ignore the 'active' column.
 
 ### Step 3: Assembly of phages from viral sequences
 At one point I was worried that pooling viral reads before assembly was leading to miss-assemblies. After completing my first assembly I decided to run assemblies seperately.
@@ -412,12 +416,158 @@ prodigal_ORF_prediction_{A..J}.sh
 I have already downloaded pVOG database:
 Database is VOG HMM profiles downloaded on December 1, 2020 from
 http://dmk-brain.ecn.uiowa.edu/pVOGs/downloads.html
-I will also include ViPhOGs V2
+I will also include ViPhOGs V2 in the future, especially if PVOG does not predict a lot of viral contigs as phage
 https://osf.io/zd287/
 
 I will begin with pVOG for now.
+Using the ORFs from prodigal I will run
+HMMSearch_pVOG_{A..J}.sh
+
+Next, I will look to see which contigs had >3 matches to PVOG proteins. I will run a little script.
+
+Based on this code:
 ```shell
 $ grep '>' ../../1_Size_Cutoff/IndA_5kb_contigs.fasta | sed 's/>//' | cut -d" " -f1 >> contig_list
-$ cat contig_list | while read in; do k=($(grep -c ${in} IndA_PVOG_domtblout)); echo -e "${in}\t${k}" >> PVOG_counts_viral_contigs; done
+$ grep '>' ../../5_Prodigal/IndA/IndA_5kb_representatives.proteins.faa | sed 's/>//' | cut -d ' ' -f1 | head >> ORF_list
+$ cat ORF_list | while read in; do grep -wo ${in} IndA_PVOG_tblout >> ORF_hits; done
+$ cat ORF_hits | sort | uniq >> ORF_hits_no_dups
+$ cat contig_list | while read in; do k=($(grep -c ${in} ORF_hits_no_dups)); echo -e "${in}\t${k}" >> PVOG_counts_viral_contigs; done
 $ cat PVOG_counts_viral_contigs  | awk '-F\t' '{if($2>2)print$1}' | sort | uniq >> PVOG_contig_List
 ```
+Which I made into a script as read/writting on project space is not great to do, so I will do it in the $SLURM_TMPDIR
+pvog_summary_script.sh
+
+### Step 4D:QC of Phage Contigs: Combining All the steps together
+
+Now that I have the results from 1) VirSorter + contigs 2) GVD matches 3) PVOG + contigs. I will need to combine them all together
+In the previous step I made a directory:
+4_QC_Viral_Contigs/Pooled/7_Phage_Contigs/
+
+I can use seqtk to select only 'phage contigs' from all the contigs.
+
+The files: contig_list_{A..J} is the ALL the 5kb contigs
+For the previous step I have: PVOG_phage_list_{A..J} for all the step 3 + contigs. 
+
+I will then make a similar list of contigs for the other steps. I have already done this for the step 2 as well. So I ill move those files into this folder Ind{A..J}_80x_coverage_blast_hits
+```shell
+for i in {A..J}; do cp 4_QC_Viral_Contigs/Pooled/4_GVD/Ind${i}/Ind${i}_80x_coverage_blast_hits 4_QC_Viral_Contigs/Pooled/7_Phage_Contigs/; done
+```
+
+The next step is trickier as while step 2 and 3 maintain the orginal contig names
+```shell
+$ head -n 2 IndA_80x_coverage_blast_hits
+IndA_NODE_10_length_48840_cov_73.575382
+IndA_NODE_121_length_8995_cov_9.212304
+
+$ head -n 2 PVOG_phage_list_A
+IndA_NODE_100_length_11259_cov_30.066583
+IndA_NODE_101_length_10963_cov_7.230840
+```
+VirSorter modifies the names of contigs in the fasta files. Now this is how I did in my last project but I do not think this is the best way. But you can pull the names from the FASTA files of VirSorter to get the original names with a SED command
+Using D as an example as it has each category of VirSorter phages I will show what I mean.
+```shell
+for i in {1..6}; do grep '>' IndD/Ind_cat${i}_VIRSorter.fasta | head -n 2; done
+>VIRSorter_IndD_NODE_282_length_5705_cov_27_770088-circular-cat_1
+>VIRSorter_IndD_NODE_45_length_36485_cov_28_586961-circular-cat_2
+>VIRSorter_IndD_NODE_5_length_126458_cov_100_338070-circular-cat_2
+>VIRSorter_IndD_NODE_7_length_100781_cov_480_574291-circular-cat_3
+>VIRSorter_IndD_NODE_27_length_58283_cov_105_013619-circular-cat_3
+>VIRSorter_IndD_NODE_1_length_199819_cov_27_973764_gene_66_gene_165-49746-147548-cat_4
+>VIRSorter_IndD_NODE_43_length_37987_cov_13_672941_gene_1_gene_53-0-32868-cat_5
+>VIRSorter_IndD_NODE_67_length_24805_cov_107_831717_gene_7_gene_18-3696-18590-cat_5
+>VIRSorter_IndD_NODE_2_length_171645_cov_532_328492-circular_gene_1_gene_199-75-123392-cat_6
+>VIRSorter_IndD_NODE_4_length_126566_cov_41_931769_gene_95_gene_194-49877-126566-cat_6
+```
+So it
+adds >VIRSorter_  
+turns the . into a _ 
+and taks on -circular- for cat 1,2 and 3, and _gene_ for cat 4,5, or -circular_gene
+
+So I to say I am not a regex genuis is an understatement. So I use pipes to string it all together to remove what I want
+I put it all in small bash script called; renaming_virsorter_contigs.sh
+The bones of it look like this, where orginal fasta file combines all the .fasta file outputs together
+```shell
+grep '>' IndD_VIRSORTER.fasta > IndD_VirSorter_contig_list
+#This replaces the endings after what I need, then uses cut command to take everything before space
+sed 's/-circular/ /' IndD_VirSorter_contig_list | sed 's/-cat/ /' | sed 's/_gene/ /' | cut -d " " -f 1 > temp
+#Next I will remove the start bit which is easy
+sed 's/>VIRSorter_//' temp > temp2
+#Then change the last instance of the _ to a . 
+sed 's/\(.*\)_/\1./' temp2 > IndD_VirSorter_contig_list
+#This last one will replace the orginal contig list with the right naming scheme, now I will delete the temp files
+rm temp*
+```
+
+Now I have three sets of contigs:
+*  IndA_80x_coverage_blast_hits
+*  IndA_VirSorter_contig_list
+*  PVOG_phage_list_A
+
+So I will combine them together, and remove all those that are found through all the different methods
+```shell
+for i in {A..J}; do cat Ind${i}_80x_coverage_blast_hits Ind${i}_VirSorter_contig_list PVOG_phage_list_${i} | sort | uniq > Ind${i}_Phage_Contig_List; done
+```
+Now I have all the final phage contigs that I want to use.
+
+```shell
+wc -l *_Phage_Contig_List
+   61 IndA_Phage_Contig_List
+   53 IndB_Phage_Contig_List
+   91 IndC_Phage_Contig_List
+   85 IndD_Phage_Contig_List
+  125 IndE_Phage_Contig_List
+  142 IndF_Phage_Contig_List
+   53 IndG_Phage_Contig_List
+  125 IndH_Phage_Contig_List
+   63 IndI_Phage_Contig_List
+   42 IndJ_Phage_Contig_List
+```
+Now for each I can take the orginal 5kb fasta files
+Combines (1,2,3): 840 phage contigs
+PVOG (Step 3): 8 phage contigs
+VirSorter(Step 1): 487 phage contigs
+GVD match (Step 2): 565 phage contigs
+Combine (1,2): 840 phage contigs
+
+So looking for PVOG protiens is useless.
+Now I will use seqtk to pull the fasta files for all the contigs that I have determined as phage. Then I will take a look at % of reads that align to these contigs.
+Seqtk is a pretty efficient step (https://github.com/lh3/seqtk) so I will run it without submitting a batch job.
+```shell
+module load seqtk/1.3
+for i in {A..J}; do seqtk subseq ../1_Size_Cutoff/Ind${i}_5kb_contigs.fasta Ind${i}_Phage_Contig_List > Ind${i}_Phage_Contigs.fasta; done
+```
+So now I have my phage contigs.
+Ind{A..J}_Phage_Contigs.fasta
+
+While the next step of QC is aligning the viral reads to these contigs, this is what I will be doing for abundance as well. So I can't think of what I would do differently if it doesn't work.
+So I will add my 'active prophages' to this and proceed with the next step of analysis. So I will put it all in 5_Viral_Analysis.
+
+I will do a similar thing for the list of active prophages from the reduced cutoff criteria
+```shell
+for i in {A..J}
+do
+for x in {1..6}
+do
+tail -n +2 ../../../2_Prophages/PropagAte/VIBRANT-fragments/Reduced_Cutoff/Ind${i}_${x}_reduced_cutoff_propagate_result.tsv | cut -f 1 >> temp
+done
+sort temp | uniq > Ind${i}_Prophage_List
+rm temp
+done
+```
+It was noted in the R script, but for some reason Individual B, doesn't have the 'IndB' at the start. Just to note.
+I will make a prophage fasta list too:
+```shell
+module load seqtk/1.3
+for i in {A..J}; do seqtk subseq ../../../2_Prophages/VIBRANT/Ind${i}/VIBRANT_Ind${i}_vibrant/VIBRANT_phages_Ind${i}_vibrant/Ind${i}_vibrant.phages_lysogenic.fna Ind${i}_Prophage_List > Ind${i}_Active_Prophages.fasta; done
+```
+
+### Step 5 Viral Analysis : Align Viral Reads
+
+So I need to combine both the prophages and viral assembled phage contigs.
+```shell
+for i in {A..J}
+do
+cat 3_ViralAnalysis/4_QC_Viral_Contigs/Pooled/7_Phage_Contigs/Ind${i}_Phage_Contigs.fasta 3_ViralAnalysis/4_QC_Viral_Contigs/Pooled/7_Phage_Contigs/Ind${i}_Active_Prophages.fasta >> /home/ssutclif/projects/def-corinnem/ssutclif/temp_storage/Third_Aim/3_ViralAnalysis/5_Viral_Analysis/Ind${i}/Ind${i}_All_Phage_Contigs.fasta
+done
+```
+
