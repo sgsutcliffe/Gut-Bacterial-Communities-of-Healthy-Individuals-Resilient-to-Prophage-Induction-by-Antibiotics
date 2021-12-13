@@ -33,6 +33,8 @@ My intial process of QC of viral contigs didn't work. So this README.md is in pr
 *  prodigal_ORF_prediction_{A..J}.sh : This predicts protein-coding genes on my viral contigs for searching against HMM profiles  
 *  HMMSearch_pVOG_{A..J}.sh : This searches my ORFs against PVOG HMM profiles
 *  pvog_summary_script.sh : Collects the contigs that have 3 or more PVOG matches, and makes a contig list
+*  bamtool_converted_samtools.sh : This makes a human readable summary of alignment from final step for analysis
+*  bacphlip_{A..J}.sh : runs bacphlip to predict temperate/lytic replication style on checkv contigs
 
 ## Tools Used
 
@@ -44,6 +46,9 @@ My intial process of QC of viral contigs didn't work. So this README.md is in pr
 *  blast+ v2.12.0 (https://blast.ncbi.nlm.nih.gov/)
 *  prodigal v2.6.3 (https://github.com/hyattpd/Prodigal)
 *  HMMER v3.2.1 (http://hmmer.org/)
+*  CheckV Galaxy (Version 0.7.0)
+*  Samtools v.1.12 (using htslib 1.12) (http://www.htslib.org/)
+*  BACPHLIP v.0.9.6 (https://github.com/adamhockenberry/bacphlip)
 
 ### Sample Naming
 
@@ -561,6 +566,10 @@ module load seqtk/1.3
 for i in {A..J}; do seqtk subseq ../../../2_Prophages/VIBRANT/Ind${i}/VIBRANT_Ind${i}_vibrant/VIBRANT_phages_Ind${i}_vibrant/Ind${i}_vibrant.phages_lysogenic.fna Ind${i}_Prophage_List > Ind${i}_Active_Prophages.fasta; done
 ```
 
+### Step 4E: QC on Phage Contigs: CheckV
+This step was done on Galaxy, as the program is installed already there.
+Storing the results in 5_Viral_Analysis/3_CheckV (not finished, still on Galaxy Server)
+
 ### Step 5 Viral Analysis : Align Viral Reads
 
 So I need to combine both the prophages and viral assembled phage contigs.
@@ -571,3 +580,84 @@ cat 3_ViralAnalysis/4_QC_Viral_Contigs/Pooled/7_Phage_Contigs/Ind${i}_Phage_Cont
 done
 ```
 
+Now I the final set of contigs (viral assembled and active prophages).
+5_Viral_Analysis/Ind${A..J}}/Ind${A..J}_All_Phage_Contigs.fasta
+
+I will align the viral decontaminated reads to these contigs.
+viral_abundance_final_contigs_A.sh
+
+I will use samtools coverage command to make a summary sheet of reads-aligning that I can deal with in R
+I made a BASH script to do this in temp-directory
+
+```shell
+module load samtools
+for i in {A..I}
+
+do
+
+for x in {1..5}
+
+do
+
+samtools coverage Ind${i}_${x}_contig_sorted_coverage.bam -o Ind${i}_${x}_samtool_coverage; done
+
+done
+
+done
+```
+
+### Step 6 Viral Analysis : CheckV phage contigs
+I want to differentiate between temperate and lytic phages for relative abundance
+Before I can run Bacphlip, I want to only look at 5kb> medium-complete phages (Via CheckV)
+
+I ran CheckV via Galaxy, then collected the phage-contig names of those more than or equal 50% complete and greater than 5kb
+
+I did this in R on my desktop using the checkv_quality files.
+(The orginal files will be stored in my viral analysis coverage data folder.
+I will store the list of contigs in 
+5_Viral_Analysis/3_CheckV
+
+```shell
+module load seqtk/1.3
+for i in {A..J}; do seqtk subseq ../1_Final_Contigs/Ind${i}_All_Phage_Contigs.fasta Ind${i}CheckV_Contigs > Ind${i}_CheckV_contigs.fasta;done
+```
+
+### Step 7 Bacphlip on medium-high quality contigs
+Bacphlip is installed in a virtual environment using:
+#Note I loaded in dependencies first to use CC wheels but a straight install would have worked
+```shell
+module load python/3.8.10
+module load scipy-stack/2021a
+virtualenv --no-download ~/Tool_Box/BACPHLIP
+source ~/Tool_Box/BACPHLIP/bin/activate
+pip install --no-index --upgrade pip
+pip install  biopython --no-index
+pip install joblib  --no-index
+pip install scikit-learn --no-index
+pip freeze --local > ~/Tool_Box/BACPHLIP/bin/installed_dependecies
+#-no-index means it will be a CC wheel
+#Also scipy-stack loads pandas already
+pip install bacphlip
+```
+
+After the install I will run it on all the checkv (medium+ contigs)
+
+```shell
+source ~/Tool_Box/BACPHLIP/bin/activate
+module load hmmer/3.2.1
+
+for i in {A..J}
+
+do
+
+echo "Running Bacphlip on Individual ${i}"
+
+#Location of viral contigs file
+contig_dir=5_Viral_Analysis/3_CheckV/Ind${i}_CheckV_contigs.fasta
+
+bacphlip -i $contig_dir
+#Output file plops into the location the script is run, so I will move it myself
+mv Ind${i}_CheckV_contigs.fasta.bacphlip 5_Viral_Analysis/4_BACPHLIP/
+
+done
+```
