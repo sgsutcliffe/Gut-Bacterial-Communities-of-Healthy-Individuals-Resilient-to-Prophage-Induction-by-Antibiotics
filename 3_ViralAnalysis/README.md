@@ -641,7 +641,7 @@ pip install bacphlip
 ```
 
 After the install I will run it on all the checkv (medium+ contigs)
-
+NOTE: This could did not mv correctly, as the output files are put in 3_CheckV folder instead, so unless corrected will generate an error code but actually work.
 ```shell
 source ~/Tool_Box/BACPHLIP/bin/activate
 module load hmmer/3.2.1
