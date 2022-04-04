@@ -1,4 +1,4 @@
-# Third_Aim
+# Gut Bacterial Communities of Healthy Individuals Resilient to Prophage Induction by Antibiotics
 ![logo](oral_medication_test.png)
 Project for looking at prophage induction of MAGs by antibiotics. Using previously published dataset.
 
